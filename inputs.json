@@ -1,0 +1,118 @@
+{
+    "assumptions": {
+        "inputs": {
+            "purchase_price": 135000,
+            "loan_amount": 0.80,
+            "land_to_property": 0.20,
+            "interest_rate": 0.05750,
+            "amortization_period": 30,
+            "interest_only": false,
+            "interest_only_period": 12,
+            "closing_costs": 0.055,
+            "square_feet": 1768,
+            "potential_rent": 1000.00, 
+            "current_rent": 700.00,
+            "lease_expiration_mo_num": 3,
+            "general_vacancy": 0.10,
+            "cap_rate": 0.120,
+            "growth_rate_income": 0.030,
+            "growth_rate_expenses":0.020
+        }
+        
+    },
+    "capex": {
+        "property_components": {
+            "roof": {
+                "lifespan": 25,
+                "current_age": 10,
+                "replacement_cost_amt": 1000
+            },
+            "water_heater": {
+                "lifespan": 10,
+                "current_age": 7,
+                "replacement_cost_amt": 600
+            },
+            "all_appliances": {
+                "lifespan": 10,
+                "current_age": 5,
+                "replacement_cost_amt": 1000
+            },
+            "parking": {
+                "lifespan": 50,
+                "current_age": 30,
+                "replacement_cost_amt": 5000
+            },
+            "hvac": {
+                "lifespan": 20,
+                "current_age": 10,
+                "replacement_cost_amt": 3000
+            },
+            "flooring": {
+                "lifespan": 6,
+                "current_age": 2,
+                "replacement_cost_amt": 2000
+            },
+            "plumbing": {
+                "lifespan": 30,
+                "current_age": 20,
+                "replacement_cost_amt": 3000
+            },
+            "windows": {
+                "lifespan": 50,
+                "current_age": 25,
+                "replacement_cost_amt": 5000
+            },
+            "paint": {
+                "lifespan": 5,
+                "current_age": 2,
+                "replacement_cost_amt": 2500
+            },
+            "cabinets_and_counters": {
+                "lifespan": 20,
+                "current_age": 10,
+                "replacement_cost_amt": 3000
+            },
+            "structure_foundation_framing": {
+                "lifespan": 50,
+                "current_age": 30,
+                "replacement_cost_amt": 10000
+            },
+            "components_garagedoor_etc": {
+                "lifespan": 10,
+                "current_age": 5,
+                "replacement_cost_amt": 1000
+            },
+            "landscaping": {
+                "lifespan": 10,
+                "current_age": 5,
+                "replacement_cost_amt": 1000
+            },
+            "other": {
+                "lifespan": 0,
+                "current_age": 0,
+                "replacement_cost_amt": 0
+            }
+
+        }
+    },
+    "opex": {
+        "inputs": {
+            "real_estate_taxes":1.40,
+            "insurance": 1500,
+            "mortgage_insurance":1200,
+            "utilities": 100,
+            "management_fee":0.10,
+            "advertising":500,
+            "tax_service":600,
+            "other": 0
+        }
+    },
+    "rent_roll": {
+        "inputs": {
+            "renew_probability_pct": 0.40,
+            "downtime": 1,
+            "free_rent_new": 1,
+            "free_rent_renewal": 2
+        }  
+    }
+}
