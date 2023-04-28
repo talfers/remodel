@@ -60,6 +60,6 @@ def main(property_data):
 
     exit(exit_code)
 
-# TEST main()
-property_data = files.read_json('./inputs.json')
-main(property_data)
+# # TEST main()
+# property_data = files.read_json('./inputs.json')
+# main(property_data)
