@@ -20,9 +20,12 @@ class Amort:
         df = pd.DataFrame()
         df = df.set_axis(indices)
         for number, amount, interest, principal, balance in amort_schedule:
-            df.loc["amount", number] = amount
-            df.loc["interest", number] = interest
-            df.loc["principal", number] = principal
-            df.loc["balance", number] = balance
+            if number <= 72:
+                df.loc["amount", number] = amount
+                df.loc["interest", number] = interest
+                df.loc["principal", number] = principal
+                df.loc["balance", number] = balance
+            else:
+                break
         return df
     
