@@ -27,12 +27,12 @@ class Cashflow:
                 
                 if i=="free_rent":
                     v = property_data["rent_roll"]["actual_rent_amt_df"].loc["free_rent", col]
-                # NEEDS FIXED!!!
+
                 if i=="general_vacancy":
                     if ((df.loc["potential_gross_revenue", col] * -property_data["assumptions"]["inputs"]["general_vacancy"]) - df.loc["absorption_and_turnover_vacancy", col] > 0):
                         v = 0
                     else:
-                        (df.loc["potential_gross_revenue", col] * -property_data["assumptions"]["inputs"]["general_vacancy"]) - df.loc["absorption_and_turnover_vacancy", col]
+                        v = (df.loc["potential_gross_revenue", col] * -property_data["assumptions"]["inputs"]["general_vacancy"]) - df.loc["absorption_and_turnover_vacancy", col]
                 
                 if i=="effective_gross_revenue":
                     v = df.loc["potential_gross_revenue", col] + df.loc["absorption_and_turnover_vacancy", col] + df.loc["free_rent", col] + df.loc["general_vacancy", col]
