@@ -49,6 +49,7 @@ def main(property_data):
         }
         property_data["analysis"]["unleveraged_return_analysis"] = analyzer.create_unleveraged_return_analysis_df(property_data)
         property_data["analysis"]["leveraged_return_analysis"] = analyzer.create_leveraged_return_analysis_df(property_data)
+        property_data["analysis"]["irr"] = analyzer.create_return_analysis(property_data["analysis"]["unleveraged_return_analysis"], property_data["analysis"]["leveraged_return_analysis"])
         property_data = files.convert_df_to_json(property_data)
         return property_data
         
@@ -59,6 +60,6 @@ def main(property_data):
 
     exit(exit_code)
 
-# # TEST main()
-# property_data = files.read_json('./inputs.json')
-# main(property_data)
+# TEST main()
+property_data = files.read_json('./inputs.json')
+main(property_data)

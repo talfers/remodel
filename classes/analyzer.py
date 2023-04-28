@@ -1,5 +1,6 @@
 from log import logging
 import numpy as np
+import numpy_financial as npf
 import pandas as pd
 
 
@@ -9,8 +10,9 @@ class Analyzer:
     def __init__(self):
         pass
 
-    def calculate_irr(self, list):
-        print("calc irr")
+    def calculate_irr(self, arr):
+        return npf.irr(arr)
+
 
     def create_valuation_at_sale(self, property_data):
         annual_cashflow_df = property_data["cashflow"]["annual_cash_flow_df"]
@@ -23,7 +25,7 @@ class Analyzer:
 
     def create_unleveraged_return_analysis_df(self, property_data):
         annual_cashflow_df = property_data["cashflow"]["annual_cash_flow_df"]
-        indices = ["purchase", "cash_flow_operations", "cash_flow_sale"]
+        indices = ["purchase", "cash_flow_operations", "cash_flow_sale", "totals"]
         df = pd.DataFrame()
         df = df.set_axis(indices)
         for i in range(6):
@@ -37,25 +39,36 @@ class Analyzer:
                     v = annual_cashflow_df.loc["net_operating_income", col]
                 if col == 5 and i == "cash_flow_sale":
                      v = property_data["analysis"]["valuation_at_sale"]["sale_price"]
+                if i == "totals":
+                    v = df[col].sum()
                 df.loc[i, col] = v
         return df
 
     
     def create_leveraged_return_analysis_df(self, property_data):
         annual_cashflow_df = property_data["cashflow"]["annual_cash_flow_df"]
-        indices = ["purchase", "cash_flow_operations", "cash_flow_sale"]
+        indices = ["purchase", "cash_flow_operations", "cash_flow_sale", "totals"]
         df = pd.DataFrame()
         df = df.set_axis(indices)
         for i in range(6):
             df[i] = np.nan
         for i, r in df.iterrows():
             for col in df:
-                v = None
+                v = 0
                 if col == 0 and i == "purchase":
-                    v = -1 * (property_data["assumptions"]["inputs"]["purchase_price"] + (property_data["assumptions"]["inputs"]["closing_costs"] * property_data["assumptions"]["inputs"]["purchase_price"]))
+                    v = -1 * ((property_data["assumptions"]["inputs"]["purchase_price"] * (1 - property_data["assumptions"]["inputs"]["loan_amount"]) ) + (property_data["assumptions"]["inputs"]["closing_costs"] * property_data["assumptions"]["inputs"]["purchase_price"]))
                 if col > 0 and i == "cash_flow_operations":
-                    v = annual_cashflow_df.loc["net_operating_income", col]
+                    v = annual_cashflow_df.loc["cash_flow_after_debt_service", col]
                 if col == 5 and i == "cash_flow_sale":
-                     v = property_data["analysis"]["valuation_at_sale"]["sale_price"]
+                     v = property_data["analysis"]["valuation_at_sale"]["net_sales_proceeds"]
+                if i == "totals":
+                    v = df[col].sum()
                 df.loc[i, col] = v
         return df
+    
+
+    def create_return_analysis(self, unleveraged_return_analysis_df, leveraged_return_analysis_df):
+        return {
+            "unleveraged_irr": self.calculate_irr(list(unleveraged_return_analysis_df.loc["totals"])),
+            "leveraged_irr": self.calculate_irr(list(leveraged_return_analysis_df.loc["totals"]))
+        }
