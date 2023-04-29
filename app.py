@@ -62,9 +62,9 @@ def main(property_data):
     exit(exit_code)
 
 # # TEST main()
-property_data = files.read_json('./inputs.json')
-property_data = main(property_data)
-print(property_data)
+# property_data = files.read_json('./inputs.json')
+# property_data = main(property_data)
+# print(property_data)
 # # Serializing json
 # json_object = json.dumps(property_data, indent=4)
  
