@@ -42,7 +42,7 @@ def main(property_data):
         property_data["opex"]["total_monthly_opex"] = opex.calc_monthly_expenses(property_data)
         property_data["opex"]["total_monthly_opex_df"] = opex.create_monthly_opex_df(property_data)
         property_data["cashflow"] = {"monthly_cash_flow_df": cashflow.create_monthly_cashflow_df(property_data), "annual_cashflow_df": None}
-        property_data["cashflow"]["annual_cash_flow_df"] = cashflow.create_annual_cashflow_df(property_data["cashflow"]["monthly_cash_flow_df"])
+        property_data["cashflow"]["annual_cash_flow_df"] = cashflow.create_annual_cashflow_df(property_data)
         property_data["analysis"] = { 
             "valuation_at_sale": analyzer.create_valuation_at_sale(property_data),
             "unleveraged_return_analysis": None,

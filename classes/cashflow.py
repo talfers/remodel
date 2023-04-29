@@ -60,17 +60,22 @@ class Cashflow:
         return df
 
     
-    def create_annual_cashflow_df(self, monthly_cashflow_df):
+    def create_annual_cashflow_df(self, property_data):
+        hold_period = property_data["assumptions"]["inputs"]["hold_period"]
+        monthly_cashflow_df = property_data["cashflow"]["monthly_cash_flow_df"]
         indices = ["potential_gross_revenue", "absorption_and_turnover_vacancy", "free_rent", "general_vacancy", "effective_gross_revenue", "operating_expenses", "net_operating_income", "principal", "interest", "total_debt_service", "cash_flow_after_debt_service"]
         df = pd.DataFrame()
         df = df.set_axis(indices)
-        for i in range(6):
+        for i in range(hold_period + 1):
             df[i+1] = np.nan
-        ## NEEDS FIXED!!! - LAST STEP TO ADD HOLD PERIOD INPUT!!!
-        df[1] = monthly_cashflow_df[[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]].sum(axis=1)
-        df[2] = monthly_cashflow_df[[13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]].sum(axis=1)
-        df[3] = monthly_cashflow_df[[25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]].sum(axis=1)
-        df[4] = monthly_cashflow_df[[37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48]].sum(axis=1)
-        df[5] = monthly_cashflow_df[[49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60]].sum(axis=1)
-        df[6] = monthly_cashflow_df[[61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72]].sum(axis=1)
+        last_i = -1
+        for col in df:
+            arr = []
+            for i in range(last_i + 1, col * 12):
+                if i/(col*12) < 1:
+                    arr.append(i+1)
+                    last_i = i
+                else:
+                    break
+            df[col] = monthly_cashflow_df[arr].sum(axis=1)
         return df
