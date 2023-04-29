@@ -1,20 +1,20 @@
 {
     "assumptions": {
         "inputs": {
-            "purchase_price": 135000,
-            "loan_amount": 0.80,
+            "purchase_price": 950000,
+            "loan_amount": 0.95,
             "land_to_property": 0.20,
-            "interest_rate": 0.05750,
+            "interest_rate": 0.06250,
             "amortization_period": 30,
             "interest_only": false,
             "interest_only_period": 12,
-            "closing_costs": 0.055,
-            "square_feet": 1768,
-            "potential_rent": 1000.00, 
-            "current_rent": 700.00,
-            "lease_expiration_mo_num": 3,
+            "closing_costs": 0.010,
+            "square_feet": 2900,
+            "potential_rent": 9000.00, 
+            "current_rent": 6200.00,
+            "lease_expiration_mo_num": 8,
             "general_vacancy": 0.10,
-            "cap_rate": 0.120,
+            "cap_rate": 0.070,
             "growth_rate_income": 0.030,
             "growth_rate_expenses":0.020,
             "hold_period": 5
@@ -98,22 +98,22 @@
     },
     "opex": {
         "inputs": {
-            "real_estate_taxes":1.40,
-            "insurance": 1500,
-            "mortgage_insurance":1200,
-            "utilities": 100,
-            "management_fee":0.10,
-            "advertising":500,
-            "tax_service":600,
+            "real_estate_taxes":0.50,
+            "insurance": 2000,
+            "mortgage_insurance":1350,
+            "utilities": 150,
+            "management_fee": 0.0,
+            "advertising": 0,
+            "tax_service": 0,
             "other": 0
         }
     },
     "rent_roll": {
         "inputs": {
-            "renew_probability_pct": 0.40,
+            "renew_probability_pct": 0.20,
             "downtime": 1,
-            "free_rent_new": 1,
-            "free_rent_renewal": 2
+            "free_rent_new": 0,
+            "free_rent_renewal": 0
         }  
     }
 }
