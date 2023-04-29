@@ -39,7 +39,7 @@
             },
             "parking": {
                 "lifespan": 50,
-                "current_age": 30,
+                "current_age": 15,
                 "replacement_cost_amt": 5000
             },
             "hvac": {
@@ -69,12 +69,12 @@
             },
             "cabinets_and_counters": {
                 "lifespan": 20,
-                "current_age": 10,
+                "current_age": 5,
                 "replacement_cost_amt": 3000
             },
             "structure_foundation_framing": {
                 "lifespan": 50,
-                "current_age": 30,
+                "current_age": 10,
                 "replacement_cost_amt": 10000
             },
             "components_garagedoor_etc": {

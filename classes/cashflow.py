@@ -53,7 +53,7 @@ class Cashflow:
                     v = df.loc["principal", col] + df.loc["interest", col]
                 
                 if i=="cash_flow_after_debt_service":
-                    v = df.loc["net_operating_income", col] - df.loc["total_debt_service", col]
+                    v = df.loc["net_operating_income", col] + df.loc["total_debt_service", col]
                 
                 df.loc[i, col] = v
         
