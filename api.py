@@ -22,7 +22,7 @@ def home_route():
 
 # Webhook route
 @server.route('/analyze', methods=['POST'])
-def reply_route():
+def analyze_route():
     try:
         j = json.loads(request.data)
         property_analysis_data = main(j)
