@@ -23,13 +23,13 @@ def main(property_data):
     exit_code = 0
     try:
         orig_inputs = property_data
-        amort_schedule = amort.create_amort_schedule(
+        amort_schedule_df = amort.create_amort_schedule_df(
             property_data['assumptions']['inputs']['purchase_price'], 
-            property_data['assumptions']['inputs']['interest_rate'], 
+            property_data['assumptions']['inputs']['interest_rate'],
+            12, 
             property_data['assumptions']['inputs']['amortization_period']
         )
-        amort_schedule_df = amort.create_amort_schedule_df(amort_schedule)
-        property_data["amortization_schedule"] = {"amort_schedule": amort_schedule, "amort_schedule_df": amort_schedule_df}
+        property_data["amortization_schedule"] = {"amort_schedule_df": amort_schedule_df}
         property_data["capex"] = capex.calc_component_costs(property_data["capex"])
         property_data["rent_roll"]["rent_estimates"] = rent.calc_rent_estimates(property_data)
         property_data["rent_roll"]["vacany_loss"] = rent.calc_vacancy_loss(property_data)
@@ -45,7 +45,6 @@ def main(property_data):
             "valuation_at_sale": analyzer.create_valuation_at_sale(property_data),
             "unleveraged_return_analysis": None,
             "leveraged_return_analysis": None
-
         }
         property_data["analysis"]["unleveraged_return_analysis"] = analyzer.create_unleveraged_return_analysis_df(property_data)
         property_data["analysis"]["leveraged_return_analysis"] = analyzer.create_leveraged_return_analysis_df(property_data)
@@ -60,6 +59,6 @@ def main(property_data):
 
     exit(exit_code)
 
-# TEST main()
-property_data = files.read_json('./inputs.json')
-main(property_data)
+# # TEST main()
+# property_data = files.read_json('./inputs.json')
+# main(property_data)
