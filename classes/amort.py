@@ -1,6 +1,6 @@
 from log import logging
+import numpy as np
 import pandas as pd
-from amortization.schedule import amortization_schedule
 
 logger = logging.getLogger('amort.py')
 
@@ -8,21 +8,38 @@ class Amort:
     def __init__(self):
         pass
 
-    def create_amort_schedule(self, purchase_price, interest_rate, years):
-        amort_schedule = amortization_schedule(purchase_price, interest_rate, years*12) # NEEDS FIXED!!!
-        return amort_schedule
+    
+    def PMT(self, rate, nper,pv, fv=0, type=0):
+        if rate!=0:
+                pmt = (rate*(fv+pv*(1+ rate)**nper))/((1+rate*type)*(1-(1+ rate)**nper))
+        else:
+                pmt = (-1*(fv+pv)/nper)  
+        return(pmt)
 
-    def create_amort_schedule_df(self, amort_schedule):
-        indices = ["amount", "interest", "principal", "balance"]
-        df = pd.DataFrame()
-        df = df.set_axis(indices)
-        for number, amount, interest, principal, balance in amort_schedule:
-            if number <= 72:
-                df.loc["amount", number] = amount
-                df.loc["interest", number] = interest
-                df.loc["principal", number] = principal
-                df.loc["balance", number] = balance
+
+    def IPMT(self, rate, per, nper,pv, fv=0, type=0):
+        ipmt = -( ((1+rate)**(per-1)) * (pv*rate + self.PMT(rate, nper,pv, fv=0, type=0)) - self.PMT(rate, nper,pv, fv=0, type=0))
+        return(ipmt)
+
+
+    def PPMT(self, rate, per, nper,pv, fv=0, type=0):
+        ppmt = self.PMT(rate, nper,pv, fv=0, type=0) - self.IPMT(rate, per, nper, pv, fv=0, type=0)
+        return(ppmt)
+    
+
+    def create_amort_schedule_df(self, amount, annualinterestrate, paymentsperyear, years):
+        new_df = pd.DataFrame()
+        df = pd.DataFrame({
+            'principal' :[self.PPMT(annualinterestrate/paymentsperyear, i+1, paymentsperyear*years, amount) for i in range(paymentsperyear*years)],
+            'interest' :[self.IPMT(annualinterestrate/paymentsperyear, i+1, paymentsperyear*years, amount) for i in range(paymentsperyear*years)]
+        })
+        df['amount'] = df.principal + df.interest
+        df['balance'] = amount + np.cumsum(df.principal)
+        for i, row in df.iterrows():
+            if i <= 72:
+                for col in df:
+                    new_df.loc[col, i+1] = row[col]
             else:
-                break
-        return df
+                 break
+        return new_df
     

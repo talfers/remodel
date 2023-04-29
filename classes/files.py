@@ -15,7 +15,6 @@ class Files:
 
 
     def convert_df_to_json(self, property_data):
-        property_data["amortization_schedule"]["amort_schedule"] = None
         property_data["amortization_schedule"]["amort_schedule_df"] = json.loads(property_data["amortization_schedule"]["amort_schedule_df"].to_json())
         property_data["opex"]["total_monthly_opex_df"] = json.loads(property_data["opex"]["total_monthly_opex_df"].to_json())
         property_data["rent_roll"]["market_rent_df"] = json.loads(property_data["rent_roll"]["market_rent_df"].to_json())
