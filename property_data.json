@@ -2210,442 +2210,442 @@
     "amortization_schedule": {
         "amort_schedule_df": {
             "1": {
-                "principal": -140.9483561988,
-                "interest": -646.875,
-                "amount": -787.8233561988,
-                "balance": 134859.0516438012
+                "principal": -112.758684959,
+                "interest": -517.5,
+                "amount": -630.258684959,
+                "balance": 107887.241315041
             },
             "2": {
-                "principal": -141.6237337389,
-                "interest": -646.1996224599,
-                "amount": -787.8233561988,
-                "balance": 134717.4279100623
+                "principal": -113.2989869911,
+                "interest": -516.9596979679,
+                "amount": -630.258684959,
+                "balance": 107773.9423280498
             },
             "3": {
-                "principal": -142.3023474631,
-                "interest": -645.5210087357,
-                "amount": -787.8233561988,
-                "balance": 134575.1255625992
+                "principal": -113.8418779705,
+                "interest": -516.4168069886,
+                "amount": -630.258684959,
+                "balance": 107660.1004500794
             },
             "4": {
-                "principal": -142.984212878,
-                "interest": -644.8391433208,
-                "amount": -787.8233561988,
-                "balance": 134432.1413497212
+                "principal": -114.3873703024,
+                "interest": -515.8713146566,
+                "amount": -630.258684959,
+                "balance": 107545.713079777
             },
             "5": {
-                "principal": -143.6693455647,
-                "interest": -644.1540106341,
-                "amount": -787.8233561988,
-                "balance": 134288.4720041565
+                "principal": -114.9354764518,
+                "interest": -515.3232085073,
+                "amount": -630.258684959,
+                "balance": 107430.7776033252
             },
             "6": {
-                "principal": -144.3577611789,
-                "interest": -643.4655950199,
-                "amount": -787.8233561988,
-                "balance": 134144.1142429776
+                "principal": -115.4862089431,
+                "interest": -514.7724760159,
+                "amount": -630.258684959,
+                "balance": 107315.2913943821
             },
             "7": {
-                "principal": -145.0494754512,
-                "interest": -642.7738807476,
-                "amount": -787.8233561988,
-                "balance": 133999.0647675264
+                "principal": -116.039580361,
+                "interest": -514.2191045981,
+                "amount": -630.258684959,
+                "balance": 107199.2518140212
             },
             "8": {
-                "principal": -145.7445041877,
-                "interest": -642.0788520111,
-                "amount": -787.8233561988,
-                "balance": 133853.3202633387
+                "principal": -116.5956033502,
+                "interest": -513.6630816089,
+                "amount": -630.258684959,
+                "balance": 107082.656210671
             },
             "9": {
-                "principal": -146.4428632703,
-                "interest": -641.3804929285,
-                "amount": -787.8233561988,
-                "balance": 133706.8774000684
+                "principal": -117.1542906162,
+                "interest": -513.1043943428,
+                "amount": -630.258684959,
+                "balance": 106965.5019200547
             },
             "10": {
-                "principal": -147.1445686568,
-                "interest": -640.678787542,
-                "amount": -787.8233561988,
-                "balance": 133559.7328314116
+                "principal": -117.7156549254,
+                "interest": -512.5430300336,
+                "amount": -630.258684959,
+                "balance": 106847.7862651293
             },
             "11": {
-                "principal": -147.8496363816,
-                "interest": -639.9737198172,
-                "amount": -787.8233561988,
-                "balance": 133411.88319503
+                "principal": -118.2797091053,
+                "interest": -511.9789758537,
+                "amount": -630.258684959,
+                "balance": 106729.506556024
             },
             "12": {
-                "principal": -148.5580825559,
-                "interest": -639.2652736429,
-                "amount": -787.8233561988,
-                "balance": 133263.3251124741
+                "principal": -118.8464660448,
+                "interest": -511.4122189143,
+                "amount": -630.258684959,
+                "balance": 106610.6600899793
             },
             "13": {
-                "principal": -149.2699233682,
-                "interest": -638.5534328306,
-                "amount": -787.8233561988,
-                "balance": 133114.0551891059
+                "principal": -119.4159386945,
+                "interest": -510.8427462645,
+                "amount": -630.258684959,
+                "balance": 106491.2441512847
             },
             "14": {
-                "principal": -149.9851750843,
-                "interest": -637.8381811145,
-                "amount": -787.8233561988,
-                "balance": 132964.0700140216
+                "principal": -119.9881400675,
+                "interest": -510.2705448916,
+                "amount": -630.258684959,
+                "balance": 106371.2560112173
             },
             "15": {
-                "principal": -150.7038540483,
-                "interest": -637.1195021505,
-                "amount": -787.8233561988,
-                "balance": 132813.3661599733
+                "principal": -120.5630832386,
+                "interest": -509.6956017204,
+                "amount": -630.258684959,
+                "balance": 106250.6929279786
             },
             "16": {
-                "principal": -151.4259766823,
-                "interest": -636.3973795165,
-                "amount": -787.8233561988,
-                "balance": 132661.940183291
+                "principal": -121.1407813458,
+                "interest": -509.1179036132,
+                "amount": -630.258684959,
+                "balance": 106129.5521466328
             },
             "17": {
-                "principal": -152.1515594872,
-                "interest": -635.6717967116,
-                "amount": -787.8233561988,
-                "balance": 132509.7886238038
+                "principal": -121.7212475898,
+                "interest": -508.5374373693,
+                "amount": -630.258684959,
+                "balance": 106007.8308990431
             },
             "18": {
-                "principal": -152.8806190431,
-                "interest": -634.9427371557,
-                "amount": -787.8233561988,
-                "balance": 132356.9080047608
+                "principal": -122.3044952345,
+                "interest": -507.9541897246,
+                "amount": -630.258684959,
+                "balance": 105885.5264038086
             },
             "19": {
-                "principal": -153.6131720093,
-                "interest": -634.2101841895,
-                "amount": -787.8233561988,
-                "balance": 132203.2948327515
+                "principal": -122.8905376075,
+                "interest": -507.3681473516,
+                "amount": -630.258684959,
+                "balance": 105762.6358662012
             },
             "20": {
-                "principal": -154.3492351252,
-                "interest": -633.4741210736,
-                "amount": -787.8233561988,
-                "balance": 132048.9455976263
+                "principal": -123.4793881002,
+                "interest": -506.7792968589,
+                "amount": -630.258684959,
+                "balance": 105639.156478101
             },
             "21": {
-                "principal": -155.0888252102,
-                "interest": -632.7345309886,
-                "amount": -787.8233561988,
-                "balance": 131893.8567724161
+                "principal": -124.0710601681,
+                "interest": -506.1876247909,
+                "amount": -630.258684959,
+                "balance": 105515.0854179329
             },
             "22": {
-                "principal": -155.8319591643,
-                "interest": -631.9913970345,
-                "amount": -787.8233561988,
-                "balance": 131738.0248132518
+                "principal": -124.6655673314,
+                "interest": -505.5931176276,
+                "amount": -630.258684959,
+                "balance": 105390.4198506015
             },
             "23": {
-                "principal": -156.5786539686,
-                "interest": -631.2447022302,
-                "amount": -787.8233561988,
-                "balance": 131581.4461592832
+                "principal": -125.2629231749,
+                "interest": -504.9957617841,
+                "amount": -630.258684959,
+                "balance": 105265.1569274265
             },
             "24": {
-                "principal": -157.3289266856,
-                "interest": -630.4944295132,
-                "amount": -787.8233561988,
-                "balance": 131424.1172325976
+                "principal": -125.8631413484,
+                "interest": -504.3955436106,
+                "amount": -630.258684959,
+                "balance": 105139.2937860781
             },
             "25": {
-                "principal": -158.0827944593,
-                "interest": -629.7405617395,
-                "amount": -787.8233561988,
-                "balance": 131266.0344381384
+                "principal": -126.4662355674,
+                "interest": -503.7924493916,
+                "amount": -630.258684959,
+                "balance": 105012.8275505107
             },
             "26": {
-                "principal": -158.840274516,
-                "interest": -628.9830816827,
-                "amount": -787.8233561988,
-                "balance": 131107.1941636223
+                "principal": -127.0722196128,
+                "interest": -503.1864653462,
+                "amount": -630.258684959,
+                "balance": 104885.7553308979
             },
             "27": {
-                "principal": -159.6013841648,
-                "interest": -628.221972034,
-                "amount": -787.8233561988,
-                "balance": 130947.5927794576
+                "principal": -127.6811073318,
+                "interest": -502.5775776272,
+                "amount": -630.258684959,
+                "balance": 104758.074223566
             },
             "28": {
-                "principal": -160.3661407972,
-                "interest": -627.4572154016,
-                "amount": -787.8233561988,
-                "balance": 130787.2266386603
+                "principal": -128.2929126378,
+                "interest": -501.9657723213,
+                "amount": -630.258684959,
+                "balance": 104629.7813109283
             },
             "29": {
-                "principal": -161.1345618885,
-                "interest": -626.6887943102,
-                "amount": -787.8233561988,
-                "balance": 130626.0920767718
+                "principal": -128.9076495108,
+                "interest": -501.3510354482,
+                "amount": -630.258684959,
+                "balance": 104500.8736614174
             },
             "30": {
-                "principal": -161.9066649976,
-                "interest": -625.9166912012,
-                "amount": -787.8233561988,
-                "balance": 130464.1854117742
+                "principal": -129.5253319981,
+                "interest": -500.733352961,
+                "amount": -630.258684959,
+                "balance": 104371.3483294194
             },
             "31": {
-                "principal": -162.6824677674,
-                "interest": -625.1408884314,
-                "amount": -787.8233561988,
-                "balance": 130301.5029440068
+                "principal": -130.1459742139,
+                "interest": -500.1127107451,
+                "amount": -630.258684959,
+                "balance": 104241.2023552055
             },
             "32": {
-                "principal": -163.4619879254,
-                "interest": -624.3613682734,
-                "amount": -787.8233561988,
-                "balance": 130138.0409560814
+                "principal": -130.7695903403,
+                "interest": -499.4890946187,
+                "amount": -630.258684959,
+                "balance": 104110.4327648651
             },
             "33": {
-                "principal": -164.2452432842,
-                "interest": -623.5781129146,
-                "amount": -787.8233561988,
-                "balance": 129973.7957127972
+                "principal": -131.3961946274,
+                "interest": -498.8624903316,
+                "amount": -630.258684959,
+                "balance": 103979.0365702377
             },
             "34": {
-                "principal": -165.0322517416,
-                "interest": -622.7911044572,
-                "amount": -787.8233561988,
-                "balance": 129808.7634610555
+                "principal": -132.0258013933,
+                "interest": -498.2328835657,
+                "amount": -630.258684959,
+                "balance": 103847.0107688444
             },
             "35": {
-                "principal": -165.8230312812,
-                "interest": -622.0003249176,
-                "amount": -787.8233561988,
-                "balance": 129642.9404297743
+                "principal": -132.658425025,
+                "interest": -497.600259934,
+                "amount": -630.258684959,
+                "balance": 103714.3523438194
             },
             "36": {
-                "principal": -166.6175999728,
-                "interest": -621.205756226,
-                "amount": -787.8233561988,
-                "balance": 129476.3228298015
+                "principal": -133.2940799782,
+                "interest": -496.9646049808,
+                "amount": -630.258684959,
+                "balance": 103581.0582638412
             },
             "37": {
-                "principal": -167.4159759727,
-                "interest": -620.4073802261,
-                "amount": -787.8233561988,
-                "balance": 129308.9068538288
+                "principal": -133.9327807781,
+                "interest": -496.3259041809,
+                "amount": -630.258684959,
+                "balance": 103447.1254830631
             },
             "38": {
-                "principal": -168.2181775242,
-                "interest": -619.6051786746,
-                "amount": -787.8233561988,
-                "balance": 129140.6886763046
+                "principal": -134.5745420194,
+                "interest": -495.6841429397,
+                "amount": -630.258684959,
+                "balance": 103312.5509410437
             },
             "39": {
-                "principal": -169.0242229582,
-                "interest": -618.7991332406,
-                "amount": -787.8233561988,
-                "balance": 128971.6644533465
+                "principal": -135.2193783665,
+                "interest": -495.0393065925,
+                "amount": -630.258684959,
+                "balance": 103177.3315626772
             },
             "40": {
-                "principal": -169.8341306932,
-                "interest": -617.9892255056,
-                "amount": -787.8233561988,
-                "balance": 128801.8303226533
+                "principal": -135.8673045545,
+                "interest": -494.3913804045,
+                "amount": -630.258684959,
+                "balance": 103041.4642581227
             },
             "41": {
-                "principal": -170.6479192361,
-                "interest": -617.1754369627,
-                "amount": -787.8233561988,
-                "balance": 128631.1824034172
+                "principal": -136.5183353889,
+                "interest": -493.7403495702,
+                "amount": -630.258684959,
+                "balance": 102904.9459227338
             },
             "42": {
-                "principal": -171.4656071824,
-                "interest": -616.3577490164,
-                "amount": -787.8233561988,
-                "balance": 128459.7167962348
+                "principal": -137.1724857459,
+                "interest": -493.0861992131,
+                "amount": -630.258684959,
+                "balance": 102767.7734369878
             },
             "43": {
-                "principal": -172.2872132168,
-                "interest": -615.536142982,
-                "amount": -787.8233561988,
-                "balance": 128287.429583018
+                "principal": -137.8297705735,
+                "interest": -492.4289143856,
+                "amount": -630.258684959,
+                "balance": 102629.9436664144
             },
             "44": {
-                "principal": -173.1127561135,
-                "interest": -614.7106000853,
-                "amount": -787.8233561988,
-                "balance": 128114.3168269045
+                "principal": -138.4902048908,
+                "interest": -491.7684800682,
+                "amount": -630.258684959,
+                "balance": 102491.4534615236
             },
             "45": {
-                "principal": -173.9422547365,
-                "interest": -613.8811014623,
-                "amount": -787.8233561988,
-                "balance": 127940.3745721679
+                "principal": -139.1538037892,
+                "interest": -491.1048811698,
+                "amount": -630.258684959,
+                "balance": 102352.2996577343
             },
             "46": {
-                "principal": -174.7757280405,
-                "interest": -613.0476281583,
-                "amount": -787.8233561988,
-                "balance": 127765.5988441275
+                "principal": -139.8205824324,
+                "interest": -490.4381025266,
+                "amount": -630.258684959,
+                "balance": 102212.479075302
             },
             "47": {
-                "principal": -175.6131950707,
-                "interest": -612.2101611281,
-                "amount": -787.8233561988,
-                "balance": 127589.9856490568
+                "principal": -140.4905560565,
+                "interest": -489.7681289025,
+                "amount": -630.258684959,
+                "balance": 102071.9885192454
             },
             "48": {
-                "principal": -176.4546749637,
-                "interest": -611.3686812351,
-                "amount": -787.8233561988,
-                "balance": 127413.5309740931
+                "principal": -141.163739971,
+                "interest": -489.0949449881,
+                "amount": -630.258684959,
+                "balance": 101930.8247792744
             },
             "49": {
-                "principal": -177.3001869479,
-                "interest": -610.5231692509,
-                "amount": -787.8233561988,
-                "balance": 127236.2307871451
+                "principal": -141.8401495583,
+                "interest": -488.4185354007,
+                "amount": -630.258684959,
+                "balance": 101788.9846297161
             },
             "50": {
-                "principal": -178.1497503437,
-                "interest": -609.6736058551,
-                "amount": -787.8233561988,
-                "balance": 127058.0810368014
+                "principal": -142.519800275,
+                "interest": -487.7388846841,
+                "amount": -630.258684959,
+                "balance": 101646.4648294411
             },
             "51": {
-                "principal": -179.0033845641,
-                "interest": -608.8199716347,
-                "amount": -787.8233561988,
-                "balance": 126879.0776522373
+                "principal": -143.2027076513,
+                "interest": -487.0559773077,
+                "amount": -630.258684959,
+                "balance": 101503.2621217898
             },
             "52": {
-                "principal": -179.8611091152,
-                "interest": -607.9622470836,
-                "amount": -787.8233561988,
-                "balance": 126699.2165431221
+                "principal": -143.8888872921,
+                "interest": -486.3697976669,
+                "amount": -630.258684959,
+                "balance": 101359.3732344977
             },
             "53": {
-                "principal": -180.7229435963,
-                "interest": -607.1004126025,
-                "amount": -787.8233561988,
-                "balance": 126518.4935995258
+                "principal": -144.5783548771,
+                "interest": -485.680330082,
+                "amount": -630.258684959,
+                "balance": 101214.7948796206
             },
             "54": {
-                "principal": -181.5889077011,
-                "interest": -606.2344484977,
-                "amount": -787.8233561988,
-                "balance": 126336.9046918247
+                "principal": -145.2711261609,
+                "interest": -484.9875587982,
+                "amount": -630.258684959,
+                "balance": 101069.5237534598
             },
             "55": {
-                "principal": -182.4590212171,
-                "interest": -605.3643349817,
-                "amount": -787.8233561988,
-                "balance": 126154.4456706076
+                "principal": -145.9672169737,
+                "interest": -484.2914679853,
+                "amount": -630.258684959,
+                "balance": 100923.5565364861
             },
             "56": {
-                "principal": -183.3333040271,
-                "interest": -604.4900521717,
-                "amount": -787.8233561988,
-                "balance": 125971.1123665805
+                "principal": -146.6666432217,
+                "interest": -483.5920417373,
+                "amount": -630.258684959,
+                "balance": 100776.8898932644
             },
             "57": {
-                "principal": -184.2117761089,
-                "interest": -603.6115800899,
-                "amount": -787.8233561988,
-                "balance": 125786.9005904715
+                "principal": -147.3694208871,
+                "interest": -482.8892640719,
+                "amount": -630.258684959,
+                "balance": 100629.5204723772
             },
             "58": {
-                "principal": -185.0944575361,
-                "interest": -602.7288986627,
-                "amount": -787.8233561988,
-                "balance": 125601.8061329354
+                "principal": -148.0755660289,
+                "interest": -482.1831189301,
+                "amount": -630.258684959,
+                "balance": 100481.4449063483
             },
             "59": {
-                "principal": -185.9813684785,
-                "interest": -601.8419877203,
-                "amount": -787.8233561988,
-                "balance": 125415.8247644569
+                "principal": -148.7850947828,
+                "interest": -481.4735901763,
+                "amount": -630.258684959,
+                "balance": 100332.6598115656
             },
             "60": {
-                "principal": -186.8725292024,
-                "interest": -600.9508269964,
-                "amount": -787.8233561988,
-                "balance": 125228.9522352545
+                "principal": -149.4980233619,
+                "interest": -480.7606615971,
+                "amount": -630.258684959,
+                "balance": 100183.1617882036
             },
             "61": {
-                "principal": -187.7679600715,
-                "interest": -600.0553961273,
-                "amount": -787.8233561988,
-                "balance": 125041.184275183
+                "principal": -150.2143680572,
+                "interest": -480.0443169018,
+                "amount": -630.258684959,
+                "balance": 100032.9474201464
             },
             "62": {
-                "principal": -188.6676815469,
-                "interest": -599.1556746519,
-                "amount": -787.8233561988,
-                "balance": 124852.5165936361
+                "principal": -150.9341452375,
+                "interest": -479.3245397215,
+                "amount": -630.258684959,
+                "balance": 99882.0132749089
             },
             "63": {
-                "principal": -189.5717141876,
-                "interest": -598.2516420112,
-                "amount": -787.8233561988,
-                "balance": 124662.9448794485
+                "principal": -151.6573713501,
+                "interest": -478.6013136089,
+                "amount": -630.258684959,
+                "balance": 99730.3559035588
             },
             "64": {
-                "principal": -190.4800786514,
-                "interest": -597.3432775474,
-                "amount": -787.8233561988,
-                "balance": 124472.4648007971
+                "principal": -152.3840629211,
+                "interest": -477.8746220379,
+                "amount": -630.258684959,
+                "balance": 99577.9718406376
             },
             "65": {
-                "principal": -191.392795695,
-                "interest": -596.4305605038,
-                "amount": -787.8233561988,
-                "balance": 124281.0720051021
+                "principal": -153.114236556,
+                "interest": -477.1444484031,
+                "amount": -630.258684959,
+                "balance": 99424.8576040817
             },
             "66": {
-                "principal": -192.3098861743,
-                "interest": -595.5134700244,
-                "amount": -787.8233561988,
-                "balance": 124088.7621189277
+                "principal": -153.8479089395,
+                "interest": -476.4107760196,
+                "amount": -630.258684959,
+                "balance": 99271.0096951422
             },
             "67": {
-                "principal": -193.2313710456,
-                "interest": -594.5919851532,
-                "amount": -787.8233561988,
-                "balance": 123895.5307478821
+                "principal": -154.5850968365,
+                "interest": -475.6735881226,
+                "amount": -630.258684959,
+                "balance": 99116.4245983057
             },
             "68": {
-                "principal": -194.1572713652,
-                "interest": -593.6660848336,
-                "amount": -787.8233561988,
-                "balance": 123701.373476517
+                "principal": -155.3258170922,
+                "interest": -474.9328678669,
+                "amount": -630.258684959,
+                "balance": 98961.0987812135
             },
             "69": {
-                "principal": -195.0876082905,
-                "interest": -592.7357479083,
-                "amount": -787.8233561988,
-                "balance": 123506.2858682265
+                "principal": -156.0700866324,
+                "interest": -474.1885983266,
+                "amount": -630.258684959,
+                "balance": 98805.0286945812
             },
             "70": {
-                "principal": -196.0224030802,
-                "interest": -591.8009531186,
-                "amount": -787.8233561988,
-                "balance": 123310.2634651463
+                "principal": -156.8179224642,
+                "interest": -473.4407624949,
+                "amount": -630.258684959,
+                "balance": 98648.210772117
             },
             "71": {
-                "principal": -196.961677095,
-                "interest": -590.8616791038,
-                "amount": -787.8233561988,
-                "balance": 123113.3017880513
+                "principal": -157.569341676,
+                "interest": -472.6893432831,
+                "amount": -630.258684959,
+                "balance": 98490.641430441
             },
             "72": {
-                "principal": -197.9054517977,
-                "interest": -589.9179044011,
-                "amount": -787.8233561988,
-                "balance": 122915.3963362536
+                "principal": -158.3243614382,
+                "interest": -471.9343235209,
+                "amount": -630.258684959,
+                "balance": 98332.3170690028
             },
             "73": {
-                "principal": -198.8537487542,
-                "interest": -588.9696074445,
-                "amount": -787.8233561988,
-                "balance": 122716.5425874993
+                "principal": -159.0829990034,
+                "interest": -471.1756859556,
+                "amount": -630.258684959,
+                "balance": 98173.2340699995
             }
         }
     },
@@ -2659,10 +2659,10 @@
                 "effective_gross_revenue": 630.0,
                 "operating_expenses": 986.5714285714,
                 "net_operating_income": -356.5714285714,
-                "principal": -140.9483561988,
-                "interest": -646.875,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -1144.3947847702
+                "principal": -112.758684959,
+                "interest": -517.5,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -986.8301135305
             },
             "2": {
                 "potential_gross_revenue": 700.0,
@@ -2672,10 +2672,10 @@
                 "effective_gross_revenue": 630.0,
                 "operating_expenses": 986.5714285714,
                 "net_operating_income": -356.5714285714,
-                "principal": -141.6237337389,
-                "interest": -646.1996224599,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -1144.3947847702
+                "principal": -113.2989869911,
+                "interest": -516.9596979679,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -986.8301135305
             },
             "3": {
                 "potential_gross_revenue": 700.0,
@@ -2685,10 +2685,10 @@
                 "effective_gross_revenue": 630.0,
                 "operating_expenses": 986.5714285714,
                 "net_operating_income": -356.5714285714,
-                "principal": -142.3023474631,
-                "interest": -645.5210087357,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -1144.3947847702
+                "principal": -113.8418779705,
+                "interest": -516.4168069886,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -986.8301135305
             },
             "4": {
                 "potential_gross_revenue": 880.0,
@@ -2698,10 +2698,10 @@
                 "effective_gross_revenue": -880.0,
                 "operating_expenses": 835.5714285714,
                 "net_operating_income": -1715.5714285714,
-                "principal": -142.984212878,
-                "interest": -644.8391433208,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -2503.3947847702
+                "principal": -114.3873703024,
+                "interest": -515.8713146566,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -2345.8301135305
             },
             "5": {
                 "potential_gross_revenue": 880.0,
@@ -2711,10 +2711,10 @@
                 "effective_gross_revenue": 440.0,
                 "operating_expenses": 967.5714285714,
                 "net_operating_income": -527.5714285714,
-                "principal": -143.6693455647,
-                "interest": -644.1540106341,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -1315.3947847702
+                "principal": -114.9354764518,
+                "interest": -515.3232085073,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -1157.8301135305
             },
             "6": {
                 "potential_gross_revenue": 880.0,
@@ -2724,10 +2724,10 @@
                 "effective_gross_revenue": 792.0,
                 "operating_expenses": 1002.7714285714,
                 "net_operating_income": -210.7714285714,
-                "principal": -144.3577611789,
-                "interest": -643.4655950199,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -998.5947847702
+                "principal": -115.4862089431,
+                "interest": -514.7724760159,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -841.0301135305
             },
             "7": {
                 "potential_gross_revenue": 880.0,
@@ -2737,10 +2737,10 @@
                 "effective_gross_revenue": 792.0,
                 "operating_expenses": 1002.7714285714,
                 "net_operating_income": -210.7714285714,
-                "principal": -145.0494754512,
-                "interest": -642.7738807476,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -998.5947847702
+                "principal": -116.039580361,
+                "interest": -514.2191045981,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -841.0301135305
             },
             "8": {
                 "potential_gross_revenue": 880.0,
@@ -2750,10 +2750,10 @@
                 "effective_gross_revenue": 792.0,
                 "operating_expenses": 1002.7714285714,
                 "net_operating_income": -210.7714285714,
-                "principal": -145.7445041877,
-                "interest": -642.0788520111,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -998.5947847702
+                "principal": -116.5956033502,
+                "interest": -513.6630816089,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -841.0301135305
             },
             "9": {
                 "potential_gross_revenue": 880.0,
@@ -2763,10 +2763,10 @@
                 "effective_gross_revenue": 792.0,
                 "operating_expenses": 1002.7714285714,
                 "net_operating_income": -210.7714285714,
-                "principal": -146.4428632703,
-                "interest": -641.3804929285,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -998.5947847702
+                "principal": -117.1542906162,
+                "interest": -513.1043943428,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -841.0301135305
             },
             "10": {
                 "potential_gross_revenue": 880.0,
@@ -2776,10 +2776,10 @@
                 "effective_gross_revenue": 792.0,
                 "operating_expenses": 1002.7714285714,
                 "net_operating_income": -210.7714285714,
-                "principal": -147.1445686568,
-                "interest": -640.678787542,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -998.5947847702
+                "principal": -117.7156549254,
+                "interest": -512.5430300336,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -841.0301135305
             },
             "11": {
                 "potential_gross_revenue": 880.0,
@@ -2789,10 +2789,10 @@
                 "effective_gross_revenue": 792.0,
                 "operating_expenses": 1002.7714285714,
                 "net_operating_income": -210.7714285714,
-                "principal": -147.8496363816,
-                "interest": -639.9737198172,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -998.5947847702
+                "principal": -118.2797091053,
+                "interest": -511.9789758537,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -841.0301135305
             },
             "12": {
                 "potential_gross_revenue": 906.4,
@@ -2802,10 +2802,10 @@
                 "effective_gross_revenue": 815.76,
                 "operating_expenses": 1023.6188571429,
                 "net_operating_income": -207.8588571429,
-                "principal": -148.5580825559,
-                "interest": -639.2652736429,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -995.6822133416
+                "principal": -118.8464660448,
+                "interest": -511.4122189143,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
             },
             "13": {
                 "potential_gross_revenue": 906.4,
@@ -2815,10 +2815,10 @@
                 "effective_gross_revenue": 815.76,
                 "operating_expenses": 1023.6188571429,
                 "net_operating_income": -207.8588571429,
-                "principal": -149.2699233682,
-                "interest": -638.5534328306,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -995.6822133416
+                "principal": -119.4159386945,
+                "interest": -510.8427462645,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
             },
             "14": {
                 "potential_gross_revenue": 906.4,
@@ -2828,10 +2828,10 @@
                 "effective_gross_revenue": 815.76,
                 "operating_expenses": 1023.6188571429,
                 "net_operating_income": -207.8588571429,
-                "principal": -149.9851750843,
-                "interest": -637.8381811145,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -995.6822133416
+                "principal": -119.9881400675,
+                "interest": -510.2705448916,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
             },
             "15": {
                 "potential_gross_revenue": 906.4,
@@ -2841,10 +2841,10 @@
                 "effective_gross_revenue": 815.76,
                 "operating_expenses": 1023.6188571429,
                 "net_operating_income": -207.8588571429,
-                "principal": -150.7038540483,
-                "interest": -637.1195021505,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -995.6822133416
+                "principal": -120.5630832386,
+                "interest": -509.6956017204,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
             },
             "16": {
                 "potential_gross_revenue": 906.4,
@@ -2854,10 +2854,10 @@
                 "effective_gross_revenue": 815.76,
                 "operating_expenses": 1023.6188571429,
                 "net_operating_income": -207.8588571429,
-                "principal": -151.4259766823,
-                "interest": -636.3973795165,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -995.6822133416
+                "principal": -121.1407813458,
+                "interest": -509.1179036132,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
             },
             "17": {
                 "potential_gross_revenue": 906.4,
@@ -2867,10 +2867,10 @@
                 "effective_gross_revenue": 815.76,
                 "operating_expenses": 1023.6188571429,
                 "net_operating_income": -207.8588571429,
-                "principal": -152.1515594872,
-                "interest": -635.6717967116,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -995.6822133416
+                "principal": -121.7212475898,
+                "interest": -508.5374373693,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
             },
             "18": {
                 "potential_gross_revenue": 906.4,
@@ -2880,10 +2880,10 @@
                 "effective_gross_revenue": 815.76,
                 "operating_expenses": 1023.6188571429,
                 "net_operating_income": -207.8588571429,
-                "principal": -152.8806190431,
-                "interest": -634.9427371557,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -995.6822133416
+                "principal": -122.3044952345,
+                "interest": -507.9541897246,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
             },
             "19": {
                 "potential_gross_revenue": 906.4,
@@ -2893,10 +2893,10 @@
                 "effective_gross_revenue": 815.76,
                 "operating_expenses": 1023.6188571429,
                 "net_operating_income": -207.8588571429,
-                "principal": -153.6131720093,
-                "interest": -634.2101841895,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -995.6822133416
+                "principal": -122.8905376075,
+                "interest": -507.3681473516,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
             },
             "20": {
                 "potential_gross_revenue": 906.4,
@@ -2906,10 +2906,10 @@
                 "effective_gross_revenue": 815.76,
                 "operating_expenses": 1023.6188571429,
                 "net_operating_income": -207.8588571429,
-                "principal": -154.3492351252,
-                "interest": -633.4741210736,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -995.6822133416
+                "principal": -123.4793881002,
+                "interest": -506.7792968589,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
             },
             "21": {
                 "potential_gross_revenue": 906.4,
@@ -2919,10 +2919,10 @@
                 "effective_gross_revenue": 815.76,
                 "operating_expenses": 1023.6188571429,
                 "net_operating_income": -207.8588571429,
-                "principal": -155.0888252102,
-                "interest": -632.7345309886,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -995.6822133416
+                "principal": -124.0710601681,
+                "interest": -506.1876247909,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
             },
             "22": {
                 "potential_gross_revenue": 906.4,
@@ -2932,10 +2932,10 @@
                 "effective_gross_revenue": 815.76,
                 "operating_expenses": 1023.6188571429,
                 "net_operating_income": -207.8588571429,
-                "principal": -155.8319591643,
-                "interest": -631.9913970345,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -995.6822133416
+                "principal": -124.6655673314,
+                "interest": -505.5931176276,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
             },
             "23": {
                 "potential_gross_revenue": 906.4,
@@ -2945,10 +2945,10 @@
                 "effective_gross_revenue": 815.76,
                 "operating_expenses": 1023.6188571429,
                 "net_operating_income": -207.8588571429,
-                "principal": -156.5786539686,
-                "interest": -631.2447022302,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -995.6822133416
+                "principal": -125.2629231749,
+                "interest": -504.9957617841,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
             },
             "24": {
                 "potential_gross_revenue": 933.592,
@@ -2958,10 +2958,10 @@
                 "effective_gross_revenue": 840.2328,
                 "operating_expenses": 1044.9069942857,
                 "net_operating_income": -204.6741942857,
-                "principal": -157.3289266856,
-                "interest": -630.4944295132,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -992.4975504845
+                "principal": -125.8631413484,
+                "interest": -504.3955436106,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
             },
             "25": {
                 "potential_gross_revenue": 933.592,
@@ -2971,10 +2971,10 @@
                 "effective_gross_revenue": 840.2328,
                 "operating_expenses": 1044.9069942857,
                 "net_operating_income": -204.6741942857,
-                "principal": -158.0827944593,
-                "interest": -629.7405617395,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -992.4975504845
+                "principal": -126.4662355674,
+                "interest": -503.7924493916,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
             },
             "26": {
                 "potential_gross_revenue": 933.592,
@@ -2984,10 +2984,10 @@
                 "effective_gross_revenue": 840.2328,
                 "operating_expenses": 1044.9069942857,
                 "net_operating_income": -204.6741942857,
-                "principal": -158.840274516,
-                "interest": -628.9830816827,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -992.4975504845
+                "principal": -127.0722196128,
+                "interest": -503.1864653462,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
             },
             "27": {
                 "potential_gross_revenue": 933.592,
@@ -2997,10 +2997,10 @@
                 "effective_gross_revenue": 840.2328,
                 "operating_expenses": 1044.9069942857,
                 "net_operating_income": -204.6741942857,
-                "principal": -159.6013841648,
-                "interest": -628.221972034,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -992.4975504845
+                "principal": -127.6811073318,
+                "interest": -502.5775776272,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
             },
             "28": {
                 "potential_gross_revenue": 933.592,
@@ -3010,10 +3010,10 @@
                 "effective_gross_revenue": 840.2328,
                 "operating_expenses": 1044.9069942857,
                 "net_operating_income": -204.6741942857,
-                "principal": -160.3661407972,
-                "interest": -627.4572154016,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -992.4975504845
+                "principal": -128.2929126378,
+                "interest": -501.9657723213,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
             },
             "29": {
                 "potential_gross_revenue": 933.592,
@@ -3023,10 +3023,10 @@
                 "effective_gross_revenue": 840.2328,
                 "operating_expenses": 1044.9069942857,
                 "net_operating_income": -204.6741942857,
-                "principal": -161.1345618885,
-                "interest": -626.6887943102,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -992.4975504845
+                "principal": -128.9076495108,
+                "interest": -501.3510354482,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
             },
             "30": {
                 "potential_gross_revenue": 933.592,
@@ -3036,10 +3036,10 @@
                 "effective_gross_revenue": 840.2328,
                 "operating_expenses": 1044.9069942857,
                 "net_operating_income": -204.6741942857,
-                "principal": -161.9066649976,
-                "interest": -625.9166912012,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -992.4975504845
+                "principal": -129.5253319981,
+                "interest": -500.733352961,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
             },
             "31": {
                 "potential_gross_revenue": 933.592,
@@ -3049,10 +3049,10 @@
                 "effective_gross_revenue": 840.2328,
                 "operating_expenses": 1044.9069942857,
                 "net_operating_income": -204.6741942857,
-                "principal": -162.6824677674,
-                "interest": -625.1408884314,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -992.4975504845
+                "principal": -130.1459742139,
+                "interest": -500.1127107451,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
             },
             "32": {
                 "potential_gross_revenue": 933.592,
@@ -3062,10 +3062,10 @@
                 "effective_gross_revenue": 840.2328,
                 "operating_expenses": 1044.9069942857,
                 "net_operating_income": -204.6741942857,
-                "principal": -163.4619879254,
-                "interest": -624.3613682734,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -992.4975504845
+                "principal": -130.7695903403,
+                "interest": -499.4890946187,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
             },
             "33": {
                 "potential_gross_revenue": 933.592,
@@ -3075,10 +3075,10 @@
                 "effective_gross_revenue": 840.2328,
                 "operating_expenses": 1044.9069942857,
                 "net_operating_income": -204.6741942857,
-                "principal": -164.2452432842,
-                "interest": -623.5781129146,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -992.4975504845
+                "principal": -131.3961946274,
+                "interest": -498.8624903316,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
             },
             "34": {
                 "potential_gross_revenue": 933.592,
@@ -3088,10 +3088,10 @@
                 "effective_gross_revenue": 840.2328,
                 "operating_expenses": 1044.9069942857,
                 "net_operating_income": -204.6741942857,
-                "principal": -165.0322517416,
-                "interest": -622.7911044572,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -992.4975504845
+                "principal": -132.0258013933,
+                "interest": -498.2328835657,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
             },
             "35": {
                 "potential_gross_revenue": 933.592,
@@ -3101,10 +3101,10 @@
                 "effective_gross_revenue": 840.2328,
                 "operating_expenses": 1044.9069942857,
                 "net_operating_income": -204.6741942857,
-                "principal": -165.8230312812,
-                "interest": -622.0003249176,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -992.4975504845
+                "principal": -132.658425025,
+                "interest": -497.600259934,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
             },
             "36": {
                 "potential_gross_revenue": 961.59976,
@@ -3114,10 +3114,10 @@
                 "effective_gross_revenue": 865.439784,
                 "operating_expenses": 1066.6453669714,
                 "net_operating_income": -201.2055829714,
-                "principal": -166.6175999728,
-                "interest": -621.205756226,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -989.0289391702
+                "principal": -133.2940799782,
+                "interest": -496.9646049808,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
             },
             "37": {
                 "potential_gross_revenue": 961.59976,
@@ -3127,10 +3127,10 @@
                 "effective_gross_revenue": 865.439784,
                 "operating_expenses": 1066.6453669714,
                 "net_operating_income": -201.2055829714,
-                "principal": -167.4159759727,
-                "interest": -620.4073802261,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -989.0289391702
+                "principal": -133.9327807781,
+                "interest": -496.3259041809,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
             },
             "38": {
                 "potential_gross_revenue": 961.59976,
@@ -3140,10 +3140,10 @@
                 "effective_gross_revenue": 865.439784,
                 "operating_expenses": 1066.6453669714,
                 "net_operating_income": -201.2055829714,
-                "principal": -168.2181775242,
-                "interest": -619.6051786746,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -989.0289391702
+                "principal": -134.5745420194,
+                "interest": -495.6841429397,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
             },
             "39": {
                 "potential_gross_revenue": 961.59976,
@@ -3153,10 +3153,10 @@
                 "effective_gross_revenue": 865.439784,
                 "operating_expenses": 1066.6453669714,
                 "net_operating_income": -201.2055829714,
-                "principal": -169.0242229582,
-                "interest": -618.7991332406,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -989.0289391702
+                "principal": -135.2193783665,
+                "interest": -495.0393065925,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
             },
             "40": {
                 "potential_gross_revenue": 961.59976,
@@ -3166,10 +3166,10 @@
                 "effective_gross_revenue": 865.439784,
                 "operating_expenses": 1066.6453669714,
                 "net_operating_income": -201.2055829714,
-                "principal": -169.8341306932,
-                "interest": -617.9892255056,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -989.0289391702
+                "principal": -135.8673045545,
+                "interest": -494.3913804045,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
             },
             "41": {
                 "potential_gross_revenue": 961.59976,
@@ -3179,10 +3179,10 @@
                 "effective_gross_revenue": 865.439784,
                 "operating_expenses": 1066.6453669714,
                 "net_operating_income": -201.2055829714,
-                "principal": -170.6479192361,
-                "interest": -617.1754369627,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -989.0289391702
+                "principal": -136.5183353889,
+                "interest": -493.7403495702,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
             },
             "42": {
                 "potential_gross_revenue": 961.59976,
@@ -3192,10 +3192,10 @@
                 "effective_gross_revenue": 865.439784,
                 "operating_expenses": 1066.6453669714,
                 "net_operating_income": -201.2055829714,
-                "principal": -171.4656071824,
-                "interest": -616.3577490164,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -989.0289391702
+                "principal": -137.1724857459,
+                "interest": -493.0861992131,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
             },
             "43": {
                 "potential_gross_revenue": 961.59976,
@@ -3205,10 +3205,10 @@
                 "effective_gross_revenue": 865.439784,
                 "operating_expenses": 1066.6453669714,
                 "net_operating_income": -201.2055829714,
-                "principal": -172.2872132168,
-                "interest": -615.536142982,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -989.0289391702
+                "principal": -137.8297705735,
+                "interest": -492.4289143856,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
             },
             "44": {
                 "potential_gross_revenue": 961.59976,
@@ -3218,10 +3218,10 @@
                 "effective_gross_revenue": 865.439784,
                 "operating_expenses": 1066.6453669714,
                 "net_operating_income": -201.2055829714,
-                "principal": -173.1127561135,
-                "interest": -614.7106000853,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -989.0289391702
+                "principal": -138.4902048908,
+                "interest": -491.7684800682,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
             },
             "45": {
                 "potential_gross_revenue": 961.59976,
@@ -3231,10 +3231,10 @@
                 "effective_gross_revenue": 865.439784,
                 "operating_expenses": 1066.6453669714,
                 "net_operating_income": -201.2055829714,
-                "principal": -173.9422547365,
-                "interest": -613.8811014623,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -989.0289391702
+                "principal": -139.1538037892,
+                "interest": -491.1048811698,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
             },
             "46": {
                 "potential_gross_revenue": 961.59976,
@@ -3244,10 +3244,10 @@
                 "effective_gross_revenue": 865.439784,
                 "operating_expenses": 1066.6453669714,
                 "net_operating_income": -201.2055829714,
-                "principal": -174.7757280405,
-                "interest": -613.0476281583,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -989.0289391702
+                "principal": -139.8205824324,
+                "interest": -490.4381025266,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
             },
             "47": {
                 "potential_gross_revenue": 961.59976,
@@ -3257,10 +3257,10 @@
                 "effective_gross_revenue": 865.439784,
                 "operating_expenses": 1066.6453669714,
                 "net_operating_income": -201.2055829714,
-                "principal": -175.6131950707,
-                "interest": -612.2101611281,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -989.0289391702
+                "principal": -140.4905560565,
+                "interest": -489.7681289025,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
             },
             "48": {
                 "potential_gross_revenue": 990.4477528,
@@ -3270,10 +3270,10 @@
                 "effective_gross_revenue": 891.40297752,
                 "operating_expenses": 1088.8437140949,
                 "net_operating_income": -197.4407365749,
-                "principal": -176.4546749637,
-                "interest": -611.3686812351,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -985.2640927736
+                "principal": -141.163739971,
+                "interest": -489.0949449881,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
             },
             "49": {
                 "potential_gross_revenue": 990.4477528,
@@ -3283,10 +3283,10 @@
                 "effective_gross_revenue": 891.40297752,
                 "operating_expenses": 1088.8437140949,
                 "net_operating_income": -197.4407365749,
-                "principal": -177.3001869479,
-                "interest": -610.5231692509,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -985.2640927736
+                "principal": -141.8401495583,
+                "interest": -488.4185354007,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
             },
             "50": {
                 "potential_gross_revenue": 990.4477528,
@@ -3296,10 +3296,10 @@
                 "effective_gross_revenue": 891.40297752,
                 "operating_expenses": 1088.8437140949,
                 "net_operating_income": -197.4407365749,
-                "principal": -178.1497503437,
-                "interest": -609.6736058551,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -985.2640927736
+                "principal": -142.519800275,
+                "interest": -487.7388846841,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
             },
             "51": {
                 "potential_gross_revenue": 990.4477528,
@@ -3309,10 +3309,10 @@
                 "effective_gross_revenue": 891.40297752,
                 "operating_expenses": 1088.8437140949,
                 "net_operating_income": -197.4407365749,
-                "principal": -179.0033845641,
-                "interest": -608.8199716347,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -985.2640927736
+                "principal": -143.2027076513,
+                "interest": -487.0559773077,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
             },
             "52": {
                 "potential_gross_revenue": 990.4477528,
@@ -3322,10 +3322,10 @@
                 "effective_gross_revenue": 891.40297752,
                 "operating_expenses": 1088.8437140949,
                 "net_operating_income": -197.4407365749,
-                "principal": -179.8611091152,
-                "interest": -607.9622470836,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -985.2640927736
+                "principal": -143.8888872921,
+                "interest": -486.3697976669,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
             },
             "53": {
                 "potential_gross_revenue": 990.4477528,
@@ -3335,10 +3335,10 @@
                 "effective_gross_revenue": 891.40297752,
                 "operating_expenses": 1088.8437140949,
                 "net_operating_income": -197.4407365749,
-                "principal": -180.7229435963,
-                "interest": -607.1004126025,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -985.2640927736
+                "principal": -144.5783548771,
+                "interest": -485.680330082,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
             },
             "54": {
                 "potential_gross_revenue": 990.4477528,
@@ -3348,10 +3348,10 @@
                 "effective_gross_revenue": 891.40297752,
                 "operating_expenses": 1088.8437140949,
                 "net_operating_income": -197.4407365749,
-                "principal": -181.5889077011,
-                "interest": -606.2344484977,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -985.2640927736
+                "principal": -145.2711261609,
+                "interest": -484.9875587982,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
             },
             "55": {
                 "potential_gross_revenue": 990.4477528,
@@ -3361,10 +3361,10 @@
                 "effective_gross_revenue": 891.40297752,
                 "operating_expenses": 1088.8437140949,
                 "net_operating_income": -197.4407365749,
-                "principal": -182.4590212171,
-                "interest": -605.3643349817,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -985.2640927736
+                "principal": -145.9672169737,
+                "interest": -484.2914679853,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
             },
             "56": {
                 "potential_gross_revenue": 990.4477528,
@@ -3374,10 +3374,10 @@
                 "effective_gross_revenue": 891.40297752,
                 "operating_expenses": 1088.8437140949,
                 "net_operating_income": -197.4407365749,
-                "principal": -183.3333040271,
-                "interest": -604.4900521717,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -985.2640927736
+                "principal": -146.6666432217,
+                "interest": -483.5920417373,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
             },
             "57": {
                 "potential_gross_revenue": 990.4477528,
@@ -3387,10 +3387,10 @@
                 "effective_gross_revenue": 891.40297752,
                 "operating_expenses": 1088.8437140949,
                 "net_operating_income": -197.4407365749,
-                "principal": -184.2117761089,
-                "interest": -603.6115800899,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -985.2640927736
+                "principal": -147.3694208871,
+                "interest": -482.8892640719,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
             },
             "58": {
                 "potential_gross_revenue": 990.4477528,
@@ -3400,10 +3400,10 @@
                 "effective_gross_revenue": 891.40297752,
                 "operating_expenses": 1088.8437140949,
                 "net_operating_income": -197.4407365749,
-                "principal": -185.0944575361,
-                "interest": -602.7288986627,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -985.2640927736
+                "principal": -148.0755660289,
+                "interest": -482.1831189301,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
             },
             "59": {
                 "potential_gross_revenue": 990.4477528,
@@ -3413,10 +3413,10 @@
                 "effective_gross_revenue": 891.40297752,
                 "operating_expenses": 1088.8437140949,
                 "net_operating_income": -197.4407365749,
-                "principal": -185.9813684785,
-                "interest": -601.8419877203,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -985.2640927736
+                "principal": -148.7850947828,
+                "interest": -481.4735901763,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
             },
             "60": {
                 "potential_gross_revenue": 1020.161185384,
@@ -3426,10 +3426,10 @@
                 "effective_gross_revenue": 918.1450668456,
                 "operating_expenses": 1111.5119913543,
                 "net_operating_income": -193.3669245087,
-                "principal": -186.8725292024,
-                "interest": -600.9508269964,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -981.1902807075
+                "principal": -149.4980233619,
+                "interest": -480.7606615971,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
             },
             "61": {
                 "potential_gross_revenue": 1020.161185384,
@@ -3439,10 +3439,10 @@
                 "effective_gross_revenue": 918.1450668456,
                 "operating_expenses": 1111.5119913543,
                 "net_operating_income": -193.3669245087,
-                "principal": -187.7679600715,
-                "interest": -600.0553961273,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -981.1902807075
+                "principal": -150.2143680572,
+                "interest": -480.0443169018,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
             },
             "62": {
                 "potential_gross_revenue": 1020.161185384,
@@ -3452,10 +3452,10 @@
                 "effective_gross_revenue": 918.1450668456,
                 "operating_expenses": 1111.5119913543,
                 "net_operating_income": -193.3669245087,
-                "principal": -188.6676815469,
-                "interest": -599.1556746519,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -981.1902807075
+                "principal": -150.9341452375,
+                "interest": -479.3245397215,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
             },
             "63": {
                 "potential_gross_revenue": 1020.161185384,
@@ -3465,10 +3465,10 @@
                 "effective_gross_revenue": 918.1450668456,
                 "operating_expenses": 1111.5119913543,
                 "net_operating_income": -193.3669245087,
-                "principal": -189.5717141876,
-                "interest": -598.2516420112,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -981.1902807075
+                "principal": -151.6573713501,
+                "interest": -478.6013136089,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
             },
             "64": {
                 "potential_gross_revenue": 1020.161185384,
@@ -3478,10 +3478,10 @@
                 "effective_gross_revenue": 918.1450668456,
                 "operating_expenses": 1111.5119913543,
                 "net_operating_income": -193.3669245087,
-                "principal": -190.4800786514,
-                "interest": -597.3432775474,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -981.1902807075
+                "principal": -152.3840629211,
+                "interest": -477.8746220379,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
             },
             "65": {
                 "potential_gross_revenue": 1020.161185384,
@@ -3491,10 +3491,10 @@
                 "effective_gross_revenue": 918.1450668456,
                 "operating_expenses": 1111.5119913543,
                 "net_operating_income": -193.3669245087,
-                "principal": -191.392795695,
-                "interest": -596.4305605038,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -981.1902807075
+                "principal": -153.114236556,
+                "interest": -477.1444484031,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
             },
             "66": {
                 "potential_gross_revenue": 1020.161185384,
@@ -3504,10 +3504,10 @@
                 "effective_gross_revenue": 918.1450668456,
                 "operating_expenses": 1111.5119913543,
                 "net_operating_income": -193.3669245087,
-                "principal": -192.3098861743,
-                "interest": -595.5134700244,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -981.1902807075
+                "principal": -153.8479089395,
+                "interest": -476.4107760196,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
             },
             "67": {
                 "potential_gross_revenue": 1020.161185384,
@@ -3517,10 +3517,10 @@
                 "effective_gross_revenue": 918.1450668456,
                 "operating_expenses": 1111.5119913543,
                 "net_operating_income": -193.3669245087,
-                "principal": -193.2313710456,
-                "interest": -594.5919851532,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -981.1902807075
+                "principal": -154.5850968365,
+                "interest": -475.6735881226,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
             },
             "68": {
                 "potential_gross_revenue": 1020.161185384,
@@ -3530,10 +3530,10 @@
                 "effective_gross_revenue": 918.1450668456,
                 "operating_expenses": 1111.5119913543,
                 "net_operating_income": -193.3669245087,
-                "principal": -194.1572713652,
-                "interest": -593.6660848336,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -981.1902807075
+                "principal": -155.3258170922,
+                "interest": -474.9328678669,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
             },
             "69": {
                 "potential_gross_revenue": 1020.161185384,
@@ -3543,10 +3543,10 @@
                 "effective_gross_revenue": 918.1450668456,
                 "operating_expenses": 1111.5119913543,
                 "net_operating_income": -193.3669245087,
-                "principal": -195.0876082905,
-                "interest": -592.7357479083,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -981.1902807075
+                "principal": -156.0700866324,
+                "interest": -474.1885983266,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
             },
             "70": {
                 "potential_gross_revenue": 1020.161185384,
@@ -3556,10 +3556,10 @@
                 "effective_gross_revenue": 918.1450668456,
                 "operating_expenses": 1111.5119913543,
                 "net_operating_income": -193.3669245087,
-                "principal": -196.0224030802,
-                "interest": -591.8009531186,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -981.1902807075
+                "principal": -156.8179224642,
+                "interest": -473.4407624949,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
             },
             "71": {
                 "potential_gross_revenue": 1020.161185384,
@@ -3569,10 +3569,10 @@
                 "effective_gross_revenue": 918.1450668456,
                 "operating_expenses": 1111.5119913543,
                 "net_operating_income": -193.3669245087,
-                "principal": -196.961677095,
-                "interest": -590.8616791038,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -981.1902807075
+                "principal": -157.569341676,
+                "interest": -472.6893432831,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
             },
             "72": {
                 "potential_gross_revenue": 1050.7660209455,
@@ -3582,10 +3582,10 @@
                 "effective_gross_revenue": 945.689418851,
                 "operating_expenses": 1134.6603762482,
                 "net_operating_income": -188.9709573972,
-                "principal": -197.9054517977,
-                "interest": -589.9179044011,
-                "total_debt_service": -787.8233561988,
-                "cash_flow_after_debt_service": -976.794313596
+                "principal": -158.3243614382,
+                "interest": -471.9343235209,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -819.2296423563
             }
         },
         "annual_cashflow_df": null,
@@ -3598,10 +3598,10 @@
                 "effective_gross_revenue": 7017.76,
                 "operating_expenses": 11803.1045714286,
                 "net_operating_income": -4785.3445714286,
-                "principal": -1736.6748875259,
-                "interest": -7717.2053868596,
-                "total_debt_service": -9453.8802743855,
-                "cash_flow_after_debt_service": -14239.2248458141
+                "principal": -1389.3399100207,
+                "interest": -6173.7643094877,
+                "total_debt_service": -7563.1042195084,
+                "cash_flow_after_debt_service": -12348.448790937
             },
             "2": {
                 "potential_gross_revenue": 10903.992,
@@ -3611,10 +3611,10 @@
                 "effective_gross_revenue": 9813.5928,
                 "operating_expenses": 12304.7144228571,
                 "net_operating_income": -2491.1216228571,
-                "principal": -1839.2078798764,
-                "interest": -7614.6723945091,
-                "total_debt_service": -9453.8802743855,
-                "cash_flow_after_debt_service": -11945.0018972426
+                "principal": -1471.3663039012,
+                "interest": -6091.7379156072,
+                "total_debt_service": -7563.1042195084,
+                "cash_flow_after_debt_service": -10054.2258423655
             },
             "3": {
                 "potential_gross_revenue": 11231.11176,
@@ -3624,10 +3624,10 @@
                 "effective_gross_revenue": 10108.000584,
                 "operating_expenses": 12560.6223041143,
                 "net_operating_income": -2452.6217201143,
-                "principal": -1947.7944027961,
-                "interest": -7506.0858715894,
-                "total_debt_service": -9453.8802743855,
-                "cash_flow_after_debt_service": -11906.5019944998
+                "principal": -1558.2355222369,
+                "interest": -6004.8686972715,
+                "total_debt_service": -7563.1042195084,
+                "cash_flow_after_debt_service": -10015.7259396227
             },
             "4": {
                 "potential_gross_revenue": 11568.0451128,
@@ -3637,10 +3637,10 @@
                 "effective_gross_revenue": 10411.24060152,
                 "operating_expenses": 12821.9427507806,
                 "net_operating_income": -2410.7021492606,
-                "principal": -2062.7918557085,
-                "interest": -7391.088418677,
-                "total_debt_service": -9453.8802743855,
-                "cash_flow_after_debt_service": -11864.5824236461
+                "principal": -1650.2334845668,
+                "interest": -5912.8707349416,
+                "total_debt_service": -7563.1042195084,
+                "cash_flow_after_debt_service": -9973.806368769
             },
             "5": {
                 "potential_gross_revenue": 11915.086466184,
@@ -3650,10 +3650,10 @@
                 "effective_gross_revenue": 10723.5778195656,
                 "operating_expenses": 13088.7928463977,
                 "net_operating_income": -2365.2150268321,
-                "principal": -2184.5787388385,
-                "interest": -7269.301535547,
-                "total_debt_service": -9453.8802743855,
-                "cash_flow_after_debt_service": -11819.0953012176
+                "principal": -1747.6629910708,
+                "interest": -5815.4412284376,
+                "total_debt_service": -7563.1042195084,
+                "cash_flow_after_debt_service": -9928.3192463405
             },
             "6": {
                 "potential_gross_revenue": 12272.5390601695,
@@ -3663,10 +3663,10 @@
                 "effective_gross_revenue": 11045.2851541526,
                 "operating_expenses": 13361.2922811452,
                 "net_operating_income": -2316.0071269927,
-                "principal": -2313.5558990009,
-                "interest": -7140.3243753846,
-                "total_debt_service": -9453.8802743855,
-                "cash_flow_after_debt_service": -11769.8874013782
+                "principal": -1850.8447192007,
+                "interest": -5712.2595003077,
+                "total_debt_service": -7563.1042195084,
+                "cash_flow_after_debt_service": -9879.1113465011
             }
         }
     },
@@ -3674,8 +3674,8 @@
         "valuation_at_sale": {
             "noi_year_6": -2316.0071269926557,
             "sale_price": 148500.0,
-            "mortgage_balance_eoy_5": 125228.95223525452,
-            "net_sales_proceeds": 23271.047764745483
+            "mortgage_balance_eoy_5": 100183.16178820361,
+            "net_sales_proceeds": 48316.83821179639
         },
         "unleveraged_return_analysis": {
             "0": {
@@ -3724,38 +3724,38 @@
             },
             "1": {
                 "purchase": 0.0,
-                "cash_flow_operations": -14239.2248458141,
+                "cash_flow_operations": -12348.448790937,
                 "cash_flow_sale": 0.0,
-                "totals": -14239.2248458141
+                "totals": -12348.448790937
             },
             "2": {
                 "purchase": 0.0,
-                "cash_flow_operations": -11945.0018972426,
+                "cash_flow_operations": -10054.2258423655,
                 "cash_flow_sale": 0.0,
-                "totals": -11945.0018972426
+                "totals": -10054.2258423655
             },
             "3": {
                 "purchase": 0.0,
-                "cash_flow_operations": -11906.5019944998,
+                "cash_flow_operations": -10015.7259396227,
                 "cash_flow_sale": 0.0,
-                "totals": -11906.5019944998
+                "totals": -10015.7259396227
             },
             "4": {
                 "purchase": 0.0,
-                "cash_flow_operations": -11864.5824236461,
+                "cash_flow_operations": -9973.806368769,
                 "cash_flow_sale": 0.0,
-                "totals": -11864.5824236461
+                "totals": -9973.806368769
             },
             "5": {
                 "purchase": 0.0,
-                "cash_flow_operations": -11819.0953012176,
-                "cash_flow_sale": 23271.0477647455,
-                "totals": 11451.9524635279
+                "cash_flow_operations": -9928.3192463405,
+                "cash_flow_sale": 48316.8382117964,
+                "totals": 38388.5189654559
             }
         },
         "irr": {
             "unleveraged_irr": -0.011558416822191053,
-            "leveraged_irr": -0.5187338334883717
+            "leveraged_irr": -0.1827411455915846
         }
     }
 }

@@ -1,4 +1,4 @@
-import json
+# import json
 from log import logging
 from classes.capex import Capex
 from classes.opex import Opex
@@ -25,7 +25,7 @@ def main(property_data):
     try:
         orig_inputs = property_data
         amort_schedule_df = amort.create_amort_schedule_df(
-            property_data['assumptions']['inputs']['purchase_price'], 
+            property_data['assumptions']['inputs']['purchase_price'] * property_data['assumptions']['inputs']['loan_amount'], 
             property_data['assumptions']['inputs']['interest_rate'],
             12, 
             property_data['assumptions']['inputs']['amortization_period']
@@ -61,11 +61,11 @@ def main(property_data):
     exit(exit_code)
 
 # # TEST main()
-property_data = files.read_json('./inputs.json')
-property_data = main(property_data)
-# Serializing json
-json_object = json.dumps(property_data, indent=4)
+# property_data = files.read_json('./inputs.json')
+# property_data = main(property_data)
+# # Serializing json
+# json_object = json.dumps(property_data, indent=4)
  
-# Writing to sample.json
-with open("./property_data.json", "w") as outfile:
-    outfile.write(json_object)
+# # Writing to sample.json
+# with open("./property_data.json", "w") as outfile:
+#     outfile.write(json_object)
