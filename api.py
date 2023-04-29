@@ -9,7 +9,7 @@ from app import main
 server = Flask(__name__)
 # Set path of current app dirname
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
-logger = logging.getLogger('app.py')
+logger = logging.getLogger('api.py')
 
 # Troubleshooting route
 @server.route('/')
