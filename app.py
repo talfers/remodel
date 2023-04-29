@@ -1,3 +1,4 @@
+import json
 from log import logging
 from classes.capex import Capex
 from classes.opex import Opex
@@ -41,6 +42,9 @@ def main(property_data):
         property_data["opex"]["total_monthly_opex_df"] = opex.create_monthly_opex_df(property_data)
         property_data["cashflow"] = {"monthly_cash_flow_df": cashflow.create_monthly_cashflow_df(property_data), "annual_cashflow_df": None}
         property_data["cashflow"]["annual_cash_flow_df"] = cashflow.create_annual_cashflow_df(property_data["cashflow"]["monthly_cash_flow_df"])
+        property_data["cashflow"]["monthly_cash_flow_df"].to_csv("./monthlycashflow.csv")
+        property_data["cashflow"]["annual_cash_flow_df"].to_csv("./annualcashflow.csv")
+
         property_data["analysis"] = { 
             "valuation_at_sale": analyzer.create_valuation_at_sale(property_data),
             "unleveraged_return_analysis": None,
@@ -49,7 +53,16 @@ def main(property_data):
         property_data["analysis"]["unleveraged_return_analysis"] = analyzer.create_unleveraged_return_analysis_df(property_data)
         property_data["analysis"]["leveraged_return_analysis"] = analyzer.create_leveraged_return_analysis_df(property_data)
         property_data["analysis"]["irr"] = analyzer.create_return_analysis(property_data["analysis"]["unleveraged_return_analysis"], property_data["analysis"]["leveraged_return_analysis"])
+        property_data["analysis"]["unleveraged_return_analysis"].to_csv("./unleveraged_return_analysis.csv")
+        property_data["analysis"]["leveraged_return_analysis"].to_csv("./leveraged_return_analysis.csv")
+        #property_data["analysis"]["irr"].to_csv("./irr.csv")
         property_data = files.convert_df_to_json(property_data)
+        # Serializing json
+        json_object = json.dumps(property_data, indent=4)
+ 
+        # Writing to sample.json
+        with open("./output.json", "w") as outfile:
+            outfile.write(json_object)
         return property_data
         
 
@@ -60,5 +73,5 @@ def main(property_data):
     exit(exit_code)
 
 # # TEST main()
-# property_data = files.read_json('./inputs.json')
-# main(property_data)
+property_data = files.read_json('./inputs.json')
+main(property_data)

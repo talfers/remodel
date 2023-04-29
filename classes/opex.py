@@ -1,49 +1,45 @@
-from log import logging
+import logging
 from math import floor
 import numpy as np
 import pandas as pd
 
 logger = logging.getLogger('opex.py')
 
+
 class Opex:
-    def __init__(self):
+    def __init__(self) -> None:
         pass
 
-    def calc_monthly_expenses(self, property_data):
-        monthly_expenses = {}
-        opex = property_data["opex"]['inputs']
+    def calc_monthly_expenses(self, property_data: dict) -> dict:
+        monthly_expenses: dict[str, float] = {}
+        opex: dict[str, float] = property_data["opex"]['inputs']
         monthly_expenses["capex"] = property_data["capex"]["totals"]["cost_per_month_total"]
-        for ex in opex:
-            if ex == "real_estate_taxes":
-                monthly_expenses[ex] = (opex[ex]/100 * property_data["assumptions"]['inputs']["purchase_price"])/12
-            if ex == "insurance":
-                monthly_expenses[ex] = opex[ex]/12
-            if ex == "mortgage_insurance":
-                monthly_expenses[ex] = opex[ex]/12
-            if ex == "utilities":
-                monthly_expenses[ex] = opex[ex]
-            if ex == "management_fee":
-                monthly_expenses[ex] = opex[ex] * property_data["rent_roll"]["actual_rent_amt_df"].loc["egr", 1]
-            if ex == "advertising":
-                monthly_expenses[ex] = opex[ex]/12
-            if ex == "tax_service":
-                monthly_expenses[ex] = opex[ex]/12
-            if ex == "other":
-                monthly_expenses[ex] = opex[ex]
+        for expense in opex:
+            if expense == "real_estate_taxes":
+                monthly_expenses[expense] = (opex[expense]/100 * property_data["assumptions"]['inputs']["purchase_price"])/12
+            if expense == "insurance":
+                monthly_expenses[expense] = opex[expense]/12
+            if expense == "mortgage_insurance":
+                monthly_expenses[expense] = opex[expense]/12
+            if expense == "utilities":
+                monthly_expenses[expense] = opex[expense]
+            if expense == "management_fee":
+                monthly_expenses[expense] = opex[expense] * property_data["rent_roll"]["actual_rent_amt_df"].loc["egr", 1]
+            if expense == "advertising":
+                monthly_expenses[expense] = opex[expense]/12
+            if expense == "tax_service":
+                monthly_expenses[expense] = opex[expense]/12
+            if expense == "other":
+                monthly_expenses[expense] = opex[expense]
         return monthly_expenses
-    
 
-    def create_monthly_opex_df(self, property_data):
-        indices = [ex for ex in property_data["opex"]["total_monthly_opex"]]
-        df = pd.DataFrame()
-        df = df.set_axis(indices)
-        for i in range(72):
-            df[i+1] = np.nan
-        for i, r in df.iterrows():
-            if i == "management_fee":
-                for col in df:
-                    df.loc[i, col] = property_data['assumptions']['inputs']['general_vacancy'] * property_data["rent_roll"]["actual_rent_amt_df"].loc["egr", col]
+
+    def create_monthly_opex_df(self, property_data) -> pd.DataFrame:
+        indices: List[str] = [expense for expense in property_data["opex"]["total_monthly_opex"]]
+        df: pd.DataFrame = pd.DataFrame(index=indices, columns=list(range(1, 73)), dtype=np.float64).fillna(np.nan)
+        for expense in df.index:
+            if expense == "management_fee":
+                df.loc[expense] = property_data['assumptions']['inputs']['general_vacancy'] * property_data["rent_roll"]["actual_rent_amt_df"].loc["egr"]
             else:
-                for col in df:
-                    df.loc[i, col] = property_data["opex"]["total_monthly_opex"][i] * (1+property_data["assumptions"]["inputs"]["growth_rate_expenses"])**(floor(col/12))
+                df.loc[expense] = property_data["opex"]["total_monthly_opex"][expense] * (1+property_data["assumptions"]["inputs"]["growth_rate_expenses"])**(floor(1/12))
         return df
