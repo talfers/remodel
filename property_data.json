@@ -1,0 +1,3761 @@
+{
+    "assumptions": {
+        "inputs": {
+            "purchase_price": 135000,
+            "loan_amount": 0.8,
+            "land_to_property": 0.2,
+            "interest_rate": 0.0575,
+            "amortization_period": 30,
+            "interest_only": false,
+            "interest_only_period": 12,
+            "closing_costs": 0.055,
+            "square_feet": 1768,
+            "potential_rent": 1000.0,
+            "current_rent": 700.0,
+            "lease_expiration_mo_num": 3,
+            "general_vacancy": 0.1,
+            "cap_rate": 0.12,
+            "growth_rate_income": 0.03,
+            "growth_rate_expenses": 0.02
+        }
+    },
+    "capex": {
+        "property_components": {
+            "roof": {
+                "lifespan": 25,
+                "current_age": 10,
+                "replacement_cost_amt": 10000,
+                "cost_per_year": 666.6666666666666,
+                "cost_per_month": 55.55555555555555
+            },
+            "water_heater": {
+                "lifespan": 10,
+                "current_age": 7,
+                "replacement_cost_amt": 600,
+                "cost_per_year": 200.0,
+                "cost_per_month": 16.666666666666668
+            },
+            "all_appliances": {
+                "lifespan": 10,
+                "current_age": 5,
+                "replacement_cost_amt": 1000,
+                "cost_per_year": 200.0,
+                "cost_per_month": 16.666666666666668
+            },
+            "parking": {
+                "lifespan": 50,
+                "current_age": 15,
+                "replacement_cost_amt": 5000,
+                "cost_per_year": 142.85714285714286,
+                "cost_per_month": 11.904761904761905
+            },
+            "hvac": {
+                "lifespan": 20,
+                "current_age": 10,
+                "replacement_cost_amt": 3000,
+                "cost_per_year": 300.0,
+                "cost_per_month": 25.0
+            },
+            "flooring": {
+                "lifespan": 6,
+                "current_age": 2,
+                "replacement_cost_amt": 2000,
+                "cost_per_year": 500.0,
+                "cost_per_month": 41.666666666666664
+            },
+            "plumbing": {
+                "lifespan": 30,
+                "current_age": 20,
+                "replacement_cost_amt": 3000,
+                "cost_per_year": 300.0,
+                "cost_per_month": 25.0
+            },
+            "windows": {
+                "lifespan": 50,
+                "current_age": 25,
+                "replacement_cost_amt": 5000,
+                "cost_per_year": 200.0,
+                "cost_per_month": 16.666666666666668
+            },
+            "paint": {
+                "lifespan": 5,
+                "current_age": 2,
+                "replacement_cost_amt": 2500,
+                "cost_per_year": 833.3333333333334,
+                "cost_per_month": 69.44444444444444
+            },
+            "cabinets_and_counters": {
+                "lifespan": 20,
+                "current_age": 5,
+                "replacement_cost_amt": 3000,
+                "cost_per_year": 200.0,
+                "cost_per_month": 16.666666666666668
+            },
+            "structure_foundation_framing": {
+                "lifespan": 50,
+                "current_age": 10,
+                "replacement_cost_amt": 10000,
+                "cost_per_year": 250.0,
+                "cost_per_month": 20.833333333333332
+            },
+            "components_garagedoor_etc": {
+                "lifespan": 10,
+                "current_age": 5,
+                "replacement_cost_amt": 1000,
+                "cost_per_year": 200.0,
+                "cost_per_month": 16.666666666666668
+            },
+            "landscaping": {
+                "lifespan": 10,
+                "current_age": 5,
+                "replacement_cost_amt": 1000,
+                "cost_per_year": 200.0,
+                "cost_per_month": 16.666666666666668
+            },
+            "other": {
+                "lifespan": 0,
+                "current_age": 0,
+                "replacement_cost_amt": 0,
+                "cost_per_year": 0.0,
+                "cost_per_month": 0.0
+            }
+        },
+        "totals": {
+            "replacement_cost_total": 47100,
+            "cost_per_year_total": 4192.857142857143,
+            "cost_per_month_total": 349.4047619047619
+        }
+    },
+    "opex": {
+        "inputs": {
+            "real_estate_taxes": 1.4,
+            "insurance": 1500,
+            "mortgage_insurance": 1200,
+            "utilities": 100,
+            "management_fee": 0.1,
+            "advertising": 500,
+            "tax_service": 600,
+            "other": 0
+        },
+        "total_monthly_opex": {
+            "capex": 349.4047619047619,
+            "real_estate_taxes": 157.49999999999997,
+            "insurance": 125.0,
+            "mortgage_insurance": 100.0,
+            "utilities": 100,
+            "management_fee": 63.0,
+            "advertising": 41.666666666666664,
+            "tax_service": 50.0,
+            "other": 0
+        },
+        "total_monthly_opex_df": {
+            "1": {
+                "capex": 349.4047619048,
+                "real_estate_taxes": 157.5,
+                "insurance": 125.0,
+                "mortgage_insurance": 100.0,
+                "utilities": 100.0,
+                "management_fee": 63.0,
+                "advertising": 41.6666666667,
+                "tax_service": 50.0,
+                "other": 0.0
+            },
+            "2": {
+                "capex": 349.4047619048,
+                "real_estate_taxes": 157.5,
+                "insurance": 125.0,
+                "mortgage_insurance": 100.0,
+                "utilities": 100.0,
+                "management_fee": 63.0,
+                "advertising": 41.6666666667,
+                "tax_service": 50.0,
+                "other": 0.0
+            },
+            "3": {
+                "capex": 349.4047619048,
+                "real_estate_taxes": 157.5,
+                "insurance": 125.0,
+                "mortgage_insurance": 100.0,
+                "utilities": 100.0,
+                "management_fee": 63.0,
+                "advertising": 41.6666666667,
+                "tax_service": 50.0,
+                "other": 0.0
+            },
+            "4": {
+                "capex": 349.4047619048,
+                "real_estate_taxes": 157.5,
+                "insurance": 125.0,
+                "mortgage_insurance": 100.0,
+                "utilities": 100.0,
+                "management_fee": -88.0,
+                "advertising": 41.6666666667,
+                "tax_service": 50.0,
+                "other": 0.0
+            },
+            "5": {
+                "capex": 349.4047619048,
+                "real_estate_taxes": 157.5,
+                "insurance": 125.0,
+                "mortgage_insurance": 100.0,
+                "utilities": 100.0,
+                "management_fee": 44.0,
+                "advertising": 41.6666666667,
+                "tax_service": 50.0,
+                "other": 0.0
+            },
+            "6": {
+                "capex": 349.4047619048,
+                "real_estate_taxes": 157.5,
+                "insurance": 125.0,
+                "mortgage_insurance": 100.0,
+                "utilities": 100.0,
+                "management_fee": 79.2,
+                "advertising": 41.6666666667,
+                "tax_service": 50.0,
+                "other": 0.0
+            },
+            "7": {
+                "capex": 349.4047619048,
+                "real_estate_taxes": 157.5,
+                "insurance": 125.0,
+                "mortgage_insurance": 100.0,
+                "utilities": 100.0,
+                "management_fee": 79.2,
+                "advertising": 41.6666666667,
+                "tax_service": 50.0,
+                "other": 0.0
+            },
+            "8": {
+                "capex": 349.4047619048,
+                "real_estate_taxes": 157.5,
+                "insurance": 125.0,
+                "mortgage_insurance": 100.0,
+                "utilities": 100.0,
+                "management_fee": 79.2,
+                "advertising": 41.6666666667,
+                "tax_service": 50.0,
+                "other": 0.0
+            },
+            "9": {
+                "capex": 349.4047619048,
+                "real_estate_taxes": 157.5,
+                "insurance": 125.0,
+                "mortgage_insurance": 100.0,
+                "utilities": 100.0,
+                "management_fee": 79.2,
+                "advertising": 41.6666666667,
+                "tax_service": 50.0,
+                "other": 0.0
+            },
+            "10": {
+                "capex": 349.4047619048,
+                "real_estate_taxes": 157.5,
+                "insurance": 125.0,
+                "mortgage_insurance": 100.0,
+                "utilities": 100.0,
+                "management_fee": 79.2,
+                "advertising": 41.6666666667,
+                "tax_service": 50.0,
+                "other": 0.0
+            },
+            "11": {
+                "capex": 349.4047619048,
+                "real_estate_taxes": 157.5,
+                "insurance": 125.0,
+                "mortgage_insurance": 100.0,
+                "utilities": 100.0,
+                "management_fee": 79.2,
+                "advertising": 41.6666666667,
+                "tax_service": 50.0,
+                "other": 0.0
+            },
+            "12": {
+                "capex": 356.3928571429,
+                "real_estate_taxes": 160.65,
+                "insurance": 127.5,
+                "mortgage_insurance": 102.0,
+                "utilities": 102.0,
+                "management_fee": 81.576,
+                "advertising": 42.5,
+                "tax_service": 51.0,
+                "other": 0.0
+            },
+            "13": {
+                "capex": 356.3928571429,
+                "real_estate_taxes": 160.65,
+                "insurance": 127.5,
+                "mortgage_insurance": 102.0,
+                "utilities": 102.0,
+                "management_fee": 81.576,
+                "advertising": 42.5,
+                "tax_service": 51.0,
+                "other": 0.0
+            },
+            "14": {
+                "capex": 356.3928571429,
+                "real_estate_taxes": 160.65,
+                "insurance": 127.5,
+                "mortgage_insurance": 102.0,
+                "utilities": 102.0,
+                "management_fee": 81.576,
+                "advertising": 42.5,
+                "tax_service": 51.0,
+                "other": 0.0
+            },
+            "15": {
+                "capex": 356.3928571429,
+                "real_estate_taxes": 160.65,
+                "insurance": 127.5,
+                "mortgage_insurance": 102.0,
+                "utilities": 102.0,
+                "management_fee": 81.576,
+                "advertising": 42.5,
+                "tax_service": 51.0,
+                "other": 0.0
+            },
+            "16": {
+                "capex": 356.3928571429,
+                "real_estate_taxes": 160.65,
+                "insurance": 127.5,
+                "mortgage_insurance": 102.0,
+                "utilities": 102.0,
+                "management_fee": 81.576,
+                "advertising": 42.5,
+                "tax_service": 51.0,
+                "other": 0.0
+            },
+            "17": {
+                "capex": 356.3928571429,
+                "real_estate_taxes": 160.65,
+                "insurance": 127.5,
+                "mortgage_insurance": 102.0,
+                "utilities": 102.0,
+                "management_fee": 81.576,
+                "advertising": 42.5,
+                "tax_service": 51.0,
+                "other": 0.0
+            },
+            "18": {
+                "capex": 356.3928571429,
+                "real_estate_taxes": 160.65,
+                "insurance": 127.5,
+                "mortgage_insurance": 102.0,
+                "utilities": 102.0,
+                "management_fee": 81.576,
+                "advertising": 42.5,
+                "tax_service": 51.0,
+                "other": 0.0
+            },
+            "19": {
+                "capex": 356.3928571429,
+                "real_estate_taxes": 160.65,
+                "insurance": 127.5,
+                "mortgage_insurance": 102.0,
+                "utilities": 102.0,
+                "management_fee": 81.576,
+                "advertising": 42.5,
+                "tax_service": 51.0,
+                "other": 0.0
+            },
+            "20": {
+                "capex": 356.3928571429,
+                "real_estate_taxes": 160.65,
+                "insurance": 127.5,
+                "mortgage_insurance": 102.0,
+                "utilities": 102.0,
+                "management_fee": 81.576,
+                "advertising": 42.5,
+                "tax_service": 51.0,
+                "other": 0.0
+            },
+            "21": {
+                "capex": 356.3928571429,
+                "real_estate_taxes": 160.65,
+                "insurance": 127.5,
+                "mortgage_insurance": 102.0,
+                "utilities": 102.0,
+                "management_fee": 81.576,
+                "advertising": 42.5,
+                "tax_service": 51.0,
+                "other": 0.0
+            },
+            "22": {
+                "capex": 356.3928571429,
+                "real_estate_taxes": 160.65,
+                "insurance": 127.5,
+                "mortgage_insurance": 102.0,
+                "utilities": 102.0,
+                "management_fee": 81.576,
+                "advertising": 42.5,
+                "tax_service": 51.0,
+                "other": 0.0
+            },
+            "23": {
+                "capex": 356.3928571429,
+                "real_estate_taxes": 160.65,
+                "insurance": 127.5,
+                "mortgage_insurance": 102.0,
+                "utilities": 102.0,
+                "management_fee": 81.576,
+                "advertising": 42.5,
+                "tax_service": 51.0,
+                "other": 0.0
+            },
+            "24": {
+                "capex": 363.5207142857,
+                "real_estate_taxes": 163.863,
+                "insurance": 130.05,
+                "mortgage_insurance": 104.04,
+                "utilities": 104.04,
+                "management_fee": 84.02328,
+                "advertising": 43.35,
+                "tax_service": 52.02,
+                "other": 0.0
+            },
+            "25": {
+                "capex": 363.5207142857,
+                "real_estate_taxes": 163.863,
+                "insurance": 130.05,
+                "mortgage_insurance": 104.04,
+                "utilities": 104.04,
+                "management_fee": 84.02328,
+                "advertising": 43.35,
+                "tax_service": 52.02,
+                "other": 0.0
+            },
+            "26": {
+                "capex": 363.5207142857,
+                "real_estate_taxes": 163.863,
+                "insurance": 130.05,
+                "mortgage_insurance": 104.04,
+                "utilities": 104.04,
+                "management_fee": 84.02328,
+                "advertising": 43.35,
+                "tax_service": 52.02,
+                "other": 0.0
+            },
+            "27": {
+                "capex": 363.5207142857,
+                "real_estate_taxes": 163.863,
+                "insurance": 130.05,
+                "mortgage_insurance": 104.04,
+                "utilities": 104.04,
+                "management_fee": 84.02328,
+                "advertising": 43.35,
+                "tax_service": 52.02,
+                "other": 0.0
+            },
+            "28": {
+                "capex": 363.5207142857,
+                "real_estate_taxes": 163.863,
+                "insurance": 130.05,
+                "mortgage_insurance": 104.04,
+                "utilities": 104.04,
+                "management_fee": 84.02328,
+                "advertising": 43.35,
+                "tax_service": 52.02,
+                "other": 0.0
+            },
+            "29": {
+                "capex": 363.5207142857,
+                "real_estate_taxes": 163.863,
+                "insurance": 130.05,
+                "mortgage_insurance": 104.04,
+                "utilities": 104.04,
+                "management_fee": 84.02328,
+                "advertising": 43.35,
+                "tax_service": 52.02,
+                "other": 0.0
+            },
+            "30": {
+                "capex": 363.5207142857,
+                "real_estate_taxes": 163.863,
+                "insurance": 130.05,
+                "mortgage_insurance": 104.04,
+                "utilities": 104.04,
+                "management_fee": 84.02328,
+                "advertising": 43.35,
+                "tax_service": 52.02,
+                "other": 0.0
+            },
+            "31": {
+                "capex": 363.5207142857,
+                "real_estate_taxes": 163.863,
+                "insurance": 130.05,
+                "mortgage_insurance": 104.04,
+                "utilities": 104.04,
+                "management_fee": 84.02328,
+                "advertising": 43.35,
+                "tax_service": 52.02,
+                "other": 0.0
+            },
+            "32": {
+                "capex": 363.5207142857,
+                "real_estate_taxes": 163.863,
+                "insurance": 130.05,
+                "mortgage_insurance": 104.04,
+                "utilities": 104.04,
+                "management_fee": 84.02328,
+                "advertising": 43.35,
+                "tax_service": 52.02,
+                "other": 0.0
+            },
+            "33": {
+                "capex": 363.5207142857,
+                "real_estate_taxes": 163.863,
+                "insurance": 130.05,
+                "mortgage_insurance": 104.04,
+                "utilities": 104.04,
+                "management_fee": 84.02328,
+                "advertising": 43.35,
+                "tax_service": 52.02,
+                "other": 0.0
+            },
+            "34": {
+                "capex": 363.5207142857,
+                "real_estate_taxes": 163.863,
+                "insurance": 130.05,
+                "mortgage_insurance": 104.04,
+                "utilities": 104.04,
+                "management_fee": 84.02328,
+                "advertising": 43.35,
+                "tax_service": 52.02,
+                "other": 0.0
+            },
+            "35": {
+                "capex": 363.5207142857,
+                "real_estate_taxes": 163.863,
+                "insurance": 130.05,
+                "mortgage_insurance": 104.04,
+                "utilities": 104.04,
+                "management_fee": 84.02328,
+                "advertising": 43.35,
+                "tax_service": 52.02,
+                "other": 0.0
+            },
+            "36": {
+                "capex": 370.7911285714,
+                "real_estate_taxes": 167.14026,
+                "insurance": 132.651,
+                "mortgage_insurance": 106.1208,
+                "utilities": 106.1208,
+                "management_fee": 86.5439784,
+                "advertising": 44.217,
+                "tax_service": 53.0604,
+                "other": 0.0
+            },
+            "37": {
+                "capex": 370.7911285714,
+                "real_estate_taxes": 167.14026,
+                "insurance": 132.651,
+                "mortgage_insurance": 106.1208,
+                "utilities": 106.1208,
+                "management_fee": 86.5439784,
+                "advertising": 44.217,
+                "tax_service": 53.0604,
+                "other": 0.0
+            },
+            "38": {
+                "capex": 370.7911285714,
+                "real_estate_taxes": 167.14026,
+                "insurance": 132.651,
+                "mortgage_insurance": 106.1208,
+                "utilities": 106.1208,
+                "management_fee": 86.5439784,
+                "advertising": 44.217,
+                "tax_service": 53.0604,
+                "other": 0.0
+            },
+            "39": {
+                "capex": 370.7911285714,
+                "real_estate_taxes": 167.14026,
+                "insurance": 132.651,
+                "mortgage_insurance": 106.1208,
+                "utilities": 106.1208,
+                "management_fee": 86.5439784,
+                "advertising": 44.217,
+                "tax_service": 53.0604,
+                "other": 0.0
+            },
+            "40": {
+                "capex": 370.7911285714,
+                "real_estate_taxes": 167.14026,
+                "insurance": 132.651,
+                "mortgage_insurance": 106.1208,
+                "utilities": 106.1208,
+                "management_fee": 86.5439784,
+                "advertising": 44.217,
+                "tax_service": 53.0604,
+                "other": 0.0
+            },
+            "41": {
+                "capex": 370.7911285714,
+                "real_estate_taxes": 167.14026,
+                "insurance": 132.651,
+                "mortgage_insurance": 106.1208,
+                "utilities": 106.1208,
+                "management_fee": 86.5439784,
+                "advertising": 44.217,
+                "tax_service": 53.0604,
+                "other": 0.0
+            },
+            "42": {
+                "capex": 370.7911285714,
+                "real_estate_taxes": 167.14026,
+                "insurance": 132.651,
+                "mortgage_insurance": 106.1208,
+                "utilities": 106.1208,
+                "management_fee": 86.5439784,
+                "advertising": 44.217,
+                "tax_service": 53.0604,
+                "other": 0.0
+            },
+            "43": {
+                "capex": 370.7911285714,
+                "real_estate_taxes": 167.14026,
+                "insurance": 132.651,
+                "mortgage_insurance": 106.1208,
+                "utilities": 106.1208,
+                "management_fee": 86.5439784,
+                "advertising": 44.217,
+                "tax_service": 53.0604,
+                "other": 0.0
+            },
+            "44": {
+                "capex": 370.7911285714,
+                "real_estate_taxes": 167.14026,
+                "insurance": 132.651,
+                "mortgage_insurance": 106.1208,
+                "utilities": 106.1208,
+                "management_fee": 86.5439784,
+                "advertising": 44.217,
+                "tax_service": 53.0604,
+                "other": 0.0
+            },
+            "45": {
+                "capex": 370.7911285714,
+                "real_estate_taxes": 167.14026,
+                "insurance": 132.651,
+                "mortgage_insurance": 106.1208,
+                "utilities": 106.1208,
+                "management_fee": 86.5439784,
+                "advertising": 44.217,
+                "tax_service": 53.0604,
+                "other": 0.0
+            },
+            "46": {
+                "capex": 370.7911285714,
+                "real_estate_taxes": 167.14026,
+                "insurance": 132.651,
+                "mortgage_insurance": 106.1208,
+                "utilities": 106.1208,
+                "management_fee": 86.5439784,
+                "advertising": 44.217,
+                "tax_service": 53.0604,
+                "other": 0.0
+            },
+            "47": {
+                "capex": 370.7911285714,
+                "real_estate_taxes": 167.14026,
+                "insurance": 132.651,
+                "mortgage_insurance": 106.1208,
+                "utilities": 106.1208,
+                "management_fee": 86.5439784,
+                "advertising": 44.217,
+                "tax_service": 53.0604,
+                "other": 0.0
+            },
+            "48": {
+                "capex": 378.2069511429,
+                "real_estate_taxes": 170.4830652,
+                "insurance": 135.30402,
+                "mortgage_insurance": 108.243216,
+                "utilities": 108.243216,
+                "management_fee": 89.140297752,
+                "advertising": 45.10134,
+                "tax_service": 54.121608,
+                "other": 0.0
+            },
+            "49": {
+                "capex": 378.2069511429,
+                "real_estate_taxes": 170.4830652,
+                "insurance": 135.30402,
+                "mortgage_insurance": 108.243216,
+                "utilities": 108.243216,
+                "management_fee": 89.140297752,
+                "advertising": 45.10134,
+                "tax_service": 54.121608,
+                "other": 0.0
+            },
+            "50": {
+                "capex": 378.2069511429,
+                "real_estate_taxes": 170.4830652,
+                "insurance": 135.30402,
+                "mortgage_insurance": 108.243216,
+                "utilities": 108.243216,
+                "management_fee": 89.140297752,
+                "advertising": 45.10134,
+                "tax_service": 54.121608,
+                "other": 0.0
+            },
+            "51": {
+                "capex": 378.2069511429,
+                "real_estate_taxes": 170.4830652,
+                "insurance": 135.30402,
+                "mortgage_insurance": 108.243216,
+                "utilities": 108.243216,
+                "management_fee": 89.140297752,
+                "advertising": 45.10134,
+                "tax_service": 54.121608,
+                "other": 0.0
+            },
+            "52": {
+                "capex": 378.2069511429,
+                "real_estate_taxes": 170.4830652,
+                "insurance": 135.30402,
+                "mortgage_insurance": 108.243216,
+                "utilities": 108.243216,
+                "management_fee": 89.140297752,
+                "advertising": 45.10134,
+                "tax_service": 54.121608,
+                "other": 0.0
+            },
+            "53": {
+                "capex": 378.2069511429,
+                "real_estate_taxes": 170.4830652,
+                "insurance": 135.30402,
+                "mortgage_insurance": 108.243216,
+                "utilities": 108.243216,
+                "management_fee": 89.140297752,
+                "advertising": 45.10134,
+                "tax_service": 54.121608,
+                "other": 0.0
+            },
+            "54": {
+                "capex": 378.2069511429,
+                "real_estate_taxes": 170.4830652,
+                "insurance": 135.30402,
+                "mortgage_insurance": 108.243216,
+                "utilities": 108.243216,
+                "management_fee": 89.140297752,
+                "advertising": 45.10134,
+                "tax_service": 54.121608,
+                "other": 0.0
+            },
+            "55": {
+                "capex": 378.2069511429,
+                "real_estate_taxes": 170.4830652,
+                "insurance": 135.30402,
+                "mortgage_insurance": 108.243216,
+                "utilities": 108.243216,
+                "management_fee": 89.140297752,
+                "advertising": 45.10134,
+                "tax_service": 54.121608,
+                "other": 0.0
+            },
+            "56": {
+                "capex": 378.2069511429,
+                "real_estate_taxes": 170.4830652,
+                "insurance": 135.30402,
+                "mortgage_insurance": 108.243216,
+                "utilities": 108.243216,
+                "management_fee": 89.140297752,
+                "advertising": 45.10134,
+                "tax_service": 54.121608,
+                "other": 0.0
+            },
+            "57": {
+                "capex": 378.2069511429,
+                "real_estate_taxes": 170.4830652,
+                "insurance": 135.30402,
+                "mortgage_insurance": 108.243216,
+                "utilities": 108.243216,
+                "management_fee": 89.140297752,
+                "advertising": 45.10134,
+                "tax_service": 54.121608,
+                "other": 0.0
+            },
+            "58": {
+                "capex": 378.2069511429,
+                "real_estate_taxes": 170.4830652,
+                "insurance": 135.30402,
+                "mortgage_insurance": 108.243216,
+                "utilities": 108.243216,
+                "management_fee": 89.140297752,
+                "advertising": 45.10134,
+                "tax_service": 54.121608,
+                "other": 0.0
+            },
+            "59": {
+                "capex": 378.2069511429,
+                "real_estate_taxes": 170.4830652,
+                "insurance": 135.30402,
+                "mortgage_insurance": 108.243216,
+                "utilities": 108.243216,
+                "management_fee": 89.140297752,
+                "advertising": 45.10134,
+                "tax_service": 54.121608,
+                "other": 0.0
+            },
+            "60": {
+                "capex": 385.7710901657,
+                "real_estate_taxes": 173.892726504,
+                "insurance": 138.0101004,
+                "mortgage_insurance": 110.40808032,
+                "utilities": 110.40808032,
+                "management_fee": 91.8145066846,
+                "advertising": 46.0033668,
+                "tax_service": 55.20404016,
+                "other": 0.0
+            },
+            "61": {
+                "capex": 385.7710901657,
+                "real_estate_taxes": 173.892726504,
+                "insurance": 138.0101004,
+                "mortgage_insurance": 110.40808032,
+                "utilities": 110.40808032,
+                "management_fee": 91.8145066846,
+                "advertising": 46.0033668,
+                "tax_service": 55.20404016,
+                "other": 0.0
+            },
+            "62": {
+                "capex": 385.7710901657,
+                "real_estate_taxes": 173.892726504,
+                "insurance": 138.0101004,
+                "mortgage_insurance": 110.40808032,
+                "utilities": 110.40808032,
+                "management_fee": 91.8145066846,
+                "advertising": 46.0033668,
+                "tax_service": 55.20404016,
+                "other": 0.0
+            },
+            "63": {
+                "capex": 385.7710901657,
+                "real_estate_taxes": 173.892726504,
+                "insurance": 138.0101004,
+                "mortgage_insurance": 110.40808032,
+                "utilities": 110.40808032,
+                "management_fee": 91.8145066846,
+                "advertising": 46.0033668,
+                "tax_service": 55.20404016,
+                "other": 0.0
+            },
+            "64": {
+                "capex": 385.7710901657,
+                "real_estate_taxes": 173.892726504,
+                "insurance": 138.0101004,
+                "mortgage_insurance": 110.40808032,
+                "utilities": 110.40808032,
+                "management_fee": 91.8145066846,
+                "advertising": 46.0033668,
+                "tax_service": 55.20404016,
+                "other": 0.0
+            },
+            "65": {
+                "capex": 385.7710901657,
+                "real_estate_taxes": 173.892726504,
+                "insurance": 138.0101004,
+                "mortgage_insurance": 110.40808032,
+                "utilities": 110.40808032,
+                "management_fee": 91.8145066846,
+                "advertising": 46.0033668,
+                "tax_service": 55.20404016,
+                "other": 0.0
+            },
+            "66": {
+                "capex": 385.7710901657,
+                "real_estate_taxes": 173.892726504,
+                "insurance": 138.0101004,
+                "mortgage_insurance": 110.40808032,
+                "utilities": 110.40808032,
+                "management_fee": 91.8145066846,
+                "advertising": 46.0033668,
+                "tax_service": 55.20404016,
+                "other": 0.0
+            },
+            "67": {
+                "capex": 385.7710901657,
+                "real_estate_taxes": 173.892726504,
+                "insurance": 138.0101004,
+                "mortgage_insurance": 110.40808032,
+                "utilities": 110.40808032,
+                "management_fee": 91.8145066846,
+                "advertising": 46.0033668,
+                "tax_service": 55.20404016,
+                "other": 0.0
+            },
+            "68": {
+                "capex": 385.7710901657,
+                "real_estate_taxes": 173.892726504,
+                "insurance": 138.0101004,
+                "mortgage_insurance": 110.40808032,
+                "utilities": 110.40808032,
+                "management_fee": 91.8145066846,
+                "advertising": 46.0033668,
+                "tax_service": 55.20404016,
+                "other": 0.0
+            },
+            "69": {
+                "capex": 385.7710901657,
+                "real_estate_taxes": 173.892726504,
+                "insurance": 138.0101004,
+                "mortgage_insurance": 110.40808032,
+                "utilities": 110.40808032,
+                "management_fee": 91.8145066846,
+                "advertising": 46.0033668,
+                "tax_service": 55.20404016,
+                "other": 0.0
+            },
+            "70": {
+                "capex": 385.7710901657,
+                "real_estate_taxes": 173.892726504,
+                "insurance": 138.0101004,
+                "mortgage_insurance": 110.40808032,
+                "utilities": 110.40808032,
+                "management_fee": 91.8145066846,
+                "advertising": 46.0033668,
+                "tax_service": 55.20404016,
+                "other": 0.0
+            },
+            "71": {
+                "capex": 385.7710901657,
+                "real_estate_taxes": 173.892726504,
+                "insurance": 138.0101004,
+                "mortgage_insurance": 110.40808032,
+                "utilities": 110.40808032,
+                "management_fee": 91.8145066846,
+                "advertising": 46.0033668,
+                "tax_service": 55.20404016,
+                "other": 0.0
+            },
+            "72": {
+                "capex": 393.486511969,
+                "real_estate_taxes": 177.3705810341,
+                "insurance": 140.770302408,
+                "mortgage_insurance": 112.6162419264,
+                "utilities": 112.6162419264,
+                "management_fee": 94.5689418851,
+                "advertising": 46.923434136,
+                "tax_service": 56.3081209632,
+                "other": 0.0
+            }
+        }
+    },
+    "rent_roll": {
+        "inputs": {
+            "renew_probability_pct": 0.4,
+            "downtime": 1,
+            "free_rent_new": 1,
+            "free_rent_renewal": 2
+        },
+        "rent_estimates": {
+            "rent_amt": {
+                "new": 1000.0,
+                "renewal": 700.0
+            },
+            "rent_price_per_sqft": {
+                "new": 6.787330316742081,
+                "renewal": 4.751131221719457,
+                "weighted": 5.972850678733032
+            }
+        },
+        "vacany_loss": {
+            "weighted_downtime": 1.0,
+            "weighted_free_rent": 1.4
+        },
+        "market_rent_df": {
+            "1": {
+                "market_rent_price_per_sqft": 5.9728506787
+            },
+            "2": {
+                "market_rent_price_per_sqft": 5.9728506787
+            },
+            "3": {
+                "market_rent_price_per_sqft": 5.9728506787
+            },
+            "4": {
+                "market_rent_price_per_sqft": 5.9728506787
+            },
+            "5": {
+                "market_rent_price_per_sqft": 5.9728506787
+            },
+            "6": {
+                "market_rent_price_per_sqft": 5.9728506787
+            },
+            "7": {
+                "market_rent_price_per_sqft": 5.9728506787
+            },
+            "8": {
+                "market_rent_price_per_sqft": 5.9728506787
+            },
+            "9": {
+                "market_rent_price_per_sqft": 5.9728506787
+            },
+            "10": {
+                "market_rent_price_per_sqft": 5.9728506787
+            },
+            "11": {
+                "market_rent_price_per_sqft": 5.9728506787
+            },
+            "12": {
+                "market_rent_price_per_sqft": 6.1520361991
+            },
+            "13": {
+                "market_rent_price_per_sqft": 6.1520361991
+            },
+            "14": {
+                "market_rent_price_per_sqft": 6.1520361991
+            },
+            "15": {
+                "market_rent_price_per_sqft": 6.1520361991
+            },
+            "16": {
+                "market_rent_price_per_sqft": 6.1520361991
+            },
+            "17": {
+                "market_rent_price_per_sqft": 6.1520361991
+            },
+            "18": {
+                "market_rent_price_per_sqft": 6.1520361991
+            },
+            "19": {
+                "market_rent_price_per_sqft": 6.1520361991
+            },
+            "20": {
+                "market_rent_price_per_sqft": 6.1520361991
+            },
+            "21": {
+                "market_rent_price_per_sqft": 6.1520361991
+            },
+            "22": {
+                "market_rent_price_per_sqft": 6.1520361991
+            },
+            "23": {
+                "market_rent_price_per_sqft": 6.1520361991
+            },
+            "24": {
+                "market_rent_price_per_sqft": 6.3365972851
+            },
+            "25": {
+                "market_rent_price_per_sqft": 6.3365972851
+            },
+            "26": {
+                "market_rent_price_per_sqft": 6.3365972851
+            },
+            "27": {
+                "market_rent_price_per_sqft": 6.3365972851
+            },
+            "28": {
+                "market_rent_price_per_sqft": 6.3365972851
+            },
+            "29": {
+                "market_rent_price_per_sqft": 6.3365972851
+            },
+            "30": {
+                "market_rent_price_per_sqft": 6.3365972851
+            },
+            "31": {
+                "market_rent_price_per_sqft": 6.3365972851
+            },
+            "32": {
+                "market_rent_price_per_sqft": 6.3365972851
+            },
+            "33": {
+                "market_rent_price_per_sqft": 6.3365972851
+            },
+            "34": {
+                "market_rent_price_per_sqft": 6.3365972851
+            },
+            "35": {
+                "market_rent_price_per_sqft": 6.3365972851
+            },
+            "36": {
+                "market_rent_price_per_sqft": 6.5266952036
+            },
+            "37": {
+                "market_rent_price_per_sqft": 6.5266952036
+            },
+            "38": {
+                "market_rent_price_per_sqft": 6.5266952036
+            },
+            "39": {
+                "market_rent_price_per_sqft": 6.5266952036
+            },
+            "40": {
+                "market_rent_price_per_sqft": 6.5266952036
+            },
+            "41": {
+                "market_rent_price_per_sqft": 6.5266952036
+            },
+            "42": {
+                "market_rent_price_per_sqft": 6.5266952036
+            },
+            "43": {
+                "market_rent_price_per_sqft": 6.5266952036
+            },
+            "44": {
+                "market_rent_price_per_sqft": 6.5266952036
+            },
+            "45": {
+                "market_rent_price_per_sqft": 6.5266952036
+            },
+            "46": {
+                "market_rent_price_per_sqft": 6.5266952036
+            },
+            "47": {
+                "market_rent_price_per_sqft": 6.5266952036
+            },
+            "48": {
+                "market_rent_price_per_sqft": 6.7224960597
+            },
+            "49": {
+                "market_rent_price_per_sqft": 6.7224960597
+            },
+            "50": {
+                "market_rent_price_per_sqft": 6.7224960597
+            },
+            "51": {
+                "market_rent_price_per_sqft": 6.7224960597
+            },
+            "52": {
+                "market_rent_price_per_sqft": 6.7224960597
+            },
+            "53": {
+                "market_rent_price_per_sqft": 6.7224960597
+            },
+            "54": {
+                "market_rent_price_per_sqft": 6.7224960597
+            },
+            "55": {
+                "market_rent_price_per_sqft": 6.7224960597
+            },
+            "56": {
+                "market_rent_price_per_sqft": 6.7224960597
+            },
+            "57": {
+                "market_rent_price_per_sqft": 6.7224960597
+            },
+            "58": {
+                "market_rent_price_per_sqft": 6.7224960597
+            },
+            "59": {
+                "market_rent_price_per_sqft": 6.7224960597
+            },
+            "60": {
+                "market_rent_price_per_sqft": 6.9241709415
+            },
+            "61": {
+                "market_rent_price_per_sqft": 6.9241709415
+            },
+            "62": {
+                "market_rent_price_per_sqft": 6.9241709415
+            },
+            "63": {
+                "market_rent_price_per_sqft": 6.9241709415
+            },
+            "64": {
+                "market_rent_price_per_sqft": 6.9241709415
+            },
+            "65": {
+                "market_rent_price_per_sqft": 6.9241709415
+            },
+            "66": {
+                "market_rent_price_per_sqft": 6.9241709415
+            },
+            "67": {
+                "market_rent_price_per_sqft": 6.9241709415
+            },
+            "68": {
+                "market_rent_price_per_sqft": 6.9241709415
+            },
+            "69": {
+                "market_rent_price_per_sqft": 6.9241709415
+            },
+            "70": {
+                "market_rent_price_per_sqft": 6.9241709415
+            },
+            "71": {
+                "market_rent_price_per_sqft": 6.9241709415
+            },
+            "72": {
+                "market_rent_price_per_sqft": 7.1318960698
+            }
+        },
+        "free_rent_df": {
+            "4": {
+                "free_rent_pct": 1.0
+            },
+            "5": {
+                "free_rent_pct": 0.4
+            },
+            "6": {
+                "free_rent_pct": 0.0
+            }
+        },
+        "actual_rent_price_per_sqft_df": {
+            "1": {
+                "potential_rent_price": 4.7511312217,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.4751131222,
+                "egr": 4.2760180995
+            },
+            "2": {
+                "potential_rent_price": 4.7511312217,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.4751131222,
+                "egr": 4.2760180995
+            },
+            "3": {
+                "potential_rent_price": 4.7511312217,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.4751131222,
+                "egr": 4.2760180995
+            },
+            "4": {
+                "potential_rent_price": 5.9728506787,
+                "absorption_and_turnover_vacancy": -5.9728506787,
+                "free_rent": -5.9728506787,
+                "general_vacancy": 0.0,
+                "egr": -5.9728506787
+            },
+            "5": {
+                "potential_rent_price": 5.9728506787,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": -2.3891402715,
+                "general_vacancy": -0.5972850679,
+                "egr": 2.9864253394
+            },
+            "6": {
+                "potential_rent_price": 5.9728506787,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.5972850679,
+                "egr": 5.3755656109
+            },
+            "7": {
+                "potential_rent_price": 5.9728506787,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.5972850679,
+                "egr": 5.3755656109
+            },
+            "8": {
+                "potential_rent_price": 5.9728506787,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.5972850679,
+                "egr": 5.3755656109
+            },
+            "9": {
+                "potential_rent_price": 5.9728506787,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.5972850679,
+                "egr": 5.3755656109
+            },
+            "10": {
+                "potential_rent_price": 5.9728506787,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.5972850679,
+                "egr": 5.3755656109
+            },
+            "11": {
+                "potential_rent_price": 5.9728506787,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.5972850679,
+                "egr": 5.3755656109
+            },
+            "12": {
+                "potential_rent_price": 6.1520361991,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6152036199,
+                "egr": 5.5368325792
+            },
+            "13": {
+                "potential_rent_price": 6.1520361991,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6152036199,
+                "egr": 5.5368325792
+            },
+            "14": {
+                "potential_rent_price": 6.1520361991,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6152036199,
+                "egr": 5.5368325792
+            },
+            "15": {
+                "potential_rent_price": 6.1520361991,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6152036199,
+                "egr": 5.5368325792
+            },
+            "16": {
+                "potential_rent_price": 6.1520361991,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6152036199,
+                "egr": 5.5368325792
+            },
+            "17": {
+                "potential_rent_price": 6.1520361991,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6152036199,
+                "egr": 5.5368325792
+            },
+            "18": {
+                "potential_rent_price": 6.1520361991,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6152036199,
+                "egr": 5.5368325792
+            },
+            "19": {
+                "potential_rent_price": 6.1520361991,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6152036199,
+                "egr": 5.5368325792
+            },
+            "20": {
+                "potential_rent_price": 6.1520361991,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6152036199,
+                "egr": 5.5368325792
+            },
+            "21": {
+                "potential_rent_price": 6.1520361991,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6152036199,
+                "egr": 5.5368325792
+            },
+            "22": {
+                "potential_rent_price": 6.1520361991,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6152036199,
+                "egr": 5.5368325792
+            },
+            "23": {
+                "potential_rent_price": 6.1520361991,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6152036199,
+                "egr": 5.5368325792
+            },
+            "24": {
+                "potential_rent_price": 6.3365972851,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6336597285,
+                "egr": 5.7029375566
+            },
+            "25": {
+                "potential_rent_price": 6.3365972851,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6336597285,
+                "egr": 5.7029375566
+            },
+            "26": {
+                "potential_rent_price": 6.3365972851,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6336597285,
+                "egr": 5.7029375566
+            },
+            "27": {
+                "potential_rent_price": 6.3365972851,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6336597285,
+                "egr": 5.7029375566
+            },
+            "28": {
+                "potential_rent_price": 6.3365972851,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6336597285,
+                "egr": 5.7029375566
+            },
+            "29": {
+                "potential_rent_price": 6.3365972851,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6336597285,
+                "egr": 5.7029375566
+            },
+            "30": {
+                "potential_rent_price": 6.3365972851,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6336597285,
+                "egr": 5.7029375566
+            },
+            "31": {
+                "potential_rent_price": 6.3365972851,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6336597285,
+                "egr": 5.7029375566
+            },
+            "32": {
+                "potential_rent_price": 6.3365972851,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6336597285,
+                "egr": 5.7029375566
+            },
+            "33": {
+                "potential_rent_price": 6.3365972851,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6336597285,
+                "egr": 5.7029375566
+            },
+            "34": {
+                "potential_rent_price": 6.3365972851,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6336597285,
+                "egr": 5.7029375566
+            },
+            "35": {
+                "potential_rent_price": 6.3365972851,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6336597285,
+                "egr": 5.7029375566
+            },
+            "36": {
+                "potential_rent_price": 6.5266952036,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6526695204,
+                "egr": 5.8740256833
+            },
+            "37": {
+                "potential_rent_price": 6.5266952036,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6526695204,
+                "egr": 5.8740256833
+            },
+            "38": {
+                "potential_rent_price": 6.5266952036,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6526695204,
+                "egr": 5.8740256833
+            },
+            "39": {
+                "potential_rent_price": 6.5266952036,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6526695204,
+                "egr": 5.8740256833
+            },
+            "40": {
+                "potential_rent_price": 6.5266952036,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6526695204,
+                "egr": 5.8740256833
+            },
+            "41": {
+                "potential_rent_price": 6.5266952036,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6526695204,
+                "egr": 5.8740256833
+            },
+            "42": {
+                "potential_rent_price": 6.5266952036,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6526695204,
+                "egr": 5.8740256833
+            },
+            "43": {
+                "potential_rent_price": 6.5266952036,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6526695204,
+                "egr": 5.8740256833
+            },
+            "44": {
+                "potential_rent_price": 6.5266952036,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6526695204,
+                "egr": 5.8740256833
+            },
+            "45": {
+                "potential_rent_price": 6.5266952036,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6526695204,
+                "egr": 5.8740256833
+            },
+            "46": {
+                "potential_rent_price": 6.5266952036,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6526695204,
+                "egr": 5.8740256833
+            },
+            "47": {
+                "potential_rent_price": 6.5266952036,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6526695204,
+                "egr": 5.8740256833
+            },
+            "48": {
+                "potential_rent_price": 6.7224960597,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.672249606,
+                "egr": 6.0502464538
+            },
+            "49": {
+                "potential_rent_price": 6.7224960597,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.672249606,
+                "egr": 6.0502464538
+            },
+            "50": {
+                "potential_rent_price": 6.7224960597,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.672249606,
+                "egr": 6.0502464538
+            },
+            "51": {
+                "potential_rent_price": 6.7224960597,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.672249606,
+                "egr": 6.0502464538
+            },
+            "52": {
+                "potential_rent_price": 6.7224960597,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.672249606,
+                "egr": 6.0502464538
+            },
+            "53": {
+                "potential_rent_price": 6.7224960597,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.672249606,
+                "egr": 6.0502464538
+            },
+            "54": {
+                "potential_rent_price": 6.7224960597,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.672249606,
+                "egr": 6.0502464538
+            },
+            "55": {
+                "potential_rent_price": 6.7224960597,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.672249606,
+                "egr": 6.0502464538
+            },
+            "56": {
+                "potential_rent_price": 6.7224960597,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.672249606,
+                "egr": 6.0502464538
+            },
+            "57": {
+                "potential_rent_price": 6.7224960597,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.672249606,
+                "egr": 6.0502464538
+            },
+            "58": {
+                "potential_rent_price": 6.7224960597,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.672249606,
+                "egr": 6.0502464538
+            },
+            "59": {
+                "potential_rent_price": 6.7224960597,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.672249606,
+                "egr": 6.0502464538
+            },
+            "60": {
+                "potential_rent_price": 6.9241709415,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6924170942,
+                "egr": 6.2317538474
+            },
+            "61": {
+                "potential_rent_price": 6.9241709415,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6924170942,
+                "egr": 6.2317538474
+            },
+            "62": {
+                "potential_rent_price": 6.9241709415,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6924170942,
+                "egr": 6.2317538474
+            },
+            "63": {
+                "potential_rent_price": 6.9241709415,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6924170942,
+                "egr": 6.2317538474
+            },
+            "64": {
+                "potential_rent_price": 6.9241709415,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6924170942,
+                "egr": 6.2317538474
+            },
+            "65": {
+                "potential_rent_price": 6.9241709415,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6924170942,
+                "egr": 6.2317538474
+            },
+            "66": {
+                "potential_rent_price": 6.9241709415,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6924170942,
+                "egr": 6.2317538474
+            },
+            "67": {
+                "potential_rent_price": 6.9241709415,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6924170942,
+                "egr": 6.2317538474
+            },
+            "68": {
+                "potential_rent_price": 6.9241709415,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6924170942,
+                "egr": 6.2317538474
+            },
+            "69": {
+                "potential_rent_price": 6.9241709415,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6924170942,
+                "egr": 6.2317538474
+            },
+            "70": {
+                "potential_rent_price": 6.9241709415,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6924170942,
+                "egr": 6.2317538474
+            },
+            "71": {
+                "potential_rent_price": 6.9241709415,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.6924170942,
+                "egr": 6.2317538474
+            },
+            "72": {
+                "potential_rent_price": 7.1318960698,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -0.713189607,
+                "egr": 6.4187064628
+            }
+        },
+        "actual_rent_amt_df": {
+            "1": {
+                "potential_rent_price": 700.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -70.0,
+                "egr": 630.0
+            },
+            "2": {
+                "potential_rent_price": 700.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -70.0,
+                "egr": 630.0
+            },
+            "3": {
+                "potential_rent_price": 700.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -70.0,
+                "egr": 630.0
+            },
+            "4": {
+                "potential_rent_price": 880.0,
+                "absorption_and_turnover_vacancy": -880.0,
+                "free_rent": -880.0,
+                "general_vacancy": 0.0,
+                "egr": -880.0
+            },
+            "5": {
+                "potential_rent_price": 880.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": -352.0,
+                "general_vacancy": -88.0,
+                "egr": 440.0
+            },
+            "6": {
+                "potential_rent_price": 880.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -88.0,
+                "egr": 792.0
+            },
+            "7": {
+                "potential_rent_price": 880.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -88.0,
+                "egr": 792.0
+            },
+            "8": {
+                "potential_rent_price": 880.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -88.0,
+                "egr": 792.0
+            },
+            "9": {
+                "potential_rent_price": 880.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -88.0,
+                "egr": 792.0
+            },
+            "10": {
+                "potential_rent_price": 880.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -88.0,
+                "egr": 792.0
+            },
+            "11": {
+                "potential_rent_price": 880.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -88.0,
+                "egr": 792.0
+            },
+            "12": {
+                "potential_rent_price": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "egr": 815.76
+            },
+            "13": {
+                "potential_rent_price": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "egr": 815.76
+            },
+            "14": {
+                "potential_rent_price": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "egr": 815.76
+            },
+            "15": {
+                "potential_rent_price": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "egr": 815.76
+            },
+            "16": {
+                "potential_rent_price": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "egr": 815.76
+            },
+            "17": {
+                "potential_rent_price": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "egr": 815.76
+            },
+            "18": {
+                "potential_rent_price": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "egr": 815.76
+            },
+            "19": {
+                "potential_rent_price": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "egr": 815.76
+            },
+            "20": {
+                "potential_rent_price": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "egr": 815.76
+            },
+            "21": {
+                "potential_rent_price": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "egr": 815.76
+            },
+            "22": {
+                "potential_rent_price": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "egr": 815.76
+            },
+            "23": {
+                "potential_rent_price": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "egr": 815.76
+            },
+            "24": {
+                "potential_rent_price": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "egr": 840.2328
+            },
+            "25": {
+                "potential_rent_price": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "egr": 840.2328
+            },
+            "26": {
+                "potential_rent_price": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "egr": 840.2328
+            },
+            "27": {
+                "potential_rent_price": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "egr": 840.2328
+            },
+            "28": {
+                "potential_rent_price": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "egr": 840.2328
+            },
+            "29": {
+                "potential_rent_price": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "egr": 840.2328
+            },
+            "30": {
+                "potential_rent_price": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "egr": 840.2328
+            },
+            "31": {
+                "potential_rent_price": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "egr": 840.2328
+            },
+            "32": {
+                "potential_rent_price": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "egr": 840.2328
+            },
+            "33": {
+                "potential_rent_price": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "egr": 840.2328
+            },
+            "34": {
+                "potential_rent_price": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "egr": 840.2328
+            },
+            "35": {
+                "potential_rent_price": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "egr": 840.2328
+            },
+            "36": {
+                "potential_rent_price": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "egr": 865.439784
+            },
+            "37": {
+                "potential_rent_price": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "egr": 865.439784
+            },
+            "38": {
+                "potential_rent_price": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "egr": 865.439784
+            },
+            "39": {
+                "potential_rent_price": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "egr": 865.439784
+            },
+            "40": {
+                "potential_rent_price": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "egr": 865.439784
+            },
+            "41": {
+                "potential_rent_price": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "egr": 865.439784
+            },
+            "42": {
+                "potential_rent_price": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "egr": 865.439784
+            },
+            "43": {
+                "potential_rent_price": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "egr": 865.439784
+            },
+            "44": {
+                "potential_rent_price": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "egr": 865.439784
+            },
+            "45": {
+                "potential_rent_price": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "egr": 865.439784
+            },
+            "46": {
+                "potential_rent_price": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "egr": 865.439784
+            },
+            "47": {
+                "potential_rent_price": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "egr": 865.439784
+            },
+            "48": {
+                "potential_rent_price": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "egr": 891.40297752
+            },
+            "49": {
+                "potential_rent_price": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "egr": 891.40297752
+            },
+            "50": {
+                "potential_rent_price": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "egr": 891.40297752
+            },
+            "51": {
+                "potential_rent_price": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "egr": 891.40297752
+            },
+            "52": {
+                "potential_rent_price": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "egr": 891.40297752
+            },
+            "53": {
+                "potential_rent_price": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "egr": 891.40297752
+            },
+            "54": {
+                "potential_rent_price": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "egr": 891.40297752
+            },
+            "55": {
+                "potential_rent_price": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "egr": 891.40297752
+            },
+            "56": {
+                "potential_rent_price": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "egr": 891.40297752
+            },
+            "57": {
+                "potential_rent_price": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "egr": 891.40297752
+            },
+            "58": {
+                "potential_rent_price": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "egr": 891.40297752
+            },
+            "59": {
+                "potential_rent_price": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "egr": 891.40297752
+            },
+            "60": {
+                "potential_rent_price": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "egr": 918.1450668456
+            },
+            "61": {
+                "potential_rent_price": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "egr": 918.1450668456
+            },
+            "62": {
+                "potential_rent_price": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "egr": 918.1450668456
+            },
+            "63": {
+                "potential_rent_price": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "egr": 918.1450668456
+            },
+            "64": {
+                "potential_rent_price": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "egr": 918.1450668456
+            },
+            "65": {
+                "potential_rent_price": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "egr": 918.1450668456
+            },
+            "66": {
+                "potential_rent_price": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "egr": 918.1450668456
+            },
+            "67": {
+                "potential_rent_price": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "egr": 918.1450668456
+            },
+            "68": {
+                "potential_rent_price": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "egr": 918.1450668456
+            },
+            "69": {
+                "potential_rent_price": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "egr": 918.1450668456
+            },
+            "70": {
+                "potential_rent_price": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "egr": 918.1450668456
+            },
+            "71": {
+                "potential_rent_price": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "egr": 918.1450668456
+            },
+            "72": {
+                "potential_rent_price": 1050.7660209455,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -105.0766020946,
+                "egr": 945.689418851
+            }
+        }
+    },
+    "amortization_schedule": {
+        "amort_schedule_df": {
+            "1": {
+                "principal": -112.758684959,
+                "interest": -517.5,
+                "amount": -630.258684959,
+                "balance": 107887.241315041
+            },
+            "2": {
+                "principal": -113.2989869911,
+                "interest": -516.9596979679,
+                "amount": -630.258684959,
+                "balance": 107773.9423280498
+            },
+            "3": {
+                "principal": -113.8418779705,
+                "interest": -516.4168069886,
+                "amount": -630.258684959,
+                "balance": 107660.1004500794
+            },
+            "4": {
+                "principal": -114.3873703024,
+                "interest": -515.8713146566,
+                "amount": -630.258684959,
+                "balance": 107545.713079777
+            },
+            "5": {
+                "principal": -114.9354764518,
+                "interest": -515.3232085073,
+                "amount": -630.258684959,
+                "balance": 107430.7776033252
+            },
+            "6": {
+                "principal": -115.4862089431,
+                "interest": -514.7724760159,
+                "amount": -630.258684959,
+                "balance": 107315.2913943821
+            },
+            "7": {
+                "principal": -116.039580361,
+                "interest": -514.2191045981,
+                "amount": -630.258684959,
+                "balance": 107199.2518140212
+            },
+            "8": {
+                "principal": -116.5956033502,
+                "interest": -513.6630816089,
+                "amount": -630.258684959,
+                "balance": 107082.656210671
+            },
+            "9": {
+                "principal": -117.1542906162,
+                "interest": -513.1043943428,
+                "amount": -630.258684959,
+                "balance": 106965.5019200547
+            },
+            "10": {
+                "principal": -117.7156549254,
+                "interest": -512.5430300336,
+                "amount": -630.258684959,
+                "balance": 106847.7862651293
+            },
+            "11": {
+                "principal": -118.2797091053,
+                "interest": -511.9789758537,
+                "amount": -630.258684959,
+                "balance": 106729.506556024
+            },
+            "12": {
+                "principal": -118.8464660448,
+                "interest": -511.4122189143,
+                "amount": -630.258684959,
+                "balance": 106610.6600899793
+            },
+            "13": {
+                "principal": -119.4159386945,
+                "interest": -510.8427462645,
+                "amount": -630.258684959,
+                "balance": 106491.2441512847
+            },
+            "14": {
+                "principal": -119.9881400675,
+                "interest": -510.2705448916,
+                "amount": -630.258684959,
+                "balance": 106371.2560112173
+            },
+            "15": {
+                "principal": -120.5630832386,
+                "interest": -509.6956017204,
+                "amount": -630.258684959,
+                "balance": 106250.6929279786
+            },
+            "16": {
+                "principal": -121.1407813458,
+                "interest": -509.1179036132,
+                "amount": -630.258684959,
+                "balance": 106129.5521466328
+            },
+            "17": {
+                "principal": -121.7212475898,
+                "interest": -508.5374373693,
+                "amount": -630.258684959,
+                "balance": 106007.8308990431
+            },
+            "18": {
+                "principal": -122.3044952345,
+                "interest": -507.9541897246,
+                "amount": -630.258684959,
+                "balance": 105885.5264038086
+            },
+            "19": {
+                "principal": -122.8905376075,
+                "interest": -507.3681473516,
+                "amount": -630.258684959,
+                "balance": 105762.6358662012
+            },
+            "20": {
+                "principal": -123.4793881002,
+                "interest": -506.7792968589,
+                "amount": -630.258684959,
+                "balance": 105639.156478101
+            },
+            "21": {
+                "principal": -124.0710601681,
+                "interest": -506.1876247909,
+                "amount": -630.258684959,
+                "balance": 105515.0854179329
+            },
+            "22": {
+                "principal": -124.6655673314,
+                "interest": -505.5931176276,
+                "amount": -630.258684959,
+                "balance": 105390.4198506015
+            },
+            "23": {
+                "principal": -125.2629231749,
+                "interest": -504.9957617841,
+                "amount": -630.258684959,
+                "balance": 105265.1569274265
+            },
+            "24": {
+                "principal": -125.8631413484,
+                "interest": -504.3955436106,
+                "amount": -630.258684959,
+                "balance": 105139.2937860781
+            },
+            "25": {
+                "principal": -126.4662355674,
+                "interest": -503.7924493916,
+                "amount": -630.258684959,
+                "balance": 105012.8275505107
+            },
+            "26": {
+                "principal": -127.0722196128,
+                "interest": -503.1864653462,
+                "amount": -630.258684959,
+                "balance": 104885.7553308979
+            },
+            "27": {
+                "principal": -127.6811073318,
+                "interest": -502.5775776272,
+                "amount": -630.258684959,
+                "balance": 104758.074223566
+            },
+            "28": {
+                "principal": -128.2929126378,
+                "interest": -501.9657723213,
+                "amount": -630.258684959,
+                "balance": 104629.7813109283
+            },
+            "29": {
+                "principal": -128.9076495108,
+                "interest": -501.3510354482,
+                "amount": -630.258684959,
+                "balance": 104500.8736614174
+            },
+            "30": {
+                "principal": -129.5253319981,
+                "interest": -500.733352961,
+                "amount": -630.258684959,
+                "balance": 104371.3483294194
+            },
+            "31": {
+                "principal": -130.1459742139,
+                "interest": -500.1127107451,
+                "amount": -630.258684959,
+                "balance": 104241.2023552055
+            },
+            "32": {
+                "principal": -130.7695903403,
+                "interest": -499.4890946187,
+                "amount": -630.258684959,
+                "balance": 104110.4327648651
+            },
+            "33": {
+                "principal": -131.3961946274,
+                "interest": -498.8624903316,
+                "amount": -630.258684959,
+                "balance": 103979.0365702377
+            },
+            "34": {
+                "principal": -132.0258013933,
+                "interest": -498.2328835657,
+                "amount": -630.258684959,
+                "balance": 103847.0107688444
+            },
+            "35": {
+                "principal": -132.658425025,
+                "interest": -497.600259934,
+                "amount": -630.258684959,
+                "balance": 103714.3523438194
+            },
+            "36": {
+                "principal": -133.2940799782,
+                "interest": -496.9646049808,
+                "amount": -630.258684959,
+                "balance": 103581.0582638412
+            },
+            "37": {
+                "principal": -133.9327807781,
+                "interest": -496.3259041809,
+                "amount": -630.258684959,
+                "balance": 103447.1254830631
+            },
+            "38": {
+                "principal": -134.5745420194,
+                "interest": -495.6841429397,
+                "amount": -630.258684959,
+                "balance": 103312.5509410437
+            },
+            "39": {
+                "principal": -135.2193783665,
+                "interest": -495.0393065925,
+                "amount": -630.258684959,
+                "balance": 103177.3315626772
+            },
+            "40": {
+                "principal": -135.8673045545,
+                "interest": -494.3913804045,
+                "amount": -630.258684959,
+                "balance": 103041.4642581227
+            },
+            "41": {
+                "principal": -136.5183353889,
+                "interest": -493.7403495702,
+                "amount": -630.258684959,
+                "balance": 102904.9459227338
+            },
+            "42": {
+                "principal": -137.1724857459,
+                "interest": -493.0861992131,
+                "amount": -630.258684959,
+                "balance": 102767.7734369878
+            },
+            "43": {
+                "principal": -137.8297705735,
+                "interest": -492.4289143856,
+                "amount": -630.258684959,
+                "balance": 102629.9436664144
+            },
+            "44": {
+                "principal": -138.4902048908,
+                "interest": -491.7684800682,
+                "amount": -630.258684959,
+                "balance": 102491.4534615236
+            },
+            "45": {
+                "principal": -139.1538037892,
+                "interest": -491.1048811698,
+                "amount": -630.258684959,
+                "balance": 102352.2996577343
+            },
+            "46": {
+                "principal": -139.8205824324,
+                "interest": -490.4381025266,
+                "amount": -630.258684959,
+                "balance": 102212.479075302
+            },
+            "47": {
+                "principal": -140.4905560565,
+                "interest": -489.7681289025,
+                "amount": -630.258684959,
+                "balance": 102071.9885192454
+            },
+            "48": {
+                "principal": -141.163739971,
+                "interest": -489.0949449881,
+                "amount": -630.258684959,
+                "balance": 101930.8247792744
+            },
+            "49": {
+                "principal": -141.8401495583,
+                "interest": -488.4185354007,
+                "amount": -630.258684959,
+                "balance": 101788.9846297161
+            },
+            "50": {
+                "principal": -142.519800275,
+                "interest": -487.7388846841,
+                "amount": -630.258684959,
+                "balance": 101646.4648294411
+            },
+            "51": {
+                "principal": -143.2027076513,
+                "interest": -487.0559773077,
+                "amount": -630.258684959,
+                "balance": 101503.2621217898
+            },
+            "52": {
+                "principal": -143.8888872921,
+                "interest": -486.3697976669,
+                "amount": -630.258684959,
+                "balance": 101359.3732344977
+            },
+            "53": {
+                "principal": -144.5783548771,
+                "interest": -485.680330082,
+                "amount": -630.258684959,
+                "balance": 101214.7948796206
+            },
+            "54": {
+                "principal": -145.2711261609,
+                "interest": -484.9875587982,
+                "amount": -630.258684959,
+                "balance": 101069.5237534598
+            },
+            "55": {
+                "principal": -145.9672169737,
+                "interest": -484.2914679853,
+                "amount": -630.258684959,
+                "balance": 100923.5565364861
+            },
+            "56": {
+                "principal": -146.6666432217,
+                "interest": -483.5920417373,
+                "amount": -630.258684959,
+                "balance": 100776.8898932644
+            },
+            "57": {
+                "principal": -147.3694208871,
+                "interest": -482.8892640719,
+                "amount": -630.258684959,
+                "balance": 100629.5204723772
+            },
+            "58": {
+                "principal": -148.0755660289,
+                "interest": -482.1831189301,
+                "amount": -630.258684959,
+                "balance": 100481.4449063483
+            },
+            "59": {
+                "principal": -148.7850947828,
+                "interest": -481.4735901763,
+                "amount": -630.258684959,
+                "balance": 100332.6598115656
+            },
+            "60": {
+                "principal": -149.4980233619,
+                "interest": -480.7606615971,
+                "amount": -630.258684959,
+                "balance": 100183.1617882036
+            },
+            "61": {
+                "principal": -150.2143680572,
+                "interest": -480.0443169018,
+                "amount": -630.258684959,
+                "balance": 100032.9474201464
+            },
+            "62": {
+                "principal": -150.9341452375,
+                "interest": -479.3245397215,
+                "amount": -630.258684959,
+                "balance": 99882.0132749089
+            },
+            "63": {
+                "principal": -151.6573713501,
+                "interest": -478.6013136089,
+                "amount": -630.258684959,
+                "balance": 99730.3559035588
+            },
+            "64": {
+                "principal": -152.3840629211,
+                "interest": -477.8746220379,
+                "amount": -630.258684959,
+                "balance": 99577.9718406376
+            },
+            "65": {
+                "principal": -153.114236556,
+                "interest": -477.1444484031,
+                "amount": -630.258684959,
+                "balance": 99424.8576040817
+            },
+            "66": {
+                "principal": -153.8479089395,
+                "interest": -476.4107760196,
+                "amount": -630.258684959,
+                "balance": 99271.0096951422
+            },
+            "67": {
+                "principal": -154.5850968365,
+                "interest": -475.6735881226,
+                "amount": -630.258684959,
+                "balance": 99116.4245983057
+            },
+            "68": {
+                "principal": -155.3258170922,
+                "interest": -474.9328678669,
+                "amount": -630.258684959,
+                "balance": 98961.0987812135
+            },
+            "69": {
+                "principal": -156.0700866324,
+                "interest": -474.1885983266,
+                "amount": -630.258684959,
+                "balance": 98805.0286945812
+            },
+            "70": {
+                "principal": -156.8179224642,
+                "interest": -473.4407624949,
+                "amount": -630.258684959,
+                "balance": 98648.210772117
+            },
+            "71": {
+                "principal": -157.569341676,
+                "interest": -472.6893432831,
+                "amount": -630.258684959,
+                "balance": 98490.641430441
+            },
+            "72": {
+                "principal": -158.3243614382,
+                "interest": -471.9343235209,
+                "amount": -630.258684959,
+                "balance": 98332.3170690028
+            },
+            "73": {
+                "principal": -159.0829990034,
+                "interest": -471.1756859556,
+                "amount": -630.258684959,
+                "balance": 98173.2340699995
+            }
+        }
+    },
+    "cashflow": {
+        "monthly_cash_flow_df": {
+            "1": {
+                "potential_gross_revenue": 700.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -70.0,
+                "effective_gross_revenue": 630.0,
+                "operating_expenses": 986.5714285714,
+                "net_operating_income": -356.5714285714,
+                "principal": -112.758684959,
+                "interest": -517.5,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -986.8301135305
+            },
+            "2": {
+                "potential_gross_revenue": 700.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -70.0,
+                "effective_gross_revenue": 630.0,
+                "operating_expenses": 986.5714285714,
+                "net_operating_income": -356.5714285714,
+                "principal": -113.2989869911,
+                "interest": -516.9596979679,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -986.8301135305
+            },
+            "3": {
+                "potential_gross_revenue": 700.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -70.0,
+                "effective_gross_revenue": 630.0,
+                "operating_expenses": 986.5714285714,
+                "net_operating_income": -356.5714285714,
+                "principal": -113.8418779705,
+                "interest": -516.4168069886,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -986.8301135305
+            },
+            "4": {
+                "potential_gross_revenue": 880.0,
+                "absorption_and_turnover_vacancy": -880.0,
+                "free_rent": -880.0,
+                "general_vacancy": 0.0,
+                "effective_gross_revenue": -880.0,
+                "operating_expenses": 835.5714285714,
+                "net_operating_income": -1715.5714285714,
+                "principal": -114.3873703024,
+                "interest": -515.8713146566,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -2345.8301135305
+            },
+            "5": {
+                "potential_gross_revenue": 880.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": -352.0,
+                "general_vacancy": -88.0,
+                "effective_gross_revenue": 440.0,
+                "operating_expenses": 967.5714285714,
+                "net_operating_income": -527.5714285714,
+                "principal": -114.9354764518,
+                "interest": -515.3232085073,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -1157.8301135305
+            },
+            "6": {
+                "potential_gross_revenue": 880.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -88.0,
+                "effective_gross_revenue": 792.0,
+                "operating_expenses": 1002.7714285714,
+                "net_operating_income": -210.7714285714,
+                "principal": -115.4862089431,
+                "interest": -514.7724760159,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -841.0301135305
+            },
+            "7": {
+                "potential_gross_revenue": 880.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -88.0,
+                "effective_gross_revenue": 792.0,
+                "operating_expenses": 1002.7714285714,
+                "net_operating_income": -210.7714285714,
+                "principal": -116.039580361,
+                "interest": -514.2191045981,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -841.0301135305
+            },
+            "8": {
+                "potential_gross_revenue": 880.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -88.0,
+                "effective_gross_revenue": 792.0,
+                "operating_expenses": 1002.7714285714,
+                "net_operating_income": -210.7714285714,
+                "principal": -116.5956033502,
+                "interest": -513.6630816089,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -841.0301135305
+            },
+            "9": {
+                "potential_gross_revenue": 880.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -88.0,
+                "effective_gross_revenue": 792.0,
+                "operating_expenses": 1002.7714285714,
+                "net_operating_income": -210.7714285714,
+                "principal": -117.1542906162,
+                "interest": -513.1043943428,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -841.0301135305
+            },
+            "10": {
+                "potential_gross_revenue": 880.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -88.0,
+                "effective_gross_revenue": 792.0,
+                "operating_expenses": 1002.7714285714,
+                "net_operating_income": -210.7714285714,
+                "principal": -117.7156549254,
+                "interest": -512.5430300336,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -841.0301135305
+            },
+            "11": {
+                "potential_gross_revenue": 880.0,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -88.0,
+                "effective_gross_revenue": 792.0,
+                "operating_expenses": 1002.7714285714,
+                "net_operating_income": -210.7714285714,
+                "principal": -118.2797091053,
+                "interest": -511.9789758537,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -841.0301135305
+            },
+            "12": {
+                "potential_gross_revenue": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "effective_gross_revenue": 815.76,
+                "operating_expenses": 1023.6188571429,
+                "net_operating_income": -207.8588571429,
+                "principal": -118.8464660448,
+                "interest": -511.4122189143,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
+            },
+            "13": {
+                "potential_gross_revenue": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "effective_gross_revenue": 815.76,
+                "operating_expenses": 1023.6188571429,
+                "net_operating_income": -207.8588571429,
+                "principal": -119.4159386945,
+                "interest": -510.8427462645,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
+            },
+            "14": {
+                "potential_gross_revenue": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "effective_gross_revenue": 815.76,
+                "operating_expenses": 1023.6188571429,
+                "net_operating_income": -207.8588571429,
+                "principal": -119.9881400675,
+                "interest": -510.2705448916,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
+            },
+            "15": {
+                "potential_gross_revenue": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "effective_gross_revenue": 815.76,
+                "operating_expenses": 1023.6188571429,
+                "net_operating_income": -207.8588571429,
+                "principal": -120.5630832386,
+                "interest": -509.6956017204,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
+            },
+            "16": {
+                "potential_gross_revenue": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "effective_gross_revenue": 815.76,
+                "operating_expenses": 1023.6188571429,
+                "net_operating_income": -207.8588571429,
+                "principal": -121.1407813458,
+                "interest": -509.1179036132,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
+            },
+            "17": {
+                "potential_gross_revenue": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "effective_gross_revenue": 815.76,
+                "operating_expenses": 1023.6188571429,
+                "net_operating_income": -207.8588571429,
+                "principal": -121.7212475898,
+                "interest": -508.5374373693,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
+            },
+            "18": {
+                "potential_gross_revenue": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "effective_gross_revenue": 815.76,
+                "operating_expenses": 1023.6188571429,
+                "net_operating_income": -207.8588571429,
+                "principal": -122.3044952345,
+                "interest": -507.9541897246,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
+            },
+            "19": {
+                "potential_gross_revenue": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "effective_gross_revenue": 815.76,
+                "operating_expenses": 1023.6188571429,
+                "net_operating_income": -207.8588571429,
+                "principal": -122.8905376075,
+                "interest": -507.3681473516,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
+            },
+            "20": {
+                "potential_gross_revenue": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "effective_gross_revenue": 815.76,
+                "operating_expenses": 1023.6188571429,
+                "net_operating_income": -207.8588571429,
+                "principal": -123.4793881002,
+                "interest": -506.7792968589,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
+            },
+            "21": {
+                "potential_gross_revenue": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "effective_gross_revenue": 815.76,
+                "operating_expenses": 1023.6188571429,
+                "net_operating_income": -207.8588571429,
+                "principal": -124.0710601681,
+                "interest": -506.1876247909,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
+            },
+            "22": {
+                "potential_gross_revenue": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "effective_gross_revenue": 815.76,
+                "operating_expenses": 1023.6188571429,
+                "net_operating_income": -207.8588571429,
+                "principal": -124.6655673314,
+                "interest": -505.5931176276,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
+            },
+            "23": {
+                "potential_gross_revenue": 906.4,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -90.64,
+                "effective_gross_revenue": 815.76,
+                "operating_expenses": 1023.6188571429,
+                "net_operating_income": -207.8588571429,
+                "principal": -125.2629231749,
+                "interest": -504.9957617841,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -838.1175421019
+            },
+            "24": {
+                "potential_gross_revenue": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "effective_gross_revenue": 840.2328,
+                "operating_expenses": 1044.9069942857,
+                "net_operating_income": -204.6741942857,
+                "principal": -125.8631413484,
+                "interest": -504.3955436106,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
+            },
+            "25": {
+                "potential_gross_revenue": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "effective_gross_revenue": 840.2328,
+                "operating_expenses": 1044.9069942857,
+                "net_operating_income": -204.6741942857,
+                "principal": -126.4662355674,
+                "interest": -503.7924493916,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
+            },
+            "26": {
+                "potential_gross_revenue": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "effective_gross_revenue": 840.2328,
+                "operating_expenses": 1044.9069942857,
+                "net_operating_income": -204.6741942857,
+                "principal": -127.0722196128,
+                "interest": -503.1864653462,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
+            },
+            "27": {
+                "potential_gross_revenue": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "effective_gross_revenue": 840.2328,
+                "operating_expenses": 1044.9069942857,
+                "net_operating_income": -204.6741942857,
+                "principal": -127.6811073318,
+                "interest": -502.5775776272,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
+            },
+            "28": {
+                "potential_gross_revenue": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "effective_gross_revenue": 840.2328,
+                "operating_expenses": 1044.9069942857,
+                "net_operating_income": -204.6741942857,
+                "principal": -128.2929126378,
+                "interest": -501.9657723213,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
+            },
+            "29": {
+                "potential_gross_revenue": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "effective_gross_revenue": 840.2328,
+                "operating_expenses": 1044.9069942857,
+                "net_operating_income": -204.6741942857,
+                "principal": -128.9076495108,
+                "interest": -501.3510354482,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
+            },
+            "30": {
+                "potential_gross_revenue": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "effective_gross_revenue": 840.2328,
+                "operating_expenses": 1044.9069942857,
+                "net_operating_income": -204.6741942857,
+                "principal": -129.5253319981,
+                "interest": -500.733352961,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
+            },
+            "31": {
+                "potential_gross_revenue": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "effective_gross_revenue": 840.2328,
+                "operating_expenses": 1044.9069942857,
+                "net_operating_income": -204.6741942857,
+                "principal": -130.1459742139,
+                "interest": -500.1127107451,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
+            },
+            "32": {
+                "potential_gross_revenue": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "effective_gross_revenue": 840.2328,
+                "operating_expenses": 1044.9069942857,
+                "net_operating_income": -204.6741942857,
+                "principal": -130.7695903403,
+                "interest": -499.4890946187,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
+            },
+            "33": {
+                "potential_gross_revenue": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "effective_gross_revenue": 840.2328,
+                "operating_expenses": 1044.9069942857,
+                "net_operating_income": -204.6741942857,
+                "principal": -131.3961946274,
+                "interest": -498.8624903316,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
+            },
+            "34": {
+                "potential_gross_revenue": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "effective_gross_revenue": 840.2328,
+                "operating_expenses": 1044.9069942857,
+                "net_operating_income": -204.6741942857,
+                "principal": -132.0258013933,
+                "interest": -498.2328835657,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
+            },
+            "35": {
+                "potential_gross_revenue": 933.592,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -93.3592,
+                "effective_gross_revenue": 840.2328,
+                "operating_expenses": 1044.9069942857,
+                "net_operating_income": -204.6741942857,
+                "principal": -132.658425025,
+                "interest": -497.600259934,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -834.9328792447
+            },
+            "36": {
+                "potential_gross_revenue": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "effective_gross_revenue": 865.439784,
+                "operating_expenses": 1066.6453669714,
+                "net_operating_income": -201.2055829714,
+                "principal": -133.2940799782,
+                "interest": -496.9646049808,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
+            },
+            "37": {
+                "potential_gross_revenue": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "effective_gross_revenue": 865.439784,
+                "operating_expenses": 1066.6453669714,
+                "net_operating_income": -201.2055829714,
+                "principal": -133.9327807781,
+                "interest": -496.3259041809,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
+            },
+            "38": {
+                "potential_gross_revenue": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "effective_gross_revenue": 865.439784,
+                "operating_expenses": 1066.6453669714,
+                "net_operating_income": -201.2055829714,
+                "principal": -134.5745420194,
+                "interest": -495.6841429397,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
+            },
+            "39": {
+                "potential_gross_revenue": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "effective_gross_revenue": 865.439784,
+                "operating_expenses": 1066.6453669714,
+                "net_operating_income": -201.2055829714,
+                "principal": -135.2193783665,
+                "interest": -495.0393065925,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
+            },
+            "40": {
+                "potential_gross_revenue": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "effective_gross_revenue": 865.439784,
+                "operating_expenses": 1066.6453669714,
+                "net_operating_income": -201.2055829714,
+                "principal": -135.8673045545,
+                "interest": -494.3913804045,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
+            },
+            "41": {
+                "potential_gross_revenue": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "effective_gross_revenue": 865.439784,
+                "operating_expenses": 1066.6453669714,
+                "net_operating_income": -201.2055829714,
+                "principal": -136.5183353889,
+                "interest": -493.7403495702,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
+            },
+            "42": {
+                "potential_gross_revenue": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "effective_gross_revenue": 865.439784,
+                "operating_expenses": 1066.6453669714,
+                "net_operating_income": -201.2055829714,
+                "principal": -137.1724857459,
+                "interest": -493.0861992131,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
+            },
+            "43": {
+                "potential_gross_revenue": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "effective_gross_revenue": 865.439784,
+                "operating_expenses": 1066.6453669714,
+                "net_operating_income": -201.2055829714,
+                "principal": -137.8297705735,
+                "interest": -492.4289143856,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
+            },
+            "44": {
+                "potential_gross_revenue": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "effective_gross_revenue": 865.439784,
+                "operating_expenses": 1066.6453669714,
+                "net_operating_income": -201.2055829714,
+                "principal": -138.4902048908,
+                "interest": -491.7684800682,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
+            },
+            "45": {
+                "potential_gross_revenue": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "effective_gross_revenue": 865.439784,
+                "operating_expenses": 1066.6453669714,
+                "net_operating_income": -201.2055829714,
+                "principal": -139.1538037892,
+                "interest": -491.1048811698,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
+            },
+            "46": {
+                "potential_gross_revenue": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "effective_gross_revenue": 865.439784,
+                "operating_expenses": 1066.6453669714,
+                "net_operating_income": -201.2055829714,
+                "principal": -139.8205824324,
+                "interest": -490.4381025266,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
+            },
+            "47": {
+                "potential_gross_revenue": 961.59976,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -96.159976,
+                "effective_gross_revenue": 865.439784,
+                "operating_expenses": 1066.6453669714,
+                "net_operating_income": -201.2055829714,
+                "principal": -140.4905560565,
+                "interest": -489.7681289025,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -831.4642679305
+            },
+            "48": {
+                "potential_gross_revenue": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "effective_gross_revenue": 891.40297752,
+                "operating_expenses": 1088.8437140949,
+                "net_operating_income": -197.4407365749,
+                "principal": -141.163739971,
+                "interest": -489.0949449881,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
+            },
+            "49": {
+                "potential_gross_revenue": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "effective_gross_revenue": 891.40297752,
+                "operating_expenses": 1088.8437140949,
+                "net_operating_income": -197.4407365749,
+                "principal": -141.8401495583,
+                "interest": -488.4185354007,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
+            },
+            "50": {
+                "potential_gross_revenue": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "effective_gross_revenue": 891.40297752,
+                "operating_expenses": 1088.8437140949,
+                "net_operating_income": -197.4407365749,
+                "principal": -142.519800275,
+                "interest": -487.7388846841,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
+            },
+            "51": {
+                "potential_gross_revenue": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "effective_gross_revenue": 891.40297752,
+                "operating_expenses": 1088.8437140949,
+                "net_operating_income": -197.4407365749,
+                "principal": -143.2027076513,
+                "interest": -487.0559773077,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
+            },
+            "52": {
+                "potential_gross_revenue": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "effective_gross_revenue": 891.40297752,
+                "operating_expenses": 1088.8437140949,
+                "net_operating_income": -197.4407365749,
+                "principal": -143.8888872921,
+                "interest": -486.3697976669,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
+            },
+            "53": {
+                "potential_gross_revenue": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "effective_gross_revenue": 891.40297752,
+                "operating_expenses": 1088.8437140949,
+                "net_operating_income": -197.4407365749,
+                "principal": -144.5783548771,
+                "interest": -485.680330082,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
+            },
+            "54": {
+                "potential_gross_revenue": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "effective_gross_revenue": 891.40297752,
+                "operating_expenses": 1088.8437140949,
+                "net_operating_income": -197.4407365749,
+                "principal": -145.2711261609,
+                "interest": -484.9875587982,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
+            },
+            "55": {
+                "potential_gross_revenue": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "effective_gross_revenue": 891.40297752,
+                "operating_expenses": 1088.8437140949,
+                "net_operating_income": -197.4407365749,
+                "principal": -145.9672169737,
+                "interest": -484.2914679853,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
+            },
+            "56": {
+                "potential_gross_revenue": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "effective_gross_revenue": 891.40297752,
+                "operating_expenses": 1088.8437140949,
+                "net_operating_income": -197.4407365749,
+                "principal": -146.6666432217,
+                "interest": -483.5920417373,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
+            },
+            "57": {
+                "potential_gross_revenue": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "effective_gross_revenue": 891.40297752,
+                "operating_expenses": 1088.8437140949,
+                "net_operating_income": -197.4407365749,
+                "principal": -147.3694208871,
+                "interest": -482.8892640719,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
+            },
+            "58": {
+                "potential_gross_revenue": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "effective_gross_revenue": 891.40297752,
+                "operating_expenses": 1088.8437140949,
+                "net_operating_income": -197.4407365749,
+                "principal": -148.0755660289,
+                "interest": -482.1831189301,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
+            },
+            "59": {
+                "potential_gross_revenue": 990.4477528,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -99.04477528,
+                "effective_gross_revenue": 891.40297752,
+                "operating_expenses": 1088.8437140949,
+                "net_operating_income": -197.4407365749,
+                "principal": -148.7850947828,
+                "interest": -481.4735901763,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -827.6994215339
+            },
+            "60": {
+                "potential_gross_revenue": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "effective_gross_revenue": 918.1450668456,
+                "operating_expenses": 1111.5119913543,
+                "net_operating_income": -193.3669245087,
+                "principal": -149.4980233619,
+                "interest": -480.7606615971,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
+            },
+            "61": {
+                "potential_gross_revenue": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "effective_gross_revenue": 918.1450668456,
+                "operating_expenses": 1111.5119913543,
+                "net_operating_income": -193.3669245087,
+                "principal": -150.2143680572,
+                "interest": -480.0443169018,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
+            },
+            "62": {
+                "potential_gross_revenue": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "effective_gross_revenue": 918.1450668456,
+                "operating_expenses": 1111.5119913543,
+                "net_operating_income": -193.3669245087,
+                "principal": -150.9341452375,
+                "interest": -479.3245397215,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
+            },
+            "63": {
+                "potential_gross_revenue": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "effective_gross_revenue": 918.1450668456,
+                "operating_expenses": 1111.5119913543,
+                "net_operating_income": -193.3669245087,
+                "principal": -151.6573713501,
+                "interest": -478.6013136089,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
+            },
+            "64": {
+                "potential_gross_revenue": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "effective_gross_revenue": 918.1450668456,
+                "operating_expenses": 1111.5119913543,
+                "net_operating_income": -193.3669245087,
+                "principal": -152.3840629211,
+                "interest": -477.8746220379,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
+            },
+            "65": {
+                "potential_gross_revenue": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "effective_gross_revenue": 918.1450668456,
+                "operating_expenses": 1111.5119913543,
+                "net_operating_income": -193.3669245087,
+                "principal": -153.114236556,
+                "interest": -477.1444484031,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
+            },
+            "66": {
+                "potential_gross_revenue": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "effective_gross_revenue": 918.1450668456,
+                "operating_expenses": 1111.5119913543,
+                "net_operating_income": -193.3669245087,
+                "principal": -153.8479089395,
+                "interest": -476.4107760196,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
+            },
+            "67": {
+                "potential_gross_revenue": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "effective_gross_revenue": 918.1450668456,
+                "operating_expenses": 1111.5119913543,
+                "net_operating_income": -193.3669245087,
+                "principal": -154.5850968365,
+                "interest": -475.6735881226,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
+            },
+            "68": {
+                "potential_gross_revenue": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "effective_gross_revenue": 918.1450668456,
+                "operating_expenses": 1111.5119913543,
+                "net_operating_income": -193.3669245087,
+                "principal": -155.3258170922,
+                "interest": -474.9328678669,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
+            },
+            "69": {
+                "potential_gross_revenue": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "effective_gross_revenue": 918.1450668456,
+                "operating_expenses": 1111.5119913543,
+                "net_operating_income": -193.3669245087,
+                "principal": -156.0700866324,
+                "interest": -474.1885983266,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
+            },
+            "70": {
+                "potential_gross_revenue": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "effective_gross_revenue": 918.1450668456,
+                "operating_expenses": 1111.5119913543,
+                "net_operating_income": -193.3669245087,
+                "principal": -156.8179224642,
+                "interest": -473.4407624949,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
+            },
+            "71": {
+                "potential_gross_revenue": 1020.161185384,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -102.0161185384,
+                "effective_gross_revenue": 918.1450668456,
+                "operating_expenses": 1111.5119913543,
+                "net_operating_income": -193.3669245087,
+                "principal": -157.569341676,
+                "interest": -472.6893432831,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -823.6256094677
+            },
+            "72": {
+                "potential_gross_revenue": 1050.7660209455,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -105.0766020946,
+                "effective_gross_revenue": 945.689418851,
+                "operating_expenses": 1134.6603762482,
+                "net_operating_income": -188.9709573972,
+                "principal": -158.3243614382,
+                "interest": -471.9343235209,
+                "total_debt_service": -630.258684959,
+                "cash_flow_after_debt_service": -819.2296423563
+            }
+        },
+        "annual_cashflow_df": null,
+        "annual_cash_flow_df": {
+            "1": {
+                "potential_gross_revenue": 10046.4,
+                "absorption_and_turnover_vacancy": -880.0,
+                "free_rent": -1232.0,
+                "general_vacancy": -916.64,
+                "effective_gross_revenue": 7017.76,
+                "operating_expenses": 11803.1045714286,
+                "net_operating_income": -4785.3445714286,
+                "principal": -1389.3399100207,
+                "interest": -6173.7643094877,
+                "total_debt_service": -7563.1042195084,
+                "cash_flow_after_debt_service": -12348.448790937
+            },
+            "2": {
+                "potential_gross_revenue": 10903.992,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -1090.3992,
+                "effective_gross_revenue": 9813.5928,
+                "operating_expenses": 12304.7144228571,
+                "net_operating_income": -2491.1216228571,
+                "principal": -1471.3663039012,
+                "interest": -6091.7379156072,
+                "total_debt_service": -7563.1042195084,
+                "cash_flow_after_debt_service": -10054.2258423655
+            },
+            "3": {
+                "potential_gross_revenue": 11231.11176,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -1123.111176,
+                "effective_gross_revenue": 10108.000584,
+                "operating_expenses": 12560.6223041143,
+                "net_operating_income": -2452.6217201143,
+                "principal": -1558.2355222369,
+                "interest": -6004.8686972715,
+                "total_debt_service": -7563.1042195084,
+                "cash_flow_after_debt_service": -10015.7259396227
+            },
+            "4": {
+                "potential_gross_revenue": 11568.0451128,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -1156.80451128,
+                "effective_gross_revenue": 10411.24060152,
+                "operating_expenses": 12821.9427507806,
+                "net_operating_income": -2410.7021492606,
+                "principal": -1650.2334845668,
+                "interest": -5912.8707349416,
+                "total_debt_service": -7563.1042195084,
+                "cash_flow_after_debt_service": -9973.806368769
+            },
+            "5": {
+                "potential_gross_revenue": 11915.086466184,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -1191.5086466184,
+                "effective_gross_revenue": 10723.5778195656,
+                "operating_expenses": 13088.7928463977,
+                "net_operating_income": -2365.2150268321,
+                "principal": -1747.6629910708,
+                "interest": -5815.4412284376,
+                "total_debt_service": -7563.1042195084,
+                "cash_flow_after_debt_service": -9928.3192463405
+            },
+            "6": {
+                "potential_gross_revenue": 12272.5390601695,
+                "absorption_and_turnover_vacancy": 0.0,
+                "free_rent": 0.0,
+                "general_vacancy": -1227.253906017,
+                "effective_gross_revenue": 11045.2851541526,
+                "operating_expenses": 13361.2922811452,
+                "net_operating_income": -2316.0071269927,
+                "principal": -1850.8447192007,
+                "interest": -5712.2595003077,
+                "total_debt_service": -7563.1042195084,
+                "cash_flow_after_debt_service": -9879.1113465011
+            }
+        }
+    },
+    "analysis": {
+        "valuation_at_sale": {
+            "noi_year_6": -2316.0071269926557,
+            "sale_price": 148500.0,
+            "mortgage_balance_eoy_5": 100183.16178820361,
+            "net_sales_proceeds": 48316.83821179639
+        },
+        "unleveraged_return_analysis": {
+            "0": {
+                "purchase": -142425.0,
+                "cash_flow_operations": null,
+                "cash_flow_sale": null,
+                "totals": -142425.0
+            },
+            "1": {
+                "purchase": null,
+                "cash_flow_operations": -4785.3445714286,
+                "cash_flow_sale": null,
+                "totals": -4785.3445714286
+            },
+            "2": {
+                "purchase": null,
+                "cash_flow_operations": -2491.1216228571,
+                "cash_flow_sale": null,
+                "totals": -2491.1216228571
+            },
+            "3": {
+                "purchase": null,
+                "cash_flow_operations": -2452.6217201143,
+                "cash_flow_sale": null,
+                "totals": -2452.6217201143
+            },
+            "4": {
+                "purchase": null,
+                "cash_flow_operations": -2410.7021492606,
+                "cash_flow_sale": null,
+                "totals": -2410.7021492606
+            },
+            "5": {
+                "purchase": null,
+                "cash_flow_operations": -2365.2150268321,
+                "cash_flow_sale": 148500.0,
+                "totals": 146134.7849731679
+            }
+        },
+        "leveraged_return_analysis": {
+            "0": {
+                "purchase": -34425.0,
+                "cash_flow_operations": 0.0,
+                "cash_flow_sale": 0.0,
+                "totals": -34425.0
+            },
+            "1": {
+                "purchase": 0.0,
+                "cash_flow_operations": -12348.448790937,
+                "cash_flow_sale": 0.0,
+                "totals": -12348.448790937
+            },
+            "2": {
+                "purchase": 0.0,
+                "cash_flow_operations": -10054.2258423655,
+                "cash_flow_sale": 0.0,
+                "totals": -10054.2258423655
+            },
+            "3": {
+                "purchase": 0.0,
+                "cash_flow_operations": -10015.7259396227,
+                "cash_flow_sale": 0.0,
+                "totals": -10015.7259396227
+            },
+            "4": {
+                "purchase": 0.0,
+                "cash_flow_operations": -9973.806368769,
+                "cash_flow_sale": 0.0,
+                "totals": -9973.806368769
+            },
+            "5": {
+                "purchase": 0.0,
+                "cash_flow_operations": -9928.3192463405,
+                "cash_flow_sale": 48316.8382117964,
+                "totals": 38388.5189654559
+            }
+        },
+        "irr": {
+            "unleveraged_irr": -0.011558416822191053,
+            "leveraged_irr": -0.1827411455915846
+        }
+    }
+}
