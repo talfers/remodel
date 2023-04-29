@@ -20,3 +20,7 @@ class Capex:
         capex["property_components"] = property_components
         return capex
     
+    def build_capex_object(self, property_data):
+        property_data["capex"] = self.calc_component_costs(property_data["capex"])
+        return property_data
+    

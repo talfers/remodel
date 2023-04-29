@@ -95,4 +95,14 @@ class Rent:
     def create_actual_rent_amt_df(self, property_data):
         return property_data["rent_roll"]["actual_rent_price_per_sqft_df"] * property_data["assumptions"]["inputs"]["square_feet"] / 12
 
+
+    def build_rent_roll_object(self, property_data):
+        property_data["rent_roll"]["rent_estimates"] = self.calc_rent_estimates(property_data)
+        property_data["rent_roll"]["vacancy_loss"] = self.calc_vacancy_loss(property_data)
+        property_data["rent_roll"]["market_rent_df"] = self.create_market_rent_df(property_data)
+        property_data["rent_roll"]["free_rent_df"] = self.create_free_rent_df(property_data)
+        property_data["rent_roll"]["actual_rent_price_per_sqft_df"] = self.create_actual_rent_price_per_sqft_df(property_data)
+        property_data["rent_roll"]["actual_rent_amt_df"] = self.create_actual_rent_amt_df(property_data)
+        return property_data
+
     

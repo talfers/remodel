@@ -79,3 +79,8 @@ class Cashflow:
                     break
             df[col] = monthly_cashflow_df[arr].sum(axis=1)
         return df
+    
+    def build_cashflow_object(self, property_data):
+        property_data["cashflow"] = {"monthly_cash_flow_df": self.create_monthly_cashflow_df(property_data), "annual_cashflow_df": None}
+        property_data["cashflow"]["annual_cash_flow_df"] = self.create_annual_cashflow_df(property_data)
+        return property_data

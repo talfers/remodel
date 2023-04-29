@@ -47,3 +47,8 @@ class Opex:
                 for col in df:
                     df.loc[i, col] = property_data["opex"]["total_monthly_opex"][i] * (1+property_data["assumptions"]["inputs"]["growth_rate_expenses"])**(floor(col/12))
         return df
+    
+    def build_opex_object(self, property_data):
+        property_data["opex"]["total_monthly_opex"] = self.calc_monthly_expenses(property_data)
+        property_data["opex"]["total_monthly_opex_df"] = self.create_monthly_opex_df(property_data)
+        return property_data

@@ -72,3 +72,15 @@ class Analyzer:
             "unleveraged_irr": self.calculate_irr(list(unleveraged_return_analysis_df.loc["totals"])),
             "leveraged_irr": self.calculate_irr(list(leveraged_return_analysis_df.loc["totals"]))
         }
+
+
+    def build_analysis_object(self, property_data):
+        property_data["analysis"] = { 
+            "valuation_at_sale": self.create_valuation_at_sale(property_data),
+            "unleveraged_return_analysis": None,
+            "leveraged_return_analysis": None
+        }
+        property_data["analysis"]["unleveraged_return_analysis"] = self.create_unleveraged_return_analysis_df(property_data)
+        property_data["analysis"]["leveraged_return_analysis"] = self.create_leveraged_return_analysis_df(property_data)
+        property_data["analysis"]["irr"] = self.create_return_analysis(property_data["analysis"]["unleveraged_return_analysis"], property_data["analysis"]["leveraged_return_analysis"])
+        return property_data

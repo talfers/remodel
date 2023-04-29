@@ -43,3 +43,14 @@ class Amort:
                  break
         return new_df
     
+    def build_amort_object(self, property_data):
+        amort_schedule_df = self.create_amort_schedule_df(
+            property_data['assumptions']['inputs']['purchase_price'] * property_data['assumptions']['inputs']['loan_amount'], 
+            property_data['assumptions']['inputs']['interest_rate'],
+            12, 
+            property_data['assumptions']['inputs']['amortization_period'],
+            property_data["assumptions"]["inputs"]["hold_period"]
+        )
+        property_data["amortization_schedule"] = {"amort_schedule_df": amort_schedule_df}
+        return property_data
+    
