@@ -37,7 +37,7 @@ class Opex:
         indices = [ex for ex in property_data["opex"]["total_monthly_opex"]]
         df = pd.DataFrame()
         df = df.set_axis(indices)
-        for i in range(72):
+        for i in range((property_data["assumptions"]["inputs"]["hold_period"] + 1) * 12):
             df[i+1] = np.nan
         for i, r in df.iterrows():
             if i == "management_fee":

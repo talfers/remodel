@@ -31,7 +31,7 @@ class Rent:
 
     def create_market_rent_df(self, property_data):
         df = pd.DataFrame()
-        for i in range(72):
+        for i in range((property_data["assumptions"]["inputs"]["hold_period"] + 1) * 12):
             df[i+1] = np.nan
         for col in df:
             df.loc["market_rent_price_per_sqft", col] = property_data["rent_roll"]["rent_estimates"]["rent_price_per_sqft"]["weighted"] * (1+property_data["assumptions"]["inputs"]["growth_rate_income"])**(floor(col/12))
@@ -47,10 +47,10 @@ class Rent:
         idx = 1
         for col in df:
             v = 0
-            if idx<=floor(property_data["rent_roll"]["vacany_loss"]["weighted_free_rent"]):
+            if idx<=floor(property_data["rent_roll"]["vacancy_loss"]["weighted_free_rent"]):
                 v = 1
-            if idx==ceil(property_data["rent_roll"]["vacany_loss"]["weighted_free_rent"]):
-                v = property_data["rent_roll"]["vacany_loss"]["weighted_free_rent"] - floor(property_data["rent_roll"]["vacany_loss"]["weighted_free_rent"])
+            if idx==ceil(property_data["rent_roll"]["vacancy_loss"]["weighted_free_rent"]):
+                v = property_data["rent_roll"]["vacancy_loss"]["weighted_free_rent"] - floor(property_data["rent_roll"]["vacancy_loss"]["weighted_free_rent"])
             df.loc["free_rent_pct", col] = v
             idx+=1
         return df
@@ -60,7 +60,7 @@ class Rent:
         indices = ["potential_rent_price", "absorption_and_turnover_vacancy", "free_rent", "general_vacancy", "egr"]
         df = pd.DataFrame()
         df = df.set_axis(indices)
-        for i in range(72):
+        for i in range((property_data["assumptions"]["inputs"]["hold_period"] + 1) * 12):
             df[i+1] = np.nan
         for i, r in df.iterrows():
             for col in df:
@@ -73,7 +73,7 @@ class Rent:
                     else:
                         v = property_data["rent_roll"]["market_rent_df"].loc["market_rent_price_per_sqft", property_data["assumptions"]["inputs"]["lease_expiration_mo_num"]+1]
                 if i=="absorption_and_turnover_vacancy":
-                    if (col>property_data["assumptions"]["inputs"]["lease_expiration_mo_num"] and col<property_data["assumptions"]["inputs"]["lease_expiration_mo_num"]+(property_data["rent_roll"]["vacany_loss"]["weighted_downtime"] + 1)):
+                    if (col>property_data["assumptions"]["inputs"]["lease_expiration_mo_num"] and col<property_data["assumptions"]["inputs"]["lease_expiration_mo_num"]+(property_data["rent_roll"]["vacancy_loss"]["weighted_downtime"] + 1)):
                         v = -1 * df.loc["potential_rent_price", col]
                     else:
                         v = 0

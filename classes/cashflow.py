@@ -13,7 +13,7 @@ class Cashflow:
         indices = ["potential_gross_revenue", "absorption_and_turnover_vacancy", "free_rent", "general_vacancy", "effective_gross_revenue", "operating_expenses", "net_operating_income", "principal", "interest", "total_debt_service", "cash_flow_after_debt_service"]
         df = pd.DataFrame()
         df = df.set_axis(indices)
-        for i in range(72):
+        for i in range((property_data["assumptions"]["inputs"]["hold_period"] + 1) * 12):
             df[i+1] = np.nan
         for i, r in df.iterrows():
             for col in df:
@@ -66,6 +66,7 @@ class Cashflow:
         df = df.set_axis(indices)
         for i in range(6):
             df[i+1] = np.nan
+        ## NEEDS FIXED!!! - LAST STEP TO ADD HOLD PERIOD INPUT!!!
         df[1] = monthly_cashflow_df[[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]].sum(axis=1)
         df[2] = monthly_cashflow_df[[13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]].sum(axis=1)
         df[3] = monthly_cashflow_df[[25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]].sum(axis=1)

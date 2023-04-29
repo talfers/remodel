@@ -16,7 +16,8 @@
             "general_vacancy": 0.10,
             "cap_rate": 0.120,
             "growth_rate_income": 0.030,
-            "growth_rate_expenses":0.020
+            "growth_rate_expenses":0.020,
+            "hold_period": 5
         }
         
     },

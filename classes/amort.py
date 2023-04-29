@@ -27,7 +27,7 @@ class Amort:
         return(ppmt)
     
 
-    def create_amort_schedule_df(self, amount, annualinterestrate, paymentsperyear, years):
+    def create_amort_schedule_df(self, amount, annualinterestrate, paymentsperyear, years, hold_period):
         new_df = pd.DataFrame()
         df = pd.DataFrame({
             'principal' :[self.PPMT(annualinterestrate/paymentsperyear, i+1, paymentsperyear*years, amount) for i in range(paymentsperyear*years)],
@@ -36,7 +36,7 @@ class Amort:
         df['amount'] = df.principal + df.interest
         df['balance'] = amount + np.cumsum(df.principal)
         for i, row in df.iterrows():
-            if i <= 72:
+            if i <= ((hold_period + 1) * 12):
                 for col in df:
                     new_df.loc[col, i+1] = row[col]
             else:

@@ -28,12 +28,13 @@ def main(property_data):
             property_data['assumptions']['inputs']['purchase_price'] * property_data['assumptions']['inputs']['loan_amount'], 
             property_data['assumptions']['inputs']['interest_rate'],
             12, 
-            property_data['assumptions']['inputs']['amortization_period']
+            property_data['assumptions']['inputs']['amortization_period'],
+            property_data["assumptions"]["inputs"]["hold_period"]
         )
         property_data["amortization_schedule"] = {"amort_schedule_df": amort_schedule_df}
         property_data["capex"] = capex.calc_component_costs(property_data["capex"])
         property_data["rent_roll"]["rent_estimates"] = rent.calc_rent_estimates(property_data)
-        property_data["rent_roll"]["vacany_loss"] = rent.calc_vacancy_loss(property_data)
+        property_data["rent_roll"]["vacancy_loss"] = rent.calc_vacancy_loss(property_data)
         property_data["rent_roll"]["market_rent_df"] = rent.create_market_rent_df(property_data)
         property_data["rent_roll"]["free_rent_df"] = rent.create_free_rent_df(property_data)
         property_data["rent_roll"]["actual_rent_price_per_sqft_df"] = rent.create_actual_rent_price_per_sqft_df(property_data)
@@ -61,8 +62,9 @@ def main(property_data):
     exit(exit_code)
 
 # # TEST main()
-# property_data = files.read_json('./inputs.json')
-# property_data = main(property_data)
+property_data = files.read_json('./inputs.json')
+property_data = main(property_data)
+print(property_data)
 # # Serializing json
 # json_object = json.dumps(property_data, indent=4)
  
