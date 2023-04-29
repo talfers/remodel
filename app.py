@@ -31,14 +31,14 @@ def main(property_data):
         amort_schedule_df = amort.create_amort_schedule_df(amort_schedule)
         property_data["amortization_schedule"] = {"amort_schedule": amort_schedule, "amort_schedule_df": amort_schedule_df}
         property_data["capex"] = capex.calc_component_costs(property_data["capex"])
-        property_data["opex"]["total_monthly_opex"] = opex.calc_monthly_expenses(property_data)
-        property_data["opex"]["total_monthly_opex_df"] = opex.create_montly_opex_df(property_data)
         property_data["rent_roll"]["rent_estimates"] = rent.calc_rent_estimates(property_data)
         property_data["rent_roll"]["vacany_loss"] = rent.calc_vacancy_loss(property_data)
         property_data["rent_roll"]["market_rent_df"] = rent.create_market_rent_df(property_data)
         property_data["rent_roll"]["free_rent_df"] = rent.create_free_rent_df(property_data)
         property_data["rent_roll"]["actual_rent_price_per_sqft_df"] = rent.create_actual_rent_price_per_sqft_df(property_data)
         property_data["rent_roll"]["actual_rent_amt_df"] = rent.create_actual_rent_amt_df(property_data)
+        property_data["opex"]["total_monthly_opex"] = opex.calc_monthly_expenses(property_data)
+        property_data["opex"]["total_monthly_opex_df"] = opex.create_monthly_opex_df(property_data)
         property_data["cashflow"] = {"monthly_cash_flow_df": cashflow.create_monthly_cashflow_df(property_data), "annual_cashflow_df": None}
         property_data["cashflow"]["annual_cash_flow_df"] = cashflow.create_annual_cashflow_df(property_data["cashflow"]["monthly_cash_flow_df"])
         property_data["analysis"] = { 
@@ -60,6 +60,6 @@ def main(property_data):
 
     exit(exit_code)
 
-# # TEST main()
-# property_data = files.read_json('./inputs.json')
-# main(property_data)
+# TEST main()
+property_data = files.read_json('./inputs.json')
+main(property_data)

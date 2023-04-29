@@ -57,7 +57,7 @@ class Rent:
 
 
     def create_actual_rent_price_per_sqft_df(self, property_data):
-        indices = ["potential_rent_price", "absorption_and_turnover_vacancy", "free_rent"]
+        indices = ["potential_rent_price", "absorption_and_turnover_vacancy", "free_rent", "general_vacancy", "egr"]
         df = pd.DataFrame()
         df = df.set_axis(indices)
         for i in range(72):
@@ -82,8 +82,17 @@ class Rent:
                         v = -1 * property_data["rent_roll"]["free_rent_df"].loc["free_rent_pct", col] * df.loc["potential_rent_price", col]
                     except:
                         v = 0
+                if i=="general_vacancy":
+                    if ((df.loc["potential_rent_price", col] * -property_data["assumptions"]["inputs"]["general_vacancy"]) - df.loc["absorption_and_turnover_vacancy", col] > 0):
+                        v = 0
+                    else:
+                        v = (df.loc["potential_rent_price", col] * -property_data["assumptions"]["inputs"]["general_vacancy"]) - df.loc["absorption_and_turnover_vacancy", col]
+                if i == "egr":
+                    v = df[col].sum()
                 df.loc[i, col] = v
         return df
     
     def create_actual_rent_amt_df(self, property_data):
         return property_data["rent_roll"]["actual_rent_price_per_sqft_df"] * property_data["assumptions"]["inputs"]["square_feet"] / 12
+
+    
