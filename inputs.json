@@ -25,7 +25,7 @@
             "roof": {
                 "lifespan": 25,
                 "current_age": 10,
-                "replacement_cost_amt": 1000
+                "replacement_cost_amt": 10000
             },
             "water_heater": {
                 "lifespan": 10,

@@ -4,4 +4,4 @@ services:
     build:
       dockerfile: Dockerfile
       context: ./
-    env_file: ./secrets.env
+    # env_file: ./secrets.env
