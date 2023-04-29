@@ -16,7 +16,8 @@
             "general_vacancy": 0.1,
             "cap_rate": 0.12,
             "growth_rate_income": 0.03,
-            "growth_rate_expenses": 0.02
+            "growth_rate_expenses": 0.02,
+            "hold_period": 5
         }
     },
     "capex": {
@@ -961,7 +962,7 @@
                 "weighted": 5.972850678733032
             }
         },
-        "vacany_loss": {
+        "vacancy_loss": {
             "weighted_downtime": 1.0,
             "weighted_free_rent": 1.4
         },
@@ -3672,9 +3673,9 @@
     },
     "analysis": {
         "valuation_at_sale": {
-            "noi_year_6": -2316.0071269926557,
+            "noi_end_of_term": -2316.0071269926557,
             "sale_price": 148500.0,
-            "mortgage_balance_eoy_5": 100183.16178820361,
+            "mortgage_balance_end_of_hold": 100183.16178820361,
             "net_sales_proceeds": 48316.83821179639
         },
         "unleveraged_return_analysis": {
