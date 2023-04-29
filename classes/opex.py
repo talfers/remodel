@@ -23,7 +23,7 @@ class Opex:
             if ex == "utilities":
                 monthly_expenses[ex] = opex[ex]
             if ex == "management_fee":
-                monthly_expenses[ex] = 0 # CANT DO THIS CURRENTLY!!! # NEEDS FIXED!!!
+                monthly_expenses[ex] = opex[ex] * property_data["rent_roll"]["actual_rent_amt_df"].loc["egr", 1]
             if ex == "advertising":
                 monthly_expenses[ex] = opex[ex]/12
             if ex == "tax_service":
@@ -33,13 +33,17 @@ class Opex:
         return monthly_expenses
     
 
-    def create_montly_opex_df(self, property_data):
+    def create_monthly_opex_df(self, property_data):
         indices = [ex for ex in property_data["opex"]["total_monthly_opex"]]
         df = pd.DataFrame()
         df = df.set_axis(indices)
         for i in range(72):
             df[i+1] = np.nan
         for i, r in df.iterrows():
-            for col in df:
-                df.loc[i, col] = property_data["opex"]["total_monthly_opex"][i] * (1+property_data["assumptions"]["inputs"]["growth_rate_expenses"])**(floor(col/12))
+            if i == "management_fee":
+                for col in df:
+                    df.loc[i, col] = property_data['assumptions']['inputs']['general_vacancy'] * property_data["rent_roll"]["actual_rent_amt_df"].loc["egr", col]
+            else:
+                for col in df:
+                    df.loc[i, col] = property_data["opex"]["total_monthly_opex"][i] * (1+property_data["assumptions"]["inputs"]["growth_rate_expenses"])**(floor(col/12))
         return df
