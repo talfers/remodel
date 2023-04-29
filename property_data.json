@@ -129,7 +129,7 @@
     },
     "opex": {
         "inputs": {
-            "real_estate_taxes": 0.5,
+            "real_estate_taxes": 0.055,
             "insurance": 2000,
             "mortgage_insurance": 1350,
             "utilities": 150,
@@ -140,7 +140,7 @@
         },
         "total_monthly_opex": {
             "capex": 349.4047619047619,
-            "real_estate_taxes": 395.8333333333333,
+            "real_estate_taxes": 43.541666666666664,
             "insurance": 166.66666666666666,
             "mortgage_insurance": 112.5,
             "utilities": 150,
@@ -152,7 +152,7 @@
         "total_monthly_opex_df": {
             "1": {
                 "capex": 349.4047619048,
-                "real_estate_taxes": 395.8333333333,
+                "real_estate_taxes": 43.5416666667,
                 "insurance": 166.6666666667,
                 "mortgage_insurance": 112.5,
                 "utilities": 150.0,
@@ -163,7 +163,7 @@
             },
             "2": {
                 "capex": 349.4047619048,
-                "real_estate_taxes": 395.8333333333,
+                "real_estate_taxes": 43.5416666667,
                 "insurance": 166.6666666667,
                 "mortgage_insurance": 112.5,
                 "utilities": 150.0,
@@ -174,7 +174,7 @@
             },
             "3": {
                 "capex": 349.4047619048,
-                "real_estate_taxes": 395.8333333333,
+                "real_estate_taxes": 43.5416666667,
                 "insurance": 166.6666666667,
                 "mortgage_insurance": 112.5,
                 "utilities": 150.0,
@@ -185,7 +185,7 @@
             },
             "4": {
                 "capex": 349.4047619048,
-                "real_estate_taxes": 395.8333333333,
+                "real_estate_taxes": 43.5416666667,
                 "insurance": 166.6666666667,
                 "mortgage_insurance": 112.5,
                 "utilities": 150.0,
@@ -196,7 +196,7 @@
             },
             "5": {
                 "capex": 349.4047619048,
-                "real_estate_taxes": 395.8333333333,
+                "real_estate_taxes": 43.5416666667,
                 "insurance": 166.6666666667,
                 "mortgage_insurance": 112.5,
                 "utilities": 150.0,
@@ -207,7 +207,7 @@
             },
             "6": {
                 "capex": 349.4047619048,
-                "real_estate_taxes": 395.8333333333,
+                "real_estate_taxes": 43.5416666667,
                 "insurance": 166.6666666667,
                 "mortgage_insurance": 112.5,
                 "utilities": 150.0,
@@ -218,7 +218,7 @@
             },
             "7": {
                 "capex": 349.4047619048,
-                "real_estate_taxes": 395.8333333333,
+                "real_estate_taxes": 43.5416666667,
                 "insurance": 166.6666666667,
                 "mortgage_insurance": 112.5,
                 "utilities": 150.0,
@@ -229,7 +229,7 @@
             },
             "8": {
                 "capex": 349.4047619048,
-                "real_estate_taxes": 395.8333333333,
+                "real_estate_taxes": 43.5416666667,
                 "insurance": 166.6666666667,
                 "mortgage_insurance": 112.5,
                 "utilities": 150.0,
@@ -240,7 +240,7 @@
             },
             "9": {
                 "capex": 349.4047619048,
-                "real_estate_taxes": 395.8333333333,
+                "real_estate_taxes": 43.5416666667,
                 "insurance": 166.6666666667,
                 "mortgage_insurance": 112.5,
                 "utilities": 150.0,
@@ -251,7 +251,7 @@
             },
             "10": {
                 "capex": 349.4047619048,
-                "real_estate_taxes": 395.8333333333,
+                "real_estate_taxes": 43.5416666667,
                 "insurance": 166.6666666667,
                 "mortgage_insurance": 112.5,
                 "utilities": 150.0,
@@ -262,7 +262,7 @@
             },
             "11": {
                 "capex": 349.4047619048,
-                "real_estate_taxes": 395.8333333333,
+                "real_estate_taxes": 43.5416666667,
                 "insurance": 166.6666666667,
                 "mortgage_insurance": 112.5,
                 "utilities": 150.0,
@@ -273,7 +273,7 @@
             },
             "12": {
                 "capex": 356.3928571429,
-                "real_estate_taxes": 403.75,
+                "real_estate_taxes": 44.4125,
                 "insurance": 170.0,
                 "mortgage_insurance": 114.75,
                 "utilities": 153.0,
@@ -284,7 +284,7 @@
             },
             "13": {
                 "capex": 356.3928571429,
-                "real_estate_taxes": 403.75,
+                "real_estate_taxes": 44.4125,
                 "insurance": 170.0,
                 "mortgage_insurance": 114.75,
                 "utilities": 153.0,
@@ -295,7 +295,7 @@
             },
             "14": {
                 "capex": 356.3928571429,
-                "real_estate_taxes": 403.75,
+                "real_estate_taxes": 44.4125,
                 "insurance": 170.0,
                 "mortgage_insurance": 114.75,
                 "utilities": 153.0,
@@ -306,7 +306,7 @@
             },
             "15": {
                 "capex": 356.3928571429,
-                "real_estate_taxes": 403.75,
+                "real_estate_taxes": 44.4125,
                 "insurance": 170.0,
                 "mortgage_insurance": 114.75,
                 "utilities": 153.0,
@@ -317,7 +317,7 @@
             },
             "16": {
                 "capex": 356.3928571429,
-                "real_estate_taxes": 403.75,
+                "real_estate_taxes": 44.4125,
                 "insurance": 170.0,
                 "mortgage_insurance": 114.75,
                 "utilities": 153.0,
@@ -328,7 +328,7 @@
             },
             "17": {
                 "capex": 356.3928571429,
-                "real_estate_taxes": 403.75,
+                "real_estate_taxes": 44.4125,
                 "insurance": 170.0,
                 "mortgage_insurance": 114.75,
                 "utilities": 153.0,
@@ -339,7 +339,7 @@
             },
             "18": {
                 "capex": 356.3928571429,
-                "real_estate_taxes": 403.75,
+                "real_estate_taxes": 44.4125,
                 "insurance": 170.0,
                 "mortgage_insurance": 114.75,
                 "utilities": 153.0,
@@ -350,7 +350,7 @@
             },
             "19": {
                 "capex": 356.3928571429,
-                "real_estate_taxes": 403.75,
+                "real_estate_taxes": 44.4125,
                 "insurance": 170.0,
                 "mortgage_insurance": 114.75,
                 "utilities": 153.0,
@@ -361,7 +361,7 @@
             },
             "20": {
                 "capex": 356.3928571429,
-                "real_estate_taxes": 403.75,
+                "real_estate_taxes": 44.4125,
                 "insurance": 170.0,
                 "mortgage_insurance": 114.75,
                 "utilities": 153.0,
@@ -372,7 +372,7 @@
             },
             "21": {
                 "capex": 356.3928571429,
-                "real_estate_taxes": 403.75,
+                "real_estate_taxes": 44.4125,
                 "insurance": 170.0,
                 "mortgage_insurance": 114.75,
                 "utilities": 153.0,
@@ -383,7 +383,7 @@
             },
             "22": {
                 "capex": 356.3928571429,
-                "real_estate_taxes": 403.75,
+                "real_estate_taxes": 44.4125,
                 "insurance": 170.0,
                 "mortgage_insurance": 114.75,
                 "utilities": 153.0,
@@ -394,7 +394,7 @@
             },
             "23": {
                 "capex": 356.3928571429,
-                "real_estate_taxes": 403.75,
+                "real_estate_taxes": 44.4125,
                 "insurance": 170.0,
                 "mortgage_insurance": 114.75,
                 "utilities": 153.0,
@@ -405,7 +405,7 @@
             },
             "24": {
                 "capex": 363.5207142857,
-                "real_estate_taxes": 411.825,
+                "real_estate_taxes": 45.30075,
                 "insurance": 173.4,
                 "mortgage_insurance": 117.045,
                 "utilities": 156.06,
@@ -416,7 +416,7 @@
             },
             "25": {
                 "capex": 363.5207142857,
-                "real_estate_taxes": 411.825,
+                "real_estate_taxes": 45.30075,
                 "insurance": 173.4,
                 "mortgage_insurance": 117.045,
                 "utilities": 156.06,
@@ -427,7 +427,7 @@
             },
             "26": {
                 "capex": 363.5207142857,
-                "real_estate_taxes": 411.825,
+                "real_estate_taxes": 45.30075,
                 "insurance": 173.4,
                 "mortgage_insurance": 117.045,
                 "utilities": 156.06,
@@ -438,7 +438,7 @@
             },
             "27": {
                 "capex": 363.5207142857,
-                "real_estate_taxes": 411.825,
+                "real_estate_taxes": 45.30075,
                 "insurance": 173.4,
                 "mortgage_insurance": 117.045,
                 "utilities": 156.06,
@@ -449,7 +449,7 @@
             },
             "28": {
                 "capex": 363.5207142857,
-                "real_estate_taxes": 411.825,
+                "real_estate_taxes": 45.30075,
                 "insurance": 173.4,
                 "mortgage_insurance": 117.045,
                 "utilities": 156.06,
@@ -460,7 +460,7 @@
             },
             "29": {
                 "capex": 363.5207142857,
-                "real_estate_taxes": 411.825,
+                "real_estate_taxes": 45.30075,
                 "insurance": 173.4,
                 "mortgage_insurance": 117.045,
                 "utilities": 156.06,
@@ -471,7 +471,7 @@
             },
             "30": {
                 "capex": 363.5207142857,
-                "real_estate_taxes": 411.825,
+                "real_estate_taxes": 45.30075,
                 "insurance": 173.4,
                 "mortgage_insurance": 117.045,
                 "utilities": 156.06,
@@ -482,7 +482,7 @@
             },
             "31": {
                 "capex": 363.5207142857,
-                "real_estate_taxes": 411.825,
+                "real_estate_taxes": 45.30075,
                 "insurance": 173.4,
                 "mortgage_insurance": 117.045,
                 "utilities": 156.06,
@@ -493,7 +493,7 @@
             },
             "32": {
                 "capex": 363.5207142857,
-                "real_estate_taxes": 411.825,
+                "real_estate_taxes": 45.30075,
                 "insurance": 173.4,
                 "mortgage_insurance": 117.045,
                 "utilities": 156.06,
@@ -504,7 +504,7 @@
             },
             "33": {
                 "capex": 363.5207142857,
-                "real_estate_taxes": 411.825,
+                "real_estate_taxes": 45.30075,
                 "insurance": 173.4,
                 "mortgage_insurance": 117.045,
                 "utilities": 156.06,
@@ -515,7 +515,7 @@
             },
             "34": {
                 "capex": 363.5207142857,
-                "real_estate_taxes": 411.825,
+                "real_estate_taxes": 45.30075,
                 "insurance": 173.4,
                 "mortgage_insurance": 117.045,
                 "utilities": 156.06,
@@ -526,7 +526,7 @@
             },
             "35": {
                 "capex": 363.5207142857,
-                "real_estate_taxes": 411.825,
+                "real_estate_taxes": 45.30075,
                 "insurance": 173.4,
                 "mortgage_insurance": 117.045,
                 "utilities": 156.06,
@@ -537,7 +537,7 @@
             },
             "36": {
                 "capex": 370.7911285714,
-                "real_estate_taxes": 420.0615,
+                "real_estate_taxes": 46.206765,
                 "insurance": 176.868,
                 "mortgage_insurance": 119.3859,
                 "utilities": 159.1812,
@@ -548,7 +548,7 @@
             },
             "37": {
                 "capex": 370.7911285714,
-                "real_estate_taxes": 420.0615,
+                "real_estate_taxes": 46.206765,
                 "insurance": 176.868,
                 "mortgage_insurance": 119.3859,
                 "utilities": 159.1812,
@@ -559,7 +559,7 @@
             },
             "38": {
                 "capex": 370.7911285714,
-                "real_estate_taxes": 420.0615,
+                "real_estate_taxes": 46.206765,
                 "insurance": 176.868,
                 "mortgage_insurance": 119.3859,
                 "utilities": 159.1812,
@@ -570,7 +570,7 @@
             },
             "39": {
                 "capex": 370.7911285714,
-                "real_estate_taxes": 420.0615,
+                "real_estate_taxes": 46.206765,
                 "insurance": 176.868,
                 "mortgage_insurance": 119.3859,
                 "utilities": 159.1812,
@@ -581,7 +581,7 @@
             },
             "40": {
                 "capex": 370.7911285714,
-                "real_estate_taxes": 420.0615,
+                "real_estate_taxes": 46.206765,
                 "insurance": 176.868,
                 "mortgage_insurance": 119.3859,
                 "utilities": 159.1812,
@@ -592,7 +592,7 @@
             },
             "41": {
                 "capex": 370.7911285714,
-                "real_estate_taxes": 420.0615,
+                "real_estate_taxes": 46.206765,
                 "insurance": 176.868,
                 "mortgage_insurance": 119.3859,
                 "utilities": 159.1812,
@@ -603,7 +603,7 @@
             },
             "42": {
                 "capex": 370.7911285714,
-                "real_estate_taxes": 420.0615,
+                "real_estate_taxes": 46.206765,
                 "insurance": 176.868,
                 "mortgage_insurance": 119.3859,
                 "utilities": 159.1812,
@@ -614,7 +614,7 @@
             },
             "43": {
                 "capex": 370.7911285714,
-                "real_estate_taxes": 420.0615,
+                "real_estate_taxes": 46.206765,
                 "insurance": 176.868,
                 "mortgage_insurance": 119.3859,
                 "utilities": 159.1812,
@@ -625,7 +625,7 @@
             },
             "44": {
                 "capex": 370.7911285714,
-                "real_estate_taxes": 420.0615,
+                "real_estate_taxes": 46.206765,
                 "insurance": 176.868,
                 "mortgage_insurance": 119.3859,
                 "utilities": 159.1812,
@@ -636,7 +636,7 @@
             },
             "45": {
                 "capex": 370.7911285714,
-                "real_estate_taxes": 420.0615,
+                "real_estate_taxes": 46.206765,
                 "insurance": 176.868,
                 "mortgage_insurance": 119.3859,
                 "utilities": 159.1812,
@@ -647,7 +647,7 @@
             },
             "46": {
                 "capex": 370.7911285714,
-                "real_estate_taxes": 420.0615,
+                "real_estate_taxes": 46.206765,
                 "insurance": 176.868,
                 "mortgage_insurance": 119.3859,
                 "utilities": 159.1812,
@@ -658,7 +658,7 @@
             },
             "47": {
                 "capex": 370.7911285714,
-                "real_estate_taxes": 420.0615,
+                "real_estate_taxes": 46.206765,
                 "insurance": 176.868,
                 "mortgage_insurance": 119.3859,
                 "utilities": 159.1812,
@@ -669,7 +669,7 @@
             },
             "48": {
                 "capex": 378.2069511429,
-                "real_estate_taxes": 428.46273,
+                "real_estate_taxes": 47.1309003,
                 "insurance": 180.40536,
                 "mortgage_insurance": 121.773618,
                 "utilities": 162.364824,
@@ -680,7 +680,7 @@
             },
             "49": {
                 "capex": 378.2069511429,
-                "real_estate_taxes": 428.46273,
+                "real_estate_taxes": 47.1309003,
                 "insurance": 180.40536,
                 "mortgage_insurance": 121.773618,
                 "utilities": 162.364824,
@@ -691,7 +691,7 @@
             },
             "50": {
                 "capex": 378.2069511429,
-                "real_estate_taxes": 428.46273,
+                "real_estate_taxes": 47.1309003,
                 "insurance": 180.40536,
                 "mortgage_insurance": 121.773618,
                 "utilities": 162.364824,
@@ -702,7 +702,7 @@
             },
             "51": {
                 "capex": 378.2069511429,
-                "real_estate_taxes": 428.46273,
+                "real_estate_taxes": 47.1309003,
                 "insurance": 180.40536,
                 "mortgage_insurance": 121.773618,
                 "utilities": 162.364824,
@@ -713,7 +713,7 @@
             },
             "52": {
                 "capex": 378.2069511429,
-                "real_estate_taxes": 428.46273,
+                "real_estate_taxes": 47.1309003,
                 "insurance": 180.40536,
                 "mortgage_insurance": 121.773618,
                 "utilities": 162.364824,
@@ -724,7 +724,7 @@
             },
             "53": {
                 "capex": 378.2069511429,
-                "real_estate_taxes": 428.46273,
+                "real_estate_taxes": 47.1309003,
                 "insurance": 180.40536,
                 "mortgage_insurance": 121.773618,
                 "utilities": 162.364824,
@@ -735,7 +735,7 @@
             },
             "54": {
                 "capex": 378.2069511429,
-                "real_estate_taxes": 428.46273,
+                "real_estate_taxes": 47.1309003,
                 "insurance": 180.40536,
                 "mortgage_insurance": 121.773618,
                 "utilities": 162.364824,
@@ -746,7 +746,7 @@
             },
             "55": {
                 "capex": 378.2069511429,
-                "real_estate_taxes": 428.46273,
+                "real_estate_taxes": 47.1309003,
                 "insurance": 180.40536,
                 "mortgage_insurance": 121.773618,
                 "utilities": 162.364824,
@@ -757,7 +757,7 @@
             },
             "56": {
                 "capex": 378.2069511429,
-                "real_estate_taxes": 428.46273,
+                "real_estate_taxes": 47.1309003,
                 "insurance": 180.40536,
                 "mortgage_insurance": 121.773618,
                 "utilities": 162.364824,
@@ -768,7 +768,7 @@
             },
             "57": {
                 "capex": 378.2069511429,
-                "real_estate_taxes": 428.46273,
+                "real_estate_taxes": 47.1309003,
                 "insurance": 180.40536,
                 "mortgage_insurance": 121.773618,
                 "utilities": 162.364824,
@@ -779,7 +779,7 @@
             },
             "58": {
                 "capex": 378.2069511429,
-                "real_estate_taxes": 428.46273,
+                "real_estate_taxes": 47.1309003,
                 "insurance": 180.40536,
                 "mortgage_insurance": 121.773618,
                 "utilities": 162.364824,
@@ -790,7 +790,7 @@
             },
             "59": {
                 "capex": 378.2069511429,
-                "real_estate_taxes": 428.46273,
+                "real_estate_taxes": 47.1309003,
                 "insurance": 180.40536,
                 "mortgage_insurance": 121.773618,
                 "utilities": 162.364824,
@@ -801,7 +801,7 @@
             },
             "60": {
                 "capex": 385.7710901657,
-                "real_estate_taxes": 437.0319846,
+                "real_estate_taxes": 48.073518306,
                 "insurance": 184.0134672,
                 "mortgage_insurance": 124.20909036,
                 "utilities": 165.61212048,
@@ -812,7 +812,7 @@
             },
             "61": {
                 "capex": 385.7710901657,
-                "real_estate_taxes": 437.0319846,
+                "real_estate_taxes": 48.073518306,
                 "insurance": 184.0134672,
                 "mortgage_insurance": 124.20909036,
                 "utilities": 165.61212048,
@@ -823,7 +823,7 @@
             },
             "62": {
                 "capex": 385.7710901657,
-                "real_estate_taxes": 437.0319846,
+                "real_estate_taxes": 48.073518306,
                 "insurance": 184.0134672,
                 "mortgage_insurance": 124.20909036,
                 "utilities": 165.61212048,
@@ -834,7 +834,7 @@
             },
             "63": {
                 "capex": 385.7710901657,
-                "real_estate_taxes": 437.0319846,
+                "real_estate_taxes": 48.073518306,
                 "insurance": 184.0134672,
                 "mortgage_insurance": 124.20909036,
                 "utilities": 165.61212048,
@@ -845,7 +845,7 @@
             },
             "64": {
                 "capex": 385.7710901657,
-                "real_estate_taxes": 437.0319846,
+                "real_estate_taxes": 48.073518306,
                 "insurance": 184.0134672,
                 "mortgage_insurance": 124.20909036,
                 "utilities": 165.61212048,
@@ -856,7 +856,7 @@
             },
             "65": {
                 "capex": 385.7710901657,
-                "real_estate_taxes": 437.0319846,
+                "real_estate_taxes": 48.073518306,
                 "insurance": 184.0134672,
                 "mortgage_insurance": 124.20909036,
                 "utilities": 165.61212048,
@@ -867,7 +867,7 @@
             },
             "66": {
                 "capex": 385.7710901657,
-                "real_estate_taxes": 437.0319846,
+                "real_estate_taxes": 48.073518306,
                 "insurance": 184.0134672,
                 "mortgage_insurance": 124.20909036,
                 "utilities": 165.61212048,
@@ -878,7 +878,7 @@
             },
             "67": {
                 "capex": 385.7710901657,
-                "real_estate_taxes": 437.0319846,
+                "real_estate_taxes": 48.073518306,
                 "insurance": 184.0134672,
                 "mortgage_insurance": 124.20909036,
                 "utilities": 165.61212048,
@@ -889,7 +889,7 @@
             },
             "68": {
                 "capex": 385.7710901657,
-                "real_estate_taxes": 437.0319846,
+                "real_estate_taxes": 48.073518306,
                 "insurance": 184.0134672,
                 "mortgage_insurance": 124.20909036,
                 "utilities": 165.61212048,
@@ -900,7 +900,7 @@
             },
             "69": {
                 "capex": 385.7710901657,
-                "real_estate_taxes": 437.0319846,
+                "real_estate_taxes": 48.073518306,
                 "insurance": 184.0134672,
                 "mortgage_insurance": 124.20909036,
                 "utilities": 165.61212048,
@@ -911,7 +911,7 @@
             },
             "70": {
                 "capex": 385.7710901657,
-                "real_estate_taxes": 437.0319846,
+                "real_estate_taxes": 48.073518306,
                 "insurance": 184.0134672,
                 "mortgage_insurance": 124.20909036,
                 "utilities": 165.61212048,
@@ -922,7 +922,7 @@
             },
             "71": {
                 "capex": 385.7710901657,
-                "real_estate_taxes": 437.0319846,
+                "real_estate_taxes": 48.073518306,
                 "insurance": 184.0134672,
                 "mortgage_insurance": 124.20909036,
                 "utilities": 165.61212048,
@@ -933,7 +933,7 @@
             },
             "72": {
                 "capex": 393.486511969,
-                "real_estate_taxes": 445.772624292,
+                "real_estate_taxes": 49.0349886721,
                 "insurance": 187.693736544,
                 "mortgage_insurance": 126.6932721672,
                 "utilities": 168.9243628896,
@@ -2652,12 +2652,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -620.0,
                 "effective_gross_revenue": 5580.0,
-                "operating_expenses": 1732.4047619048,
-                "net_operating_income": 3847.5952380952,
+                "operating_expenses": 1380.1130952381,
+                "net_operating_income": 4199.8869047619,
                 "principal": -856.3269005149,
                 "interest": -4700.5208333333,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": -1709.252495753
+                "cash_flow_after_debt_service": -1356.9608290863
             },
             "2": {
                 "potential_gross_revenue": 6200.0,
@@ -2665,12 +2665,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -620.0,
                 "effective_gross_revenue": 5580.0,
-                "operating_expenses": 1732.4047619048,
-                "net_operating_income": 3847.5952380952,
+                "operating_expenses": 1380.1130952381,
+                "net_operating_income": 4199.8869047619,
                 "principal": -860.7869364551,
                 "interest": -4696.0607973932,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": -1709.252495753
+                "cash_flow_after_debt_service": -1356.9608290863
             },
             "3": {
                 "potential_gross_revenue": 6200.0,
@@ -2678,12 +2678,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -620.0,
                 "effective_gross_revenue": 5580.0,
-                "operating_expenses": 1732.4047619048,
-                "net_operating_income": 3847.5952380952,
+                "operating_expenses": 1380.1130952381,
+                "net_operating_income": 4199.8869047619,
                 "principal": -865.2702017491,
                 "interest": -4691.5775320991,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": -1709.252495753
+                "cash_flow_after_debt_service": -1356.9608290863
             },
             "4": {
                 "potential_gross_revenue": 6200.0,
@@ -2691,12 +2691,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -620.0,
                 "effective_gross_revenue": 5580.0,
-                "operating_expenses": 1732.4047619048,
-                "net_operating_income": 3847.5952380952,
+                "operating_expenses": 1380.1130952381,
+                "net_operating_income": 4199.8869047619,
                 "principal": -869.7768173832,
                 "interest": -4687.070916465,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": -1709.252495753
+                "cash_flow_after_debt_service": -1356.9608290863
             },
             "5": {
                 "potential_gross_revenue": 6200.0,
@@ -2704,12 +2704,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -620.0,
                 "effective_gross_revenue": 5580.0,
-                "operating_expenses": 1732.4047619048,
-                "net_operating_income": 3847.5952380952,
+                "operating_expenses": 1380.1130952381,
+                "net_operating_income": 4199.8869047619,
                 "principal": -874.3069049737,
                 "interest": -4682.5408288745,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": -1709.252495753
+                "cash_flow_after_debt_service": -1356.9608290863
             },
             "6": {
                 "potential_gross_revenue": 6200.0,
@@ -2717,12 +2717,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -620.0,
                 "effective_gross_revenue": 5580.0,
-                "operating_expenses": 1732.4047619048,
-                "net_operating_income": 3847.5952380952,
+                "operating_expenses": 1380.1130952381,
+                "net_operating_income": 4199.8869047619,
                 "principal": -878.8605867705,
                 "interest": -4677.9871470777,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": -1709.252495753
+                "cash_flow_after_debt_service": -1356.9608290863
             },
             "7": {
                 "potential_gross_revenue": 6200.0,
@@ -2730,12 +2730,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -620.0,
                 "effective_gross_revenue": 5580.0,
-                "operating_expenses": 1732.4047619048,
-                "net_operating_income": 3847.5952380952,
+                "operating_expenses": 1380.1130952381,
+                "net_operating_income": 4199.8869047619,
                 "principal": -883.4379856599,
                 "interest": -4673.4097481883,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": -1709.252495753
+                "cash_flow_after_debt_service": -1356.9608290863
             },
             "8": {
                 "potential_gross_revenue": 6200.0,
@@ -2743,12 +2743,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -620.0,
                 "effective_gross_revenue": 5580.0,
-                "operating_expenses": 1732.4047619048,
-                "net_operating_income": 3847.5952380952,
+                "operating_expenses": 1380.1130952381,
+                "net_operating_income": 4199.8869047619,
                 "principal": -888.0392251686,
                 "interest": -4668.8085086797,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": -1709.252495753
+                "cash_flow_after_debt_service": -1356.9608290863
             },
             "9": {
                 "potential_gross_revenue": 8440.0,
@@ -2756,12 +2756,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": 0.0,
                 "effective_gross_revenue": 0.0,
-                "operating_expenses": 1174.4047619048,
-                "net_operating_income": -1174.4047619048,
+                "operating_expenses": 822.1130952381,
+                "net_operating_income": -822.1130952381,
                 "principal": -892.6644294663,
                 "interest": -4664.1833043819,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": -6731.252495753
+                "cash_flow_after_debt_service": -6378.9608290863
             },
             "10": {
                 "potential_gross_revenue": 8440.0,
@@ -2769,12 +2769,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -844.0,
                 "effective_gross_revenue": 7596.0,
-                "operating_expenses": 1934.0047619048,
-                "net_operating_income": 5661.9952380952,
+                "operating_expenses": 1581.7130952381,
+                "net_operating_income": 6014.2869047619,
                 "principal": -897.3137233698,
                 "interest": -4659.5340104784,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 105.147504247
+                "cash_flow_after_debt_service": 457.4391709137
             },
             "11": {
                 "potential_gross_revenue": 8440.0,
@@ -2782,12 +2782,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -844.0,
                 "effective_gross_revenue": 7596.0,
-                "operating_expenses": 1934.0047619048,
-                "net_operating_income": 5661.9952380952,
+                "operating_expenses": 1581.7130952381,
+                "net_operating_income": 6014.2869047619,
                 "principal": -901.9872323457,
                 "interest": -4654.8605015025,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 105.147504247
+                "cash_flow_after_debt_service": 457.4391709137
             },
             "12": {
                 "potential_gross_revenue": 8693.2,
@@ -2795,12 +2795,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -869.32,
                 "effective_gross_revenue": 7823.88,
-                "operating_expenses": 1980.2808571429,
-                "net_operating_income": 5843.5991428571,
+                "operating_expenses": 1620.9433571429,
+                "net_operating_income": 6202.9366428571,
                 "principal": -906.6850825141,
                 "interest": -4650.1626513341,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 286.7514090089
+                "cash_flow_after_debt_service": 646.0889090089
             },
             "13": {
                 "potential_gross_revenue": 8693.2,
@@ -2808,12 +2808,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -869.32,
                 "effective_gross_revenue": 7823.88,
-                "operating_expenses": 1980.2808571429,
-                "net_operating_income": 5843.5991428571,
+                "operating_expenses": 1620.9433571429,
+                "net_operating_income": 6202.9366428571,
                 "principal": -911.4074006522,
                 "interest": -4645.440333196,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 286.7514090089
+                "cash_flow_after_debt_service": 646.0889090089
             },
             "14": {
                 "potential_gross_revenue": 8693.2,
@@ -2821,12 +2821,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -869.32,
                 "effective_gross_revenue": 7823.88,
-                "operating_expenses": 1980.2808571429,
-                "net_operating_income": 5843.5991428571,
+                "operating_expenses": 1620.9433571429,
+                "net_operating_income": 6202.9366428571,
                 "principal": -916.1543141973,
                 "interest": -4640.6934196509,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 286.7514090089
+                "cash_flow_after_debt_service": 646.0889090089
             },
             "15": {
                 "potential_gross_revenue": 8693.2,
@@ -2834,12 +2834,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -869.32,
                 "effective_gross_revenue": 7823.88,
-                "operating_expenses": 1980.2808571429,
-                "net_operating_income": 5843.5991428571,
+                "operating_expenses": 1620.9433571429,
+                "net_operating_income": 6202.9366428571,
                 "principal": -920.9259512504,
                 "interest": -4635.9217825978,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 286.7514090089
+                "cash_flow_after_debt_service": 646.0889090089
             },
             "16": {
                 "potential_gross_revenue": 8693.2,
@@ -2847,12 +2847,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -869.32,
                 "effective_gross_revenue": 7823.88,
-                "operating_expenses": 1980.2808571429,
-                "net_operating_income": 5843.5991428571,
+                "operating_expenses": 1620.9433571429,
+                "net_operating_income": 6202.9366428571,
                 "principal": -925.7224405798,
                 "interest": -4631.1252932684,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 286.7514090089
+                "cash_flow_after_debt_service": 646.0889090089
             },
             "17": {
                 "potential_gross_revenue": 8693.2,
@@ -2860,12 +2860,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -869.32,
                 "effective_gross_revenue": 7823.88,
-                "operating_expenses": 1980.2808571429,
-                "net_operating_income": 5843.5991428571,
+                "operating_expenses": 1620.9433571429,
+                "net_operating_income": 6202.9366428571,
                 "principal": -930.5439116245,
                 "interest": -4626.3038222237,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 286.7514090089
+                "cash_flow_after_debt_service": 646.0889090089
             },
             "18": {
                 "potential_gross_revenue": 8693.2,
@@ -2873,12 +2873,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -869.32,
                 "effective_gross_revenue": 7823.88,
-                "operating_expenses": 1980.2808571429,
-                "net_operating_income": 5843.5991428571,
+                "operating_expenses": 1620.9433571429,
+                "net_operating_income": 6202.9366428571,
                 "principal": -935.3904944976,
                 "interest": -4621.4572393507,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 286.7514090089
+                "cash_flow_after_debt_service": 646.0889090089
             },
             "19": {
                 "potential_gross_revenue": 8693.2,
@@ -2886,12 +2886,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -869.32,
                 "effective_gross_revenue": 7823.88,
-                "operating_expenses": 1980.2808571429,
-                "net_operating_income": 5843.5991428571,
+                "operating_expenses": 1620.9433571429,
+                "net_operating_income": 6202.9366428571,
                 "principal": -940.2623199897,
                 "interest": -4616.5854138585,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 286.7514090089
+                "cash_flow_after_debt_service": 646.0889090089
             },
             "20": {
                 "potential_gross_revenue": 8693.2,
@@ -2899,12 +2899,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -869.32,
                 "effective_gross_revenue": 7823.88,
-                "operating_expenses": 1980.2808571429,
-                "net_operating_income": 5843.5991428571,
+                "operating_expenses": 1620.9433571429,
+                "net_operating_income": 6202.9366428571,
                 "principal": -945.159519573,
                 "interest": -4611.6882142752,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 286.7514090089
+                "cash_flow_after_debt_service": 646.0889090089
             },
             "21": {
                 "potential_gross_revenue": 8693.2,
@@ -2912,12 +2912,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -869.32,
                 "effective_gross_revenue": 7823.88,
-                "operating_expenses": 1980.2808571429,
-                "net_operating_income": 5843.5991428571,
+                "operating_expenses": 1620.9433571429,
+                "net_operating_income": 6202.9366428571,
                 "principal": -950.0822254041,
                 "interest": -4606.7655084441,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 286.7514090089
+                "cash_flow_after_debt_service": 646.0889090089
             },
             "22": {
                 "potential_gross_revenue": 8693.2,
@@ -2925,12 +2925,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -869.32,
                 "effective_gross_revenue": 7823.88,
-                "operating_expenses": 1980.2808571429,
-                "net_operating_income": 5843.5991428571,
+                "operating_expenses": 1620.9433571429,
+                "net_operating_income": 6202.9366428571,
                 "principal": -955.0305703281,
                 "interest": -4601.8171635201,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 286.7514090089
+                "cash_flow_after_debt_service": 646.0889090089
             },
             "23": {
                 "potential_gross_revenue": 8693.2,
@@ -2938,12 +2938,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -869.32,
                 "effective_gross_revenue": 7823.88,
-                "operating_expenses": 1980.2808571429,
-                "net_operating_income": 5843.5991428571,
+                "operating_expenses": 1620.9433571429,
+                "net_operating_income": 6202.9366428571,
                 "principal": -960.0046878819,
                 "interest": -4596.8430459663,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 286.7514090089
+                "cash_flow_after_debt_service": 646.0889090089
             },
             "24": {
                 "potential_gross_revenue": 8953.996,
@@ -2951,12 +2951,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -895.3996,
                 "effective_gross_revenue": 8058.5964,
-                "operating_expenses": 2027.7103542857,
-                "net_operating_income": 6030.8860457143,
+                "operating_expenses": 1661.1861042857,
+                "net_operating_income": 6397.4102957143,
                 "principal": -965.0047122979,
                 "interest": -4591.8430215503,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 474.0383118661
+                "cash_flow_after_debt_service": 840.5625618661
             },
             "25": {
                 "potential_gross_revenue": 8953.996,
@@ -2964,12 +2964,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -895.3996,
                 "effective_gross_revenue": 8058.5964,
-                "operating_expenses": 2027.7103542857,
-                "net_operating_income": 6030.8860457143,
+                "operating_expenses": 1661.1861042857,
+                "net_operating_income": 6397.4102957143,
                 "principal": -970.0307785078,
                 "interest": -4586.8169553404,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 474.0383118661
+                "cash_flow_after_debt_service": 840.5625618661
             },
             "26": {
                 "potential_gross_revenue": 8953.996,
@@ -2977,12 +2977,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -895.3996,
                 "effective_gross_revenue": 8058.5964,
-                "operating_expenses": 2027.7103542857,
-                "net_operating_income": 6030.8860457143,
+                "operating_expenses": 1661.1861042857,
+                "net_operating_income": 6397.4102957143,
                 "principal": -975.0830221459,
                 "interest": -4581.7647117023,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 474.0383118661
+                "cash_flow_after_debt_service": 840.5625618661
             },
             "27": {
                 "potential_gross_revenue": 8953.996,
@@ -2990,12 +2990,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -895.3996,
                 "effective_gross_revenue": 8058.5964,
-                "operating_expenses": 2027.7103542857,
-                "net_operating_income": 6030.8860457143,
+                "operating_expenses": 1661.1861042857,
+                "net_operating_income": 6397.4102957143,
                 "principal": -980.1615795529,
                 "interest": -4576.6861542953,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 474.0383118661
+                "cash_flow_after_debt_service": 840.5625618661
             },
             "28": {
                 "potential_gross_revenue": 8953.996,
@@ -3003,12 +3003,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -895.3996,
                 "effective_gross_revenue": 8058.5964,
-                "operating_expenses": 2027.7103542857,
-                "net_operating_income": 6030.8860457143,
+                "operating_expenses": 1661.1861042857,
+                "net_operating_income": 6397.4102957143,
                 "principal": -985.2665877797,
                 "interest": -4571.5811460685,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 474.0383118661
+                "cash_flow_after_debt_service": 840.5625618661
             },
             "29": {
                 "potential_gross_revenue": 8953.996,
@@ -3016,12 +3016,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -895.3996,
                 "effective_gross_revenue": 8058.5964,
-                "operating_expenses": 2027.7103542857,
-                "net_operating_income": 6030.8860457143,
+                "operating_expenses": 1661.1861042857,
+                "net_operating_income": 6397.4102957143,
                 "principal": -990.3981845911,
                 "interest": -4566.4495492571,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 474.0383118661
+                "cash_flow_after_debt_service": 840.5625618661
             },
             "30": {
                 "potential_gross_revenue": 8953.996,
@@ -3029,12 +3029,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -895.3996,
                 "effective_gross_revenue": 8058.5964,
-                "operating_expenses": 2027.7103542857,
-                "net_operating_income": 6030.8860457143,
+                "operating_expenses": 1661.1861042857,
+                "net_operating_income": 6397.4102957143,
                 "principal": -995.5565084692,
                 "interest": -4561.291225379,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 474.0383118661
+                "cash_flow_after_debt_service": 840.5625618661
             },
             "31": {
                 "potential_gross_revenue": 8953.996,
@@ -3042,12 +3042,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -895.3996,
                 "effective_gross_revenue": 8058.5964,
-                "operating_expenses": 2027.7103542857,
-                "net_operating_income": 6030.8860457143,
+                "operating_expenses": 1661.1861042857,
+                "net_operating_income": 6397.4102957143,
                 "principal": -1000.7416986174,
                 "interest": -4556.1060352308,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 474.0383118661
+                "cash_flow_after_debt_service": 840.5625618661
             },
             "32": {
                 "potential_gross_revenue": 8953.996,
@@ -3055,12 +3055,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -895.3996,
                 "effective_gross_revenue": 8058.5964,
-                "operating_expenses": 2027.7103542857,
-                "net_operating_income": 6030.8860457143,
+                "operating_expenses": 1661.1861042857,
+                "net_operating_income": 6397.4102957143,
                 "principal": -1005.9538949644,
                 "interest": -4550.8938388838,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 474.0383118661
+                "cash_flow_after_debt_service": 840.5625618661
             },
             "33": {
                 "potential_gross_revenue": 8953.996,
@@ -3068,12 +3068,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -895.3996,
                 "effective_gross_revenue": 8058.5964,
-                "operating_expenses": 2027.7103542857,
-                "net_operating_income": 6030.8860457143,
+                "operating_expenses": 1661.1861042857,
+                "net_operating_income": 6397.4102957143,
                 "principal": -1011.1932381674,
                 "interest": -4545.6544956809,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 474.0383118661
+                "cash_flow_after_debt_service": 840.5625618661
             },
             "34": {
                 "potential_gross_revenue": 8953.996,
@@ -3081,12 +3081,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -895.3996,
                 "effective_gross_revenue": 8058.5964,
-                "operating_expenses": 2027.7103542857,
-                "net_operating_income": 6030.8860457143,
+                "operating_expenses": 1661.1861042857,
+                "net_operating_income": 6397.4102957143,
                 "principal": -1016.4598696161,
                 "interest": -4540.3878642321,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 474.0383118661
+                "cash_flow_after_debt_service": 840.5625618661
             },
             "35": {
                 "potential_gross_revenue": 8953.996,
@@ -3094,12 +3094,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -895.3996,
                 "effective_gross_revenue": 8058.5964,
-                "operating_expenses": 2027.7103542857,
-                "net_operating_income": 6030.8860457143,
+                "operating_expenses": 1661.1861042857,
+                "net_operating_income": 6397.4102957143,
                 "principal": -1021.7539314371,
                 "interest": -4535.0938024112,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 474.0383118661
+                "cash_flow_after_debt_service": 840.5625618661
             },
             "36": {
                 "potential_gross_revenue": 9222.61588,
@@ -3107,12 +3107,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -922.261588,
                 "effective_gross_revenue": 8300.354292,
-                "operating_expenses": 2076.3231577714,
-                "net_operating_income": 6224.0311342286,
+                "operating_expenses": 1702.4684227714,
+                "net_operating_income": 6597.8858692286,
                 "principal": -1027.0755664966,
                 "interest": -4529.7721673516,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 667.1834003804
+                "cash_flow_after_debt_service": 1041.0381353804
             },
             "37": {
                 "potential_gross_revenue": 9222.61588,
@@ -3120,12 +3120,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -922.261588,
                 "effective_gross_revenue": 8300.354292,
-                "operating_expenses": 2076.3231577714,
-                "net_operating_income": 6224.0311342286,
+                "operating_expenses": 1702.4684227714,
+                "net_operating_income": 6597.8858692286,
                 "principal": -1032.4249184055,
                 "interest": -4524.4228154427,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 667.1834003804
+                "cash_flow_after_debt_service": 1041.0381353804
             },
             "38": {
                 "potential_gross_revenue": 9222.61588,
@@ -3133,12 +3133,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -922.261588,
                 "effective_gross_revenue": 8300.354292,
-                "operating_expenses": 2076.3231577714,
-                "net_operating_income": 6224.0311342286,
+                "operating_expenses": 1702.4684227714,
+                "net_operating_income": 6597.8858692286,
                 "principal": -1037.8021315222,
                 "interest": -4519.0456023261,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 667.1834003804
+                "cash_flow_after_debt_service": 1041.0381353804
             },
             "39": {
                 "potential_gross_revenue": 9222.61588,
@@ -3146,12 +3146,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -922.261588,
                 "effective_gross_revenue": 8300.354292,
-                "operating_expenses": 2076.3231577714,
-                "net_operating_income": 6224.0311342286,
+                "operating_expenses": 1702.4684227714,
+                "net_operating_income": 6597.8858692286,
                 "principal": -1043.2073509572,
                 "interest": -4513.640382891,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 667.1834003804
+                "cash_flow_after_debt_service": 1041.0381353804
             },
             "40": {
                 "potential_gross_revenue": 9222.61588,
@@ -3159,12 +3159,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -922.261588,
                 "effective_gross_revenue": 8300.354292,
-                "operating_expenses": 2076.3231577714,
-                "net_operating_income": 6224.0311342286,
+                "operating_expenses": 1702.4684227714,
+                "net_operating_income": 6597.8858692286,
                 "principal": -1048.6407225767,
                 "interest": -4508.2070112715,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 667.1834003804
+                "cash_flow_after_debt_service": 1041.0381353804
             },
             "41": {
                 "potential_gross_revenue": 9222.61588,
@@ -3172,12 +3172,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -922.261588,
                 "effective_gross_revenue": 8300.354292,
-                "operating_expenses": 2076.3231577714,
-                "net_operating_income": 6224.0311342286,
+                "operating_expenses": 1702.4684227714,
+                "net_operating_income": 6597.8858692286,
                 "principal": -1054.1023930068,
                 "interest": -4502.7453408414,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 667.1834003804
+                "cash_flow_after_debt_service": 1041.0381353804
             },
             "42": {
                 "potential_gross_revenue": 9222.61588,
@@ -3185,12 +3185,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -922.261588,
                 "effective_gross_revenue": 8300.354292,
-                "operating_expenses": 2076.3231577714,
-                "net_operating_income": 6224.0311342286,
+                "operating_expenses": 1702.4684227714,
+                "net_operating_income": 6597.8858692286,
                 "principal": -1059.5925096371,
                 "interest": -4497.2552242111,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 667.1834003804
+                "cash_flow_after_debt_service": 1041.0381353804
             },
             "43": {
                 "potential_gross_revenue": 9222.61588,
@@ -3198,12 +3198,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -922.261588,
                 "effective_gross_revenue": 8300.354292,
-                "operating_expenses": 2076.3231577714,
-                "net_operating_income": 6224.0311342286,
+                "operating_expenses": 1702.4684227714,
+                "net_operating_income": 6597.8858692286,
                 "principal": -1065.1112206248,
                 "interest": -4491.7365132234,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 667.1834003804
+                "cash_flow_after_debt_service": 1041.0381353804
             },
             "44": {
                 "potential_gross_revenue": 9222.61588,
@@ -3211,12 +3211,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -922.261588,
                 "effective_gross_revenue": 8300.354292,
-                "operating_expenses": 2076.3231577714,
-                "net_operating_income": 6224.0311342286,
+                "operating_expenses": 1702.4684227714,
+                "net_operating_income": 6597.8858692286,
                 "principal": -1070.6586748989,
                 "interest": -4486.1890589494,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 667.1834003804
+                "cash_flow_after_debt_service": 1041.0381353804
             },
             "45": {
                 "potential_gross_revenue": 9222.61588,
@@ -3224,12 +3224,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -922.261588,
                 "effective_gross_revenue": 8300.354292,
-                "operating_expenses": 2076.3231577714,
-                "net_operating_income": 6224.0311342286,
+                "operating_expenses": 1702.4684227714,
+                "net_operating_income": 6597.8858692286,
                 "principal": -1076.2350221639,
                 "interest": -4480.6127116843,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 667.1834003804
+                "cash_flow_after_debt_service": 1041.0381353804
             },
             "46": {
                 "potential_gross_revenue": 9222.61588,
@@ -3237,12 +3237,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -922.261588,
                 "effective_gross_revenue": 8300.354292,
-                "operating_expenses": 2076.3231577714,
-                "net_operating_income": 6224.0311342286,
+                "operating_expenses": 1702.4684227714,
+                "net_operating_income": 6597.8858692286,
                 "principal": -1081.8404129044,
                 "interest": -4475.0073209438,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 667.1834003804
+                "cash_flow_after_debt_service": 1041.0381353804
             },
             "47": {
                 "potential_gross_revenue": 9222.61588,
@@ -3250,12 +3250,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -922.261588,
                 "effective_gross_revenue": 8300.354292,
-                "operating_expenses": 2076.3231577714,
-                "net_operating_income": 6224.0311342286,
+                "operating_expenses": 1702.4684227714,
+                "net_operating_income": 6597.8858692286,
                 "principal": -1087.4749983883,
                 "interest": -4469.3727354599,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 667.1834003804
+                "cash_flow_after_debt_service": 1041.0381353804
             },
             "48": {
                 "potential_gross_revenue": 9499.2943564,
@@ -3263,12 +3263,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -949.92943564,
                 "effective_gross_revenue": 8549.36492076,
-                "operating_expenses": 2126.1499752189,
-                "net_operating_income": 6423.2149455411,
+                "operating_expenses": 1744.8181455189,
+                "net_operating_income": 6804.5467752411,
                 "principal": -1093.1389306715,
                 "interest": -4463.7088031767,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 866.3672116929
+                "cash_flow_after_debt_service": 1247.6990413929
             },
             "49": {
                 "potential_gross_revenue": 9499.2943564,
@@ -3276,12 +3276,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -949.92943564,
                 "effective_gross_revenue": 8549.36492076,
-                "operating_expenses": 2126.1499752189,
-                "net_operating_income": 6423.2149455411,
+                "operating_expenses": 1744.8181455189,
+                "net_operating_income": 6804.5467752411,
                 "principal": -1098.8323626021,
                 "interest": -4458.0153712461,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 866.3672116929
+                "cash_flow_after_debt_service": 1247.6990413929
             },
             "50": {
                 "potential_gross_revenue": 9499.2943564,
@@ -3289,12 +3289,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -949.92943564,
                 "effective_gross_revenue": 8549.36492076,
-                "operating_expenses": 2126.1499752189,
-                "net_operating_income": 6423.2149455411,
+                "operating_expenses": 1744.8181455189,
+                "net_operating_income": 6804.5467752411,
                 "principal": -1104.555447824,
                 "interest": -4452.2922860242,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 866.3672116929
+                "cash_flow_after_debt_service": 1247.6990413929
             },
             "51": {
                 "potential_gross_revenue": 9499.2943564,
@@ -3302,12 +3302,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -949.92943564,
                 "effective_gross_revenue": 8549.36492076,
-                "operating_expenses": 2126.1499752189,
-                "net_operating_income": 6423.2149455411,
+                "operating_expenses": 1744.8181455189,
+                "net_operating_income": 6804.5467752411,
                 "principal": -1110.3083407814,
                 "interest": -4446.5393930668,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 866.3672116929
+                "cash_flow_after_debt_service": 1247.6990413929
             },
             "52": {
                 "potential_gross_revenue": 9499.2943564,
@@ -3315,12 +3315,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -949.92943564,
                 "effective_gross_revenue": 8549.36492076,
-                "operating_expenses": 2126.1499752189,
-                "net_operating_income": 6423.2149455411,
+                "operating_expenses": 1744.8181455189,
+                "net_operating_income": 6804.5467752411,
                 "principal": -1116.091196723,
                 "interest": -4440.7565371252,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 866.3672116929
+                "cash_flow_after_debt_service": 1247.6990413929
             },
             "53": {
                 "potential_gross_revenue": 9499.2943564,
@@ -3328,12 +3328,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -949.92943564,
                 "effective_gross_revenue": 8549.36492076,
-                "operating_expenses": 2126.1499752189,
-                "net_operating_income": 6423.2149455411,
+                "operating_expenses": 1744.8181455189,
+                "net_operating_income": 6804.5467752411,
                 "principal": -1121.9041717059,
                 "interest": -4434.9435621423,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 866.3672116929
+                "cash_flow_after_debt_service": 1247.6990413929
             },
             "54": {
                 "potential_gross_revenue": 9499.2943564,
@@ -3341,12 +3341,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -949.92943564,
                 "effective_gross_revenue": 8549.36492076,
-                "operating_expenses": 2126.1499752189,
-                "net_operating_income": 6423.2149455411,
+                "operating_expenses": 1744.8181455189,
+                "net_operating_income": 6804.5467752411,
                 "principal": -1127.7474226002,
                 "interest": -4429.100311248,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 866.3672116929
+                "cash_flow_after_debt_service": 1247.6990413929
             },
             "55": {
                 "potential_gross_revenue": 9499.2943564,
@@ -3354,12 +3354,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -949.92943564,
                 "effective_gross_revenue": 8549.36492076,
-                "operating_expenses": 2126.1499752189,
-                "net_operating_income": 6423.2149455411,
+                "operating_expenses": 1744.8181455189,
+                "net_operating_income": 6804.5467752411,
                 "principal": -1133.6211070929,
                 "interest": -4423.2266267553,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 866.3672116929
+                "cash_flow_after_debt_service": 1247.6990413929
             },
             "56": {
                 "potential_gross_revenue": 9499.2943564,
@@ -3367,12 +3367,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -949.92943564,
                 "effective_gross_revenue": 8549.36492076,
-                "operating_expenses": 2126.1499752189,
-                "net_operating_income": 6423.2149455411,
+                "operating_expenses": 1744.8181455189,
+                "net_operating_income": 6804.5467752411,
                 "principal": -1139.5253836924,
                 "interest": -4417.3223501558,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 866.3672116929
+                "cash_flow_after_debt_service": 1247.6990413929
             },
             "57": {
                 "potential_gross_revenue": 9499.2943564,
@@ -3380,12 +3380,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -949.92943564,
                 "effective_gross_revenue": 8549.36492076,
-                "operating_expenses": 2126.1499752189,
-                "net_operating_income": 6423.2149455411,
+                "operating_expenses": 1744.8181455189,
+                "net_operating_income": 6804.5467752411,
                 "principal": -1145.4604117324,
                 "interest": -4411.3873221158,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 866.3672116929
+                "cash_flow_after_debt_service": 1247.6990413929
             },
             "58": {
                 "potential_gross_revenue": 9499.2943564,
@@ -3393,12 +3393,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -949.92943564,
                 "effective_gross_revenue": 8549.36492076,
-                "operating_expenses": 2126.1499752189,
-                "net_operating_income": 6423.2149455411,
+                "operating_expenses": 1744.8181455189,
+                "net_operating_income": 6804.5467752411,
                 "principal": -1151.4263513769,
                 "interest": -4405.4213824713,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 866.3672116929
+                "cash_flow_after_debt_service": 1247.6990413929
             },
             "59": {
                 "potential_gross_revenue": 9499.2943564,
@@ -3406,12 +3406,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -949.92943564,
                 "effective_gross_revenue": 8549.36492076,
-                "operating_expenses": 2126.1499752189,
-                "net_operating_income": 6423.2149455411,
+                "operating_expenses": 1744.8181455189,
+                "net_operating_income": 6804.5467752411,
                 "principal": -1157.4233636236,
                 "interest": -4399.4243702246,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 866.3672116929
+                "cash_flow_after_debt_service": 1247.6990413929
             },
             "60": {
                 "potential_gross_revenue": 9784.273187092,
@@ -3419,12 +3419,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -978.4273187092,
                 "effective_gross_revenue": 8805.8458683828,
-                "operating_expenses": 2177.222339644,
-                "net_operating_income": 6628.6235287388,
+                "operating_expenses": 1788.26387335,
+                "net_operating_income": 7017.5819950328,
                 "principal": -1163.4516103092,
                 "interest": -4393.396123539,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 1071.7757948906
+                "cash_flow_after_debt_service": 1460.7342611846
             },
             "61": {
                 "potential_gross_revenue": 9784.273187092,
@@ -3432,12 +3432,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -978.4273187092,
                 "effective_gross_revenue": 8805.8458683828,
-                "operating_expenses": 2177.222339644,
-                "net_operating_income": 6628.6235287388,
+                "operating_expenses": 1788.26387335,
+                "net_operating_income": 7017.5819950328,
                 "principal": -1169.5112541129,
                 "interest": -4387.3364797353,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 1071.7757948906
+                "cash_flow_after_debt_service": 1460.7342611846
             },
             "62": {
                 "potential_gross_revenue": 9784.273187092,
@@ -3445,12 +3445,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -978.4273187092,
                 "effective_gross_revenue": 8805.8458683828,
-                "operating_expenses": 2177.222339644,
-                "net_operating_income": 6628.6235287388,
+                "operating_expenses": 1788.26387335,
+                "net_operating_income": 7017.5819950328,
                 "principal": -1175.6024585614,
                 "interest": -4381.2452752868,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 1071.7757948906
+                "cash_flow_after_debt_service": 1460.7342611846
             },
             "63": {
                 "potential_gross_revenue": 9784.273187092,
@@ -3458,12 +3458,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -978.4273187092,
                 "effective_gross_revenue": 8805.8458683828,
-                "operating_expenses": 2177.222339644,
-                "net_operating_income": 6628.6235287388,
+                "operating_expenses": 1788.26387335,
+                "net_operating_income": 7017.5819950328,
                 "principal": -1181.725388033,
                 "interest": -4375.1223458152,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 1071.7757948906
+                "cash_flow_after_debt_service": 1460.7342611846
             },
             "64": {
                 "potential_gross_revenue": 9784.273187092,
@@ -3471,12 +3471,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -978.4273187092,
                 "effective_gross_revenue": 8805.8458683828,
-                "operating_expenses": 2177.222339644,
-                "net_operating_income": 6628.6235287388,
+                "operating_expenses": 1788.26387335,
+                "net_operating_income": 7017.5819950328,
                 "principal": -1187.8802077624,
                 "interest": -4368.9675260858,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 1071.7757948906
+                "cash_flow_after_debt_service": 1460.7342611846
             },
             "65": {
                 "potential_gross_revenue": 9784.273187092,
@@ -3484,12 +3484,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -978.4273187092,
                 "effective_gross_revenue": 8805.8458683828,
-                "operating_expenses": 2177.222339644,
-                "net_operating_income": 6628.6235287388,
+                "operating_expenses": 1788.26387335,
+                "net_operating_income": 7017.5819950328,
                 "principal": -1194.0670838445,
                 "interest": -4362.7806500037,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 1071.7757948906
+                "cash_flow_after_debt_service": 1460.7342611846
             },
             "66": {
                 "potential_gross_revenue": 9784.273187092,
@@ -3497,12 +3497,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -978.4273187092,
                 "effective_gross_revenue": 8805.8458683828,
-                "operating_expenses": 2177.222339644,
-                "net_operating_income": 6628.6235287388,
+                "operating_expenses": 1788.26387335,
+                "net_operating_income": 7017.5819950328,
                 "principal": -1200.2861832395,
                 "interest": -4356.5615506087,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 1071.7757948906
+                "cash_flow_after_debt_service": 1460.7342611846
             },
             "67": {
                 "potential_gross_revenue": 9784.273187092,
@@ -3510,12 +3510,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -978.4273187092,
                 "effective_gross_revenue": 8805.8458683828,
-                "operating_expenses": 2177.222339644,
-                "net_operating_income": 6628.6235287388,
+                "operating_expenses": 1788.26387335,
+                "net_operating_income": 7017.5819950328,
                 "principal": -1206.5376737772,
                 "interest": -4350.310060071,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 1071.7757948906
+                "cash_flow_after_debt_service": 1460.7342611846
             },
             "68": {
                 "potential_gross_revenue": 9784.273187092,
@@ -3523,12 +3523,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -978.4273187092,
                 "effective_gross_revenue": 8805.8458683828,
-                "operating_expenses": 2177.222339644,
-                "net_operating_income": 6628.6235287388,
+                "operating_expenses": 1788.26387335,
+                "net_operating_income": 7017.5819950328,
                 "principal": -1212.8217241615,
                 "interest": -4344.0260096867,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 1071.7757948906
+                "cash_flow_after_debt_service": 1460.7342611846
             },
             "69": {
                 "potential_gross_revenue": 9784.273187092,
@@ -3536,12 +3536,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -978.4273187092,
                 "effective_gross_revenue": 8805.8458683828,
-                "operating_expenses": 2177.222339644,
-                "net_operating_income": 6628.6235287388,
+                "operating_expenses": 1788.26387335,
+                "net_operating_income": 7017.5819950328,
                 "principal": -1219.1385039748,
                 "interest": -4337.7092298734,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 1071.7757948906
+                "cash_flow_after_debt_service": 1460.7342611846
             },
             "70": {
                 "potential_gross_revenue": 9784.273187092,
@@ -3549,12 +3549,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -978.4273187092,
                 "effective_gross_revenue": 8805.8458683828,
-                "operating_expenses": 2177.222339644,
-                "net_operating_income": 6628.6235287388,
+                "operating_expenses": 1788.26387335,
+                "net_operating_income": 7017.5819950328,
                 "principal": -1225.488183683,
                 "interest": -4331.3595501652,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 1071.7757948906
+                "cash_flow_after_debt_service": 1460.7342611846
             },
             "71": {
                 "potential_gross_revenue": 9784.273187092,
@@ -3562,12 +3562,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -978.4273187092,
                 "effective_gross_revenue": 8805.8458683828,
-                "operating_expenses": 2177.222339644,
-                "net_operating_income": 6628.6235287388,
+                "operating_expenses": 1788.26387335,
+                "net_operating_income": 7017.5819950328,
                 "principal": -1231.8709346397,
                 "interest": -4324.9767992085,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 1071.7757948906
+                "cash_flow_after_debt_service": 1460.7342611846
             },
             "72": {
                 "potential_gross_revenue": 10077.8013827048,
@@ -3575,12 +3575,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -1007.7801382705,
                 "effective_gross_revenue": 9070.0212444343,
-                "operating_expenses": 2229.5726323053,
-                "net_operating_income": 6840.448612129,
+                "operating_expenses": 1832.8349966854,
+                "net_operating_income": 7237.1862477489,
                 "principal": -1238.2869290909,
                 "interest": -4318.5608047573,
                 "total_debt_service": -5556.8477338482,
-                "cash_flow_after_debt_service": 1283.6008782808
+                "cash_flow_after_debt_service": 1680.3385139007
             }
         },
         "annual_cashflow_df": null,
@@ -3591,12 +3591,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -7517.32,
                 "effective_gross_revenue": 67655.88,
-                "operating_expenses": 20881.9332380952,
-                "net_operating_income": 46773.9467619048,
+                "operating_expenses": 16647.3874047619,
+                "net_operating_income": 51008.4925952381,
                 "principal": -10575.4560263708,
                 "interest": -56106.7167798077,
                 "total_debt_service": -66682.1728061785,
-                "cash_flow_after_debt_service": -19908.2260442738
+                "cash_flow_after_debt_service": -15673.6802109404
             },
             "2": {
                 "potential_gross_revenue": 104579.196,
@@ -3604,12 +3604,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -10457.9196,
                 "effective_gross_revenue": 94121.2764,
-                "operating_expenses": 23810.7997828571,
-                "net_operating_income": 70310.4766171428,
+                "operating_expenses": 19491.5630328571,
+                "net_operating_income": 74629.7133671429,
                 "principal": -11255.6885482766,
                 "interest": -55426.4842579019,
                 "total_debt_service": -66682.1728061785,
-                "cash_flow_after_debt_service": 3628.3038109643
+                "cash_flow_after_debt_service": 7947.5405609643
             },
             "3": {
                 "potential_gross_revenue": 107716.57188,
@@ -3617,12 +3617,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -10771.657188,
                 "effective_gross_revenue": 96944.914692,
-                "operating_expenses": 24381.1370549143,
-                "net_operating_income": 72563.7776370857,
+                "operating_expenses": 19975.5155699143,
+                "net_operating_income": 76969.3991220857,
                 "principal": -11979.6748603457,
                 "interest": -54702.4979458329,
                 "total_debt_service": -66682.1728061785,
-                "cash_flow_after_debt_service": 5881.6048309072
+                "cash_flow_after_debt_service": 10287.2263159072
             },
             "4": {
                 "potential_gross_revenue": 110948.0690364,
@@ -3630,12 +3630,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -11094.80690364,
                 "effective_gross_revenue": 99853.26213276,
-                "operating_expenses": 24965.7047107046,
-                "net_operating_income": 74887.5574220554,
+                "operating_expenses": 20471.9707960046,
+                "net_operating_income": 79381.2913367554,
                 "principal": -12750.2292857572,
                 "interest": -53931.9435204214,
                 "total_debt_service": -66682.1728061785,
-                "cash_flow_after_debt_service": 8205.3846158769
+                "cash_flow_after_debt_service": 12699.1185305769
             },
             "5": {
                 "potential_gross_revenue": 114276.511107492,
@@ -3643,12 +3643,12 @@
                 "free_rent": 0.0,
                 "general_vacancy": -11427.6511107492,
                 "effective_gross_revenue": 102848.8599967428,
-                "operating_expenses": 25564.8720670514,
-                "net_operating_income": 77283.9879296914,
+                "operating_expenses": 20981.2634740574,
+                "net_operating_income": 81867.5965226854,
                 "principal": -13570.3471700641,
                 "interest": -53111.8256361144,
                 "total_debt_service": -66682.1728061785,
-                "cash_flow_after_debt_service": 10601.8151235128
+                "cash_flow_after_debt_service": 15185.4237165068
             },
             "6": {
                 "potential_gross_revenue": 117704.8064407167,
@@ -3656,21 +3656,21 @@
                 "free_rent": 0.0,
                 "general_vacancy": -11770.4806440717,
                 "effective_gross_revenue": 105934.3257966451,
-                "operating_expenses": 26179.0183683892,
-                "net_operating_income": 79755.3074282559,
+                "operating_expenses": 21503.7376035353,
+                "net_operating_income": 84430.5881931098,
                 "principal": -14443.2165248807,
                 "interest": -52238.9562812978,
                 "total_debt_service": -66682.1728061785,
-                "cash_flow_after_debt_service": 13073.1346220773
+                "cash_flow_after_debt_service": 17748.4153869312
             }
         }
     },
     "analysis": {
         "valuation_at_sale": {
-            "noi_end_of_term": 79755.30742825588,
-            "sale_price": 1139361.5346893696,
+            "noi_end_of_term": 84430.58819310977,
+            "sale_price": 1206151.259901568,
             "mortgage_balance_end_of_hold": 842368.6041091856,
-            "net_sales_proceeds": 296992.930580184
+            "net_sales_proceeds": 363782.65579238243
         },
         "unleveraged_return_analysis": {
             "0": {
@@ -3681,33 +3681,33 @@
             },
             "1": {
                 "purchase": null,
-                "cash_flow_operations": 46773.9467619048,
+                "cash_flow_operations": 51008.4925952381,
                 "cash_flow_sale": null,
-                "totals": 46773.9467619048
+                "totals": 51008.4925952381
             },
             "2": {
                 "purchase": null,
-                "cash_flow_operations": 70310.4766171428,
+                "cash_flow_operations": 74629.7133671429,
                 "cash_flow_sale": null,
-                "totals": 70310.4766171428
+                "totals": 74629.7133671429
             },
             "3": {
                 "purchase": null,
-                "cash_flow_operations": 72563.7776370857,
+                "cash_flow_operations": 76969.3991220857,
                 "cash_flow_sale": null,
-                "totals": 72563.7776370857
+                "totals": 76969.3991220857
             },
             "4": {
                 "purchase": null,
-                "cash_flow_operations": 74887.5574220554,
+                "cash_flow_operations": 79381.2913367554,
                 "cash_flow_sale": null,
-                "totals": 74887.5574220554
+                "totals": 79381.2913367554
             },
             "5": {
                 "purchase": null,
-                "cash_flow_operations": 77283.9879296914,
-                "cash_flow_sale": 1139361.5346893696,
-                "totals": 1216645.522619061
+                "cash_flow_operations": 81867.5965226854,
+                "cash_flow_sale": 1206151.259901568,
+                "totals": 1288018.8564242534
             }
         },
         "leveraged_return_analysis": {
@@ -3719,38 +3719,38 @@
             },
             "1": {
                 "purchase": 0.0,
-                "cash_flow_operations": -19908.2260442738,
+                "cash_flow_operations": -15673.6802109404,
                 "cash_flow_sale": 0.0,
-                "totals": -19908.2260442738
+                "totals": -15673.6802109404
             },
             "2": {
                 "purchase": 0.0,
-                "cash_flow_operations": 3628.3038109643,
+                "cash_flow_operations": 7947.5405609643,
                 "cash_flow_sale": 0.0,
-                "totals": 3628.3038109643
+                "totals": 7947.5405609643
             },
             "3": {
                 "purchase": 0.0,
-                "cash_flow_operations": 5881.6048309072,
+                "cash_flow_operations": 10287.2263159072,
                 "cash_flow_sale": 0.0,
-                "totals": 5881.6048309072
+                "totals": 10287.2263159072
             },
             "4": {
                 "purchase": 0.0,
-                "cash_flow_operations": 8205.3846158769,
+                "cash_flow_operations": 12699.1185305769,
                 "cash_flow_sale": 0.0,
-                "totals": 8205.3846158769
+                "totals": 12699.1185305769
             },
             "5": {
                 "purchase": 0.0,
-                "cash_flow_operations": 10601.8151235128,
-                "cash_flow_sale": 296992.930580184,
-                "totals": 307594.7457036968
+                "cash_flow_operations": 15185.4237165068,
+                "cash_flow_sale": 363782.6557923824,
+                "totals": 378968.0795088893
             }
         },
         "irr": {
-            "unleveraged_irr": 0.10057287539969151,
-            "leveraged_irr": 0.3647905609172071
+            "unleveraged_irr": 0.11514418238924296,
+            "leveraged_irr": 0.4562758182760167
         }
     }
 }

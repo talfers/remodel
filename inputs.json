@@ -98,7 +98,7 @@
     },
     "opex": {
         "inputs": {
-            "real_estate_taxes":0.50,
+            "real_estate_taxes":0.055,
             "insurance": 2000,
             "mortgage_insurance":1350,
             "utilities": 150,
